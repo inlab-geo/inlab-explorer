@@ -77,7 +77,6 @@ interface Node extends HierarchyPointNode<TreeNodeWithID> {
 }
 
 let id = 0;
-
 const addIdsToTreeData = (data: TreeNode): TreeNodeWithID => {
   const newData: TreeNodeWithID = { ...data, id: id++, children: [] };
 
@@ -98,11 +97,6 @@ const createHierarchyWithIds = (data: TreeNode): HierarchyNode<TreeNodeWithID> =
 const treeRoot = createHierarchyWithIds(treeData);
 
 console.log(treeRoot)
-
-
-
-
-
 
 export const TreeComponent: React.FC = () => {
   useEffect(() => {
