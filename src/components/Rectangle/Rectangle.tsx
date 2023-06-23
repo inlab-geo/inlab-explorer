@@ -4,8 +4,8 @@ import * as d3 from 'd3';
 import { HierarchyNode, HierarchyPointNode } from 'd3';
 import '../../../app/style.css'
 
-const canvas = document.createElement('canvas');
-const ctx = canvas.getContext('2d');
+// const canvas = document.createElement('canvas');
+// const ctx = canvas.getContext('2d');
 
 
 
@@ -77,12 +77,36 @@ function diagonal(s : any, d : any) {
   return path;
 }
 
+function measureTextWidth(text : string, font = '14px Arial') {
+  // We'll return a default value of 0 for server-side rendering
+  if (typeof document === 'undefined') {
+    return 0;
+  }
+
+  const canvas = document.createElement('canvas');
+  const context = canvas.getContext('2d');
+
+  if (context) {
+    context.font = font;
+    const metrics = context.measureText(text);
+    return metrics.width;
+  }
+
+  return 0;  // fallback in case getting the context fails
+}
+
 
 
 
 const TreeComponent: React.FC<TreeProps> = ({ data }) => {
   const d3Container = useRef<SVGSVGElement | null>(null);
   const [treeData, setTreeData] = useState<TreeNode | null>(null);
+  const [windowSize, setWindowSize] = useState<{width: number, height: number}>({
+    width: typeof window !== 'undefined' ? window.innerWidth : 0,
+    height: typeof window !== 'undefined' ? window.innerHeight : 0 
+});
+
+
 
   useEffect(() => {
     fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
@@ -90,6 +114,9 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
       .then((data) => setTreeData(data))
       .catch((error) => console.error(error));
   }, [data]);
+
+
+  
 
   useEffect(() => {
 
@@ -132,12 +159,9 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
                 links = data.descendants().slice(1);
             nodes.forEach(function(d : any) {
               let block_width = 20
-              if (ctx) {
-                ctx.font = '14px Arial';  // set the font size and style
-                const textMetrics = ctx.measureText(d.data.name);
-                block_width = textMetrics.width + 40 ;  // this will log the width of 'Your String' in pixels
-              }
-              d.y = d.depth * 200
+                const textMetrics = measureTextWidth(d.data.name);
+                block_width = textMetrics + 40 ;
+                d.y = d.depth * 200
 
             });
 
@@ -200,11 +224,8 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
                   })
                   .attr("x", function(d : any){
                     let block_width = 20
-                    if (ctx) {
-                      ctx.font = '14px Arial';  // set the font size and style
-                      const textMetrics = ctx.measureText(d.data.name);
-                      block_width = textMetrics.width + 40 ;  // this will log the width of 'Your String' in pixels
-                    }
+                    const textMetrics = measureTextWidth(d.data.name);
+                    block_width = textMetrics + 40 ;
                     return -(block_width/2)
                   }
                   )
@@ -213,11 +234,8 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
 
                   .attr("width", function(d : any) {
                     let block_width = 20
-                    if (ctx) {
-                      ctx.font = '14px Arial';  // set the font size and style
-                      const textMetrics = ctx.measureText(d.data.name);
-                      block_width = textMetrics.width + 40;  // this will log the width of 'Your String' in pixels
-                    }
+                    const textMetrics = measureTextWidth(d.data.name);
+                    block_width = textMetrics + 40 ;
                     return block_width
                     // return d.parent ? 100 : 100;
                   })
@@ -336,10 +354,29 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
       }
   }, [treeData]);
 
+  useEffect(() => {
+    function handleResize() {
+        setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight,
+        });
+    }
+
+    // After the initial render, the window size will be measured and stored in state
+    handleResize();
+
+    // The event listener ensures that the state is updated whenever the window is resized
+    window.addEventListener('resize', handleResize);
+
+    // cleanup this component
+    return () => window.removeEventListener('resize', handleResize);
+}, []); 
+
+
   return <svg
   className="d3-component"
-  width={window.innerWidth}
-  height={window.innerHeight * 2/3}
+  width={windowSize.width}
+  height={windowSize.height}
   ref={d3Container}
 />;
 };
