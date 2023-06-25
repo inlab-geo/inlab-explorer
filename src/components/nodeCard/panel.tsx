@@ -110,7 +110,7 @@ const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
           marginBottom: '10px',
           fontSize: '1.5vw',
           color: 'black',
-          backgroundColor: 'black', // normal color
+          backgroundColor: 'white', // normal color
 
         }}>
         
