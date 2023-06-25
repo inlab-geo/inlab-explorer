@@ -1,19 +1,28 @@
-import React from 'react';
+"use client"
+import React, { useState }  from 'react';
+import TreeComponent from '../Rectangle/Rectangle';
+import TreeContext from './context';
+import OperationPanel from './panel';
 
-const NodeCard: React.FC = () => {
-    const height = window.innerHeight * 1 / 3;
-    const width = window.innerWidth;
+function ParentComponent() {
+  const [selectedNode, setSelectedNode] = useState(null);
+  const [current_tree, setCurrentTree] = useState('Method');
 
-    return (
-        <svg width={width} height={height}>
-            <rect
-                width={width}
-                height={height}
-                style={{ fill: '#f0f0f0' }} // change to the desired color
-            />
-            {/* Additional content can be added here */}
-        </svg>
-    );
+
+  return (
+    <TreeContext.Provider value={{current_tree, setCurrentTree}}>
+    <div>
+      <div>
+        <TreeComponent onClick={setSelectedNode} />
+      </div>
+      <div>
+        <OperationPanel clickedNode={selectedNode} />
+      </div>
+    </div>
+    </TreeContext.Provider>
+  );
 }
+  
 
-export default NodeCard;
+export default ParentComponent;
+  

@@ -1,64 +1,15 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useContext } from 'react';
 import * as d3 from 'd3';
 import { HierarchyNode, HierarchyPointNode } from 'd3';
 import '../../../app/style.css'
+import { TreeNode, TreeProps, onClick } from './treeComponent';
+import TreeContext from '../nodeCard/context';
 
 // const canvas = document.createElement('canvas');
 // const ctx = canvas.getContext('2d');
 
 
-
-
-const treeData: TreeNode = {
-  name: "CoFI - Common Framework for Inference",
-    children: [
-      {
-        name: "A",
-        children: [
-          { name: "A1", children: [{name: "here!"}] },
-          { name: "A2" },
-          { name: "A3" },
-          { name: "A4" },
-          {
-            name: "C",
-  
-            children: [
-              { name: "C1" },
-              {
-                name: "D",
-                children: [{ name: "D1" }, { name: "D2" }]
-              }
-            ]
-          }
-        ]
-      },
-      { name: "Z" },
-      {
-        name: "B",
-        children: [{ name: "B1" }, { name: "B2" }, { name: "B3" }]
-      }
-    ]
-};
-
-
-
-
-const data: TreeProps = {
-  data: treeData
-}
-
-interface TreeNode {
-  name: string;
-  children?: TreeNode[];
-  link_git?: string;
-  link_doc?: string;
-  description?: string;
-}
-
-interface TreeProps {
-  data: TreeNode;
-}
 
 function collapse(d: any) {
   if (d.children) {
@@ -68,14 +19,6 @@ function collapse(d: any) {
   }
 }
 
-function diagonal(s : any, d : any) {
-  let path = `M ${s.y} ${s.x}
-          C ${(s.y + d.y) / 2} ${s.x},
-            ${(s.y + d.y) / 2} ${d.x},
-            ${d.y} ${d.x}`;
-
-  return path;
-}
 
 function measureTextWidth(text : string, font = '14px Arial') {
   // We'll return a default value of 0 for server-side rendering
@@ -98,30 +41,62 @@ function measureTextWidth(text : string, font = '14px Arial') {
 
 
 
-const TreeComponent: React.FC<TreeProps> = ({ data }) => {
+const TreeComponent: React.FC<onClick> = ({onClick}) => {
+
+  const tree: TreeProps = {
+    data: null
+  }
   const d3Container = useRef<SVGSVGElement | null>(null);
+
   const [treeData, setTreeData] = useState<TreeNode | null>(null);
+
   const [windowSize, setWindowSize] = useState<{width: number, height: number}>({
-    width: typeof window !== 'undefined' ? window.innerWidth : 0,
-    height: typeof window !== 'undefined' ? window.innerHeight : 0 
+    width: typeof window !== 'undefined' ? window.innerWidth : 1920,
+    height: typeof window !== 'undefined' ? window.innerHeight : 1080 
 });
 
+const handleClick = (nodeData : any) => {
+  // Call the onNodeClick function with the node data when the node is clicked
+  onClick(nodeData);
+};
+
+const treeContext = useContext(TreeContext);
+  
+if (!treeContext) {
+  // context is undefined, this will happen if component isn't wrapped in the Provider
+  throw new Error("OperationPanel must be used within a TreeContext.Provider");
+}
+
+const { current_tree, setCurrentTree } = treeContext;
 
 
   useEffect(() => {
-    fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
+    if (current_tree === 'Method') {
+      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
       .then((response) => response.json())
       .then((data) => setTreeData(data))
       .catch((error) => console.error(error));
-  }, [data]);
+    }
+    if (current_tree === 'App') {
+      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
+      .then((response) => response.json())
+      .then((data) => setTreeData(data))
+      .catch((error) => console.error(error));
+    }
+  }, [current_tree]);
+
+
+
+
 
 
   
 
   useEffect(() => {
-
+    console.log(windowSize.width)
       if (treeData && d3Container.current) {
           const svg = d3.select(d3Container.current);
+          
           const margin = { top: 20, right: 120, bottom: 20, left: 120 },
               width = 960 - margin.right - margin.left,
               height = 800 - margin.top - margin.bottom;
@@ -150,7 +125,7 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
         // select the svg and call the zoom behavior
 
           svg.call(zoom)
-          svg.call(zoom.transform, d3.zoomIdentity.translate(0, 0));
+          svg.call(zoom.transform, d3.zoomIdentity.translate(200, 100).scale(2));
 
 
           const update = (source : any) => {
@@ -326,10 +301,7 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
                 }
 
                 function click(event:any, d : any) {
-                  // console.log(d)
-                  // console.log(typeof d)
-                  // const p = event.currentTarget.__data__;
-
+                  handleClick(d)
                   if (d.children) {
                     d._children = d.children;
                     d.children = null;
@@ -373,13 +345,15 @@ const TreeComponent: React.FC<TreeProps> = ({ data }) => {
 }, []); 
 
 
+console.log(windowSize.height*0.6)
+
   return <svg
   className="d3-component"
   width={windowSize.width}
-  height={windowSize.height}
+  height={windowSize.height*0.7}
   ref={d3Container}
 />;
 };
 
 export default TreeComponent;
-export {data};
+// export {data};
