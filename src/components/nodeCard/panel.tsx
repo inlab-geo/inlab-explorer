@@ -79,7 +79,7 @@ function opengit(link : string) {
 
 const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
   const welcome: string = 'Here is the update for v2 tree visualisation \n Node collusion now solved, nodes in each layer will have left alignment \n centering node feature add! now the pointed node will be centered! \n ';
-
+  const header: string = 'https://'
   
   const treeContext = useContext(TreeContext);
   
@@ -179,7 +179,7 @@ const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
           <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_git)} sx = {{width: '100%', marginBottom : '10%'}} >Github</Button>
         </Grid>
         <Grid item>
-          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >Documentation</Button>
+          <Button variant="outlined" onClick={() => opengit(header + clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >Documentation</Button>
         </Grid>
         <Grid item>
           <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >Find Examples</Button>
