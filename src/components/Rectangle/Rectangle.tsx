@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState, useContext } from 'react';
+import React, { useEffect, useRef, useState, useContext, useLayoutEffect } from 'react';
 import * as d3 from 'd3';
 import { HierarchyNode, HierarchyPointNode } from 'd3';
 import '../../../app/style.css'
@@ -93,7 +93,6 @@ const { current_tree, setCurrentTree } = treeContext;
   
 
   useEffect(() => {
-    console.log(windowSize.width)
       if (treeData && d3Container.current) {
           const svg = d3.select(d3Container.current);
           
@@ -133,11 +132,15 @@ const { current_tree, setCurrentTree } = treeContext;
             var nodes = data.descendants(),
                 links = data.descendants().slice(1);
             nodes.forEach(function(d : any) {
-              let block_width = 20
-                const textMetrics = measureTextWidth(d.data.name);
-                block_width = textMetrics + 40 ;
-                d.y = d.depth * 200
-
+              const textMetrics = measureTextWidth(d.data.name);
+          
+              if (d.data.children) {
+                  d.data.children.forEach(function(x : TreeNode) {
+                      x.parentLength = textMetrics;
+                  });
+              }
+              let shift_right = d.data.parentLength ? d.data.parentLength : 0;
+              d.y = d.depth * 200 + shift_right + textMetrics/2;
             });
 
 
@@ -211,8 +214,8 @@ const { current_tree, setCurrentTree } = treeContext;
                     let block_width = 20
                     const textMetrics = measureTextWidth(d.data.name);
                     block_width = textMetrics + 40 ;
-                    return block_width
-                    // return d.parent ? 100 : 100;
+                
+                    return block_width;
                   })
                   .attr("height", 20);
                 
@@ -301,6 +304,7 @@ const { current_tree, setCurrentTree } = treeContext;
                 }
 
                 function click(event:any, d : any) {
+                  
                   handleClick(d)
                   if (d.children) {
                     d._children = d.children;
@@ -310,6 +314,11 @@ const { current_tree, setCurrentTree } = treeContext;
                     d._children = null;
                   }
                   update(d);
+                  let center = {w: windowSize.width/1.9 - 500, h: windowSize.height/5}
+                  console.log(center)
+                  let svgNode = svg.node();
+                  let currentScale = svgNode? d3.zoomTransform(svgNode).k : 2;
+                  svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate((center.w - d.y)*currentScale, (center.h - d.x)*currentScale).scale(currentScale));
                 }
           }
 
@@ -339,13 +348,11 @@ const { current_tree, setCurrentTree } = treeContext;
 
     // The event listener ensures that the state is updated whenever the window is resized
     window.addEventListener('resize', handleResize);
-
+    console.log('handleResize called');
     // cleanup this component
     return () => window.removeEventListener('resize', handleResize);
 }, []); 
 
-
-console.log(windowSize.height*0.6)
 
   return <svg
   className="d3-component"

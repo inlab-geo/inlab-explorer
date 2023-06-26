@@ -9,6 +9,7 @@ export  interface TreeNode {
     link_git?: string;
     link_doc?: string;
     description?: string | null;
+    parentLength?: number | null
   }
   
 export interface TreeProps {

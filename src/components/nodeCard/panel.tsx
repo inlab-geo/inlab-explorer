@@ -11,7 +11,6 @@ import Container from '@mui/material/Container'
 import style, {createTheme, ThemeProvider, styled} from '@mui/material/styles';
 import { TreeNode, TreeProps } from '../Rectangle/treeComponent';
 
-
 const Item_name = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -79,6 +78,8 @@ function opengit(link : string) {
 
 
 const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
+  const welcome: string = 'Here is the update for v2 tree visualisation \n Node collusion now solved, nodes in each layer will have left alignment \n centering node feature add! now the pointed node will be centered! \n ';
+
   
   const treeContext = useContext(TreeContext);
   
@@ -119,6 +120,7 @@ const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
       </ThemeProvider>
     )
   }
+  console.log()
 
   return (
 <Paper
@@ -128,7 +130,8 @@ const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
     bottom: 0,
     width: '100%',
     height: '30%',
-    backgroundColor: '#e1e5e8',
+    // backgroundColor: '#e1e5e8',
+    backgroundImage: 'linear-gradient(180deg, rgb(180.6, 196.64, 211.44) 0%, rgba(197.62, 193.51, 193.51, 0) 100%);',
     padding: '20px',
     overflow: 'auto',
   }}
@@ -163,24 +166,45 @@ const OperationPanel: React.FC<OperationPanelProps> = ({ clickedNode }) => {
         <Box sx={{height: '60%', width: '100%'}}>
           <Grid item xs={12}>
             <Item_des>
-              {clickedNode ? clickedNode.data.description ? clickedNode.data.description : 'Description will be shown here' : 'Please select a Node'}
+              {clickedNode ? clickedNode.data.description ? clickedNode.data.description : welcome : welcome}
             </Item_des>
           </Grid>
         </Box>
     </Grid>
 
     {/* New Grid item for the right button */}
-    <Grid item xs style={{ display: 'flex', justifyContent: 'flex-end' }}>
-        <Button onClick={() => opengit(clickedNode.data.link_git)}>Test Button to Git</Button>
+    <Grid item style={{ display: 'flex', justifyContent: 'flex-end', width: '20vw' }}>
+      <Grid container direction="column" style={{ marginLeft: '1vw' }}>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_git)} sx = {{width: '100%', marginBottom : '10%'}} >Github</Button>
+        </Grid>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >Documentation</Button>
+        </Grid>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >Find Examples</Button>
+        </Grid>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >TBD</Button>
+        </Grid>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >TBD</Button>
+        </Grid>
+        <Grid item>
+          <Button variant="outlined" onClick={() => opengit(clickedNode.data.link_doc)} sx = {{width: '100%',  marginBottom : '10%'}} >TBD</Button>
+        </Grid>
+      </Grid>
     </Grid>
+
     <Grid item xs style={{ display: 'flex', justifyContent: 'flex-end' }}>
-        <Button onClick={() => opengit(clickedNode.data.link_doc)}>Test Button to doc</Button>
+        <Button onClick={() => opengit(clickedNode.data.link_doc)}>TBD</Button>
     </Grid>
   </Grid>
 </Paper>
 
   );
 }
+
 
 export default OperationPanel;
 
