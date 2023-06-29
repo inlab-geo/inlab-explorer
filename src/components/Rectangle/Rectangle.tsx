@@ -59,30 +59,26 @@ const TreeComponent: React.FC<selected> = ({selectedTree}) => {
 });
 
 
-// const treeContext = useContext(TreeContext);
-  
-// if (!treeContext) {
-//   // context is undefined, this will happen if component isn't wrapped in the Provider
-//   throw new Error("OperationPanel must be used within a TreeContext.Provider");
-// }
 
 
 
+  useEffect(() => {
+    console.log(selectedTree)
+    if (selectedTree === 'CoFI Methods') {
+      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
+      .then((response) => response.json())
+      .then((data) => setTreeData(data))
+      .catch((error) => console.error(error));
+    }
+    if (selectedTree === "Espresso Problems") {
+      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
+      .then((response) => response.json())
+      .then((data) => setTreeData(data))
+      .catch((error) => console.error(error));
+    }
 
-  // useEffect(() => {
-  //   if (current_tree === 'Method') {
-  //     fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
-  //     .then((response) => response.json())
-  //     .then((data) => setTreeData(data))
-  //     .catch((error) => console.error(error));
-  //   }
-  //   if (current_tree === 'App') {
-  //     fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
-  //     .then((response) => response.json())
-  //     .then((data) => setTreeData(data))
-  //     .catch((error) => console.error(error));
-  //   }
-  // }, [current_tree]);
+    console.log(treeData)
+  }, [selectedTree]);
 
 
 
@@ -354,7 +350,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree}) => {
   return <svg
   className="d3-component"
   width={windowSize.width}
-  height={windowSize.height*0.7}
+  height={windowSize.height}
   ref={d3Container}
 />;
 };
