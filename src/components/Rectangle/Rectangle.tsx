@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 import { HierarchyNode, HierarchyPointNode } from 'd3';
 import '../../../app/style.css'
 import { TreeNode, TreeProps, onClick } from './treeComponent';
-import TreeContext from '../nodeCard/context';
+
 
 // const canvas = document.createElement('canvas');
 // const ctx = canvas.getContext('2d');
@@ -38,10 +38,13 @@ function measureTextWidth(text : string, font = '14px Arial') {
   return 0;  // fallback in case getting the context fails
 }
 
+interface selected {
+  selectedTree: any; 
+}
 
 
 
-const TreeComponent: React.FC<onClick> = ({onClick}) => {
+const TreeComponent: React.FC<selected> = ({selectedTree}) => {
 
   const tree: TreeProps = {
     data: null
@@ -55,35 +58,31 @@ const TreeComponent: React.FC<onClick> = ({onClick}) => {
     height: typeof window !== 'undefined' ? window.innerHeight : 1080 
 });
 
-const handleClick = (nodeData : any) => {
-  // Call the onNodeClick function with the node data when the node is clicked
-  onClick(nodeData);
-};
 
-const treeContext = useContext(TreeContext);
+// const treeContext = useContext(TreeContext);
   
-if (!treeContext) {
-  // context is undefined, this will happen if component isn't wrapped in the Provider
-  throw new Error("OperationPanel must be used within a TreeContext.Provider");
-}
-
-const { current_tree, setCurrentTree } = treeContext;
+// if (!treeContext) {
+//   // context is undefined, this will happen if component isn't wrapped in the Provider
+//   throw new Error("OperationPanel must be used within a TreeContext.Provider");
+// }
 
 
-  useEffect(() => {
-    if (current_tree === 'Method') {
-      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
-      .then((response) => response.json())
-      .then((data) => setTreeData(data))
-      .catch((error) => console.error(error));
-    }
-    if (current_tree === 'App') {
-      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
-      .then((response) => response.json())
-      .then((data) => setTreeData(data))
-      .catch((error) => console.error(error));
-    }
-  }, [current_tree]);
+
+
+  // useEffect(() => {
+  //   if (current_tree === 'Method') {
+  //     fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
+  //     .then((response) => response.json())
+  //     .then((data) => setTreeData(data))
+  //     .catch((error) => console.error(error));
+  //   }
+  //   if (current_tree === 'App') {
+  //     fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
+  //     .then((response) => response.json())
+  //     .then((data) => setTreeData(data))
+  //     .catch((error) => console.error(error));
+  //   }
+  // }, [current_tree]);
 
 
 
@@ -304,8 +303,6 @@ const { current_tree, setCurrentTree } = treeContext;
                 }
 
                 function click(event:any, d : any) {
-                  
-                  handleClick(d)
                   if (d.children) {
                     d._children = d.children;
                     d.children = null;
