@@ -307,7 +307,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree}) => {
                     d._children = null;
                   }
                   update(d);
-                  let center = {w: windowSize.width/1.9 - 500, h: windowSize.height/5}
+                  let center = {w: windowSize.width/4 - d.x, h: windowSize.height/5}
                   console.log(center)
                   let svgNode = svg.node();
                   let currentScale = svgNode? d3.zoomTransform(svgNode).k : 2;
@@ -349,8 +349,8 @@ const TreeComponent: React.FC<selected> = ({selectedTree}) => {
 
   return <svg
   className="d3-component"
-  width={windowSize.width}
-  height={windowSize.height}
+  width={'100vw'}
+  height={'100vh'}
   ref={d3Container}
 />;
 };

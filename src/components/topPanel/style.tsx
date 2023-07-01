@@ -23,6 +23,7 @@ const logoCSS = {
 const selectCSS = {
     backgroundColor: color_sheet.white,
     width: '30vw',
+    minWidth: '200px',
     height: '80%'
 
 }
@@ -38,7 +39,7 @@ const selectTextCSS = {
 const barCSS = {
     width: '100%', 
     height: '100%', 
-    bgcolor: color_sheet.primary_2,
+    bgcolor: color_sheet.border_color,
     justifyContent: 'space-between',
     alignItems: 'center',
     display: 'flex',
