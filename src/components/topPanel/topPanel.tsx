@@ -7,12 +7,13 @@ import Panel from './panel';
 
 function TopPanel() {
   const [current_tree, setCurrentTree] = useState('CoFI Methods');
+  const [current_theme, setCurrentTheme] = useState('light');
 
 
   return (
     <div>
-        <Panel onClick={setCurrentTree}/>
-        <TreeComponent selectedTree = {current_tree}/>
+        <Panel onClickTree ={setCurrentTree} onClickTheme={setCurrentTheme} />
+        <TreeComponent selectedTree = {current_tree} selectedTheme = {current_theme}/>
     </div>
   );
 }

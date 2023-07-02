@@ -9,7 +9,8 @@ export  interface TreeNode {
     link_git?: string;
     link_doc?: string;
     description?: string | null;
-    parentLength?: number | null
+    parentLength?: number | null;
+    fontSize? : number | null
   }
   
 export interface TreeProps {
@@ -17,5 +18,7 @@ export interface TreeProps {
   }
 
 export interface onClick {
-  onClick: (nodeData: any) => void;
+  onClickTree: (nodeData: any) => void;
+  onClickTheme: (nodeData: any) => void;
+
 }

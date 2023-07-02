@@ -9,13 +9,14 @@ import {MenuItem} from '@mui/material';
 import { fromJSON } from 'postcss';
 import {IconButton} from '@mui/material';
 import {Menu} from '@mui/material';
+import { AnyARecord } from 'dns';
 
 
 
 
 
 
-const Panel : React.FC<onClick> = ({onClick}) => {
+const Panel : React.FC<onClick> = ({onClickTree, onClickTheme}) => {
     const [viewportDim, setViewportDim] = useState({height : 0, width : 0});
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -30,7 +31,8 @@ const Panel : React.FC<onClick> = ({onClick}) => {
 
 
     const selectTree = (event: SelectChangeEvent) => {
-        onClick(event.target.value);
+        console.log(onClickTree)
+        onClickTree(event.target.value);
         setTree(event.target.value);
       };
     //tree selection
@@ -61,21 +63,20 @@ const Panel : React.FC<onClick> = ({onClick}) => {
 
     function sideMenu() {
         const options = [
-                'Dashboard',
-                'functions?',
-                'pages?',
+                'use light theme',
+                'use dark theme',
+                'use special theme',
                 'leave a comments?',
-                'pop-up windows?',
-                'tutorial?'
           ];
           const ITEM_HEIGHT = 48;
         const open = Boolean(anchorEl);
 
         const handleClick = (event : any) => {
-            setAnchorEl(event.currentTarget);
+            setAnchorEl(event.currentTarget)
         };
 
-        const handleClose = () => {
+        const handleClose = (o : any) => {
+            onClickTheme(o)
             setAnchorEl(null);
         };
 
@@ -99,7 +100,7 @@ const Panel : React.FC<onClick> = ({onClick}) => {
                 }}
             >
                 {options.map((option) => (
-                <MenuItem key={option} selected={option === 'Pyxis'} onClick={handleClose}>
+                <MenuItem key={option} selected={option === 'Pyxis'} onClick={() =>handleClose(option)}>
                     {option}
                 </MenuItem>
                 ))}
