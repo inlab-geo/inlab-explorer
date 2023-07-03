@@ -66,6 +66,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
 
 
   useEffect(() => {
+    let pressTimer: NodeJS.Timeout | null = null;
     if (d3Container.current) {
       const svg = d3.select(d3Container.current);
       svg.selectAll('.node')
@@ -78,7 +79,6 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
 
 
   useEffect(() => {
-    console.log(selectedTree)
     if (selectedTree === 'CoFI Methods') {
       fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
       .then((response) => response.json())
@@ -91,32 +91,61 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
       .then((data) => setTreeData(data))
       .catch((error) => console.error(error));
     }
+
+    if (selectedTree === "CoFI Examples") {
+    }
   }, [selectedTree]);
 
 
   useEffect(() => {
-    console.log(selectedTheme)
     switch (selectedTheme) {
-      case 'use light theme': {setTreeTheme(style.LightTheme); console.log("light set");break;}
-      case 'use dark theme': {setTreeTheme(style.DarkTheme); console.log("dar set");break;}
-      case 'use special theme': {setTreeTheme(style.SpecialTheme); console.log("sp set");break;}
+      case 'use light theme': {setTreeTheme(style.LightTheme);break;}
+      case 'use dark theme': {setTreeTheme(style.DarkTheme);break;}
+      case 'use special theme': {setTreeTheme(style.SpecialTheme);break;}
     }
-    console.log(treeTheme)
-
   }, [selectedTheme]);
 
 
+  function assignTreeAttr(t : TreeNode) {
+    let block_width;
+    const textMetrics = measureTextWidth(t.name , "14px Arial");
+    block_width = textMetrics + 40 ;
+    t.width = block_width + 20
+    t.children?.forEach(assignTreeAttr)
+  }
+
+  function generate_des(d : TreeProps) {
+    return d.data?.description? d.data?.description : d.data?.name + "contains many sub node, please expand"
+  }
+
+  function gen_button(d : TreeProps, color : string, textColor : string, width : number) {
+    return (`
+    <a href=" ${d.data?.link_git} " target="_blank" style="text-decoration: none;"><button style="background-color: ${d.data?.link_git? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Git</button>
+    <a href=" ${d.data?.link_doc} " target="_blank" style="text-decoration: none;"><button style="background-color: ${d.data?.link_doc? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Documentation</button>
+    <a href="${d.data}" target="_blank" style="text-decoration: none;"><button style="background-color: #008CBA; width: ${width}px;border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Select Example</button>
+    <a href="${d.data}" target="_blank" style="text-decoration: none;"><button style="background-color: #008CBA; width: ${width}px;color: black; border: none; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">and..?</button>`
+    )
+    }
+
+
+
+
   useEffect(() => {
-    console.log("Rerender")
-
-
+    let pressTimer: NodeJS.Timeout | null = null;
     if (treeData && d3Container.current) {
+      assignTreeAttr(treeData)
         const svg = d3.select(d3Container.current);
+        const tooltip = d3.select("#tooltip");
 
         var i = 0, duration = 750;
         let treeRoot: any;
-        var nodeSize = { width: 200, height: 220}
-        var treemap = d3.tree().nodeSize([nodeSize.height, nodeSize.width])    
+        var nodeSize = { width: 200, height: 200}
+        var treemap = d3.tree()
+          .nodeSize([nodeSize.width, nodeSize.height])
+          .separation(function(a : any, b : any) {
+            var totalWidth = a.data.width + b.data.width;
+            return ((totalWidth / 2) + 20) / 200
+          });    
 
         // Assigns parent, children, height, depth
         treeRoot = d3.hierarchy(treeData, (d: any) => {
@@ -136,7 +165,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
       // select the svg and call the zoom behavior
 
         svg.call(zoom)
-        svg.call(zoom.transform, d3.zoomIdentity.translate(200, 100).scale(2));
+        svg.call(zoom.transform, d3.zoomIdentity.translate(200, 100).scale(1.05));
 
 
         const update = (source : any) => {
@@ -144,13 +173,6 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
           var nodes = data.descendants(),
               links = data.descendants().slice(1);
           nodes.forEach(function(d : any) {
-            const textMetrics = measureTextWidth(d.data.name);
-        
-            // if (d.data.children) {
-            //     d.data.children.forEach(function(x : TreeNode) {
-            //         x.parentLength = textMetrics;
-            //     });
-            // }
             d.y = d.depth * 100
           });
 
@@ -203,35 +225,21 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
                   return d.children || d._children ? "1" : "0.6";
                 })
                 .attr("x", function(d : any){
-                  let block_width = 20
-                  const textMetrics = measureTextWidth(d.data.name , d.data.fontSize + " Arial");
-                  block_width = textMetrics + 40 ;
-                  // return -(block_width/2)
-                  return -block_width / 2
+                  return -d.data.width / 2
                 }
                 )
-                .attr("y", -10)
+                .attr("y", -15)
 
 
                 .attr("width", function(d : any) {
-                  let block_width = 20
-                  const textMetrics = measureTextWidth(d.data.name , d.data.fontSize + " Arial");
-                  block_width = textMetrics + 40 ;
-              
-                  return block_width;
+                  return d.data.width;
                 })
-                .attr("height", 20);
+                .attr("height", 30);
               
               nodeEnter
                 .append("text")
-                .attr("font-size", function(d : any) {
-                  var length = d.data.name.length;  // get the length of your string
-                  var width = 200;  // your estimated width
-                  var fontSize = width / length + "px"; // adjust this to your needs
-                  d.data.fontSize = fontSize;
-                  console.log(d.data.fontSize)
-                  return fontSize;
-                })
+                .attr("font-size", "2em Arial")
+                .attr('pointer-events', 'none')
                 .style("font-family", "Arial")
                 .style("fill", function(d : any) {
                   if (d.parent) {
@@ -249,6 +257,46 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
                 .text(function(d : any) {
                   return d.data.name;
                 });
+
+                nodeEnter
+                .on("mousedown", function (event, d : any) {
+                    // Clear any existing timer before setting a new one
+                    if (pressTimer !== null) {
+                        clearTimeout(pressTimer);
+                    }   
+            
+                    pressTimer = setTimeout(function() { 
+                        // If the mousedown event's duration is longer than 500 ms, it is a long press
+                        tooltip.style("left", event.pageX + "px")
+                            .style("top", event.pageY + "px")
+                            .style("opacity", 1)
+                            .html(`
+                            <div style="border: 1px solid black; width: ${d.data.width + 20}px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
+                              <div style="background-color: lightgray; padding: 10px;">
+                                ${d.data.name}
+                              </div>
+                              <div style="background-color: white; padding: 10px; margin-top: 10px; word-wrap: break-word; width: ${d.data.width}px;min-height: 150px;">
+                                  ${generate_des(d)}
+                              </div>
+                              <div style="display: flex; justify-content: space-around; margin-top: 10px; width: ${d.data.width}px; min-width: 160px;">
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
+                                ${gen_button(d, "#008CBA", "#fff", d.data.width)}
+                                </div>
+                              </div>
+                            </div>
+                            `);
+                    }, 800); // This delay of 500 ms could be adjusted
+                    event.stopPropagation();
+                });
+              
+            document.addEventListener("mouseup", function () {
+                // Clear the timer when the mouse button is released
+                if(pressTimer !== null) {
+                    clearTimeout(pressTimer);
+                    pressTimer = null;
+                    console.log("clear!");
+                }
+            });
                 
 
               var nodeUpdate = nodeEnter.merge(node);
@@ -323,20 +371,22 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
                   d._children = null;
                 }
                 update(d);
-                let center = {w: windowSize.width/3.9, h: windowSize.height/5}
+                let center = {w: windowSize.width/2, h: windowSize.height/3}
                 console.log(center)
                 let svgNode = svg.node();
                 let currentScale = svgNode? d3.zoomTransform(svgNode).k : 2;
-                svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate((center.w - d.x)*currentScale, (center.h - d.y)*currentScale).scale(currentScale));
+                console.log(currentScale)
+                svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate((center.w - d.x)*currentScale + (1.05 - currentScale)*center.w, (center.h - d.y)*currentScale + (1.05 - currentScale)*center.h).scale(currentScale));
               }
         }
+        svg.on("click", function() {
+          tooltip.style("opacity", 0);
+      });
 
         update(treeRoot);
         // Collapse after the second level
         treeRoot.children.forEach(collapse);
         
-
-        // Collapse the node and all its children
 
         return function cleanup() {
             svg.selectAll('*').remove();
@@ -357,18 +407,26 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
 
     // The event listener ensures that the state is updated whenever the window is resized
     window.addEventListener('resize', handleResize);
-    console.log('handleResize called');
     // cleanup this component
     return () => window.removeEventListener('resize', handleResize);
 }, []); 
 
 
-  return <svg
+  return (
+  <div>
+      <svg
   className="d3-component"
   width={'100vw'}
   height={'92vh'}
+  style={{backgroundColor: treeTheme.background}}
   ref={d3Container}
 />;
+<div id="tooltip" style={{position: 'absolute', opacity: 1, backgroundColor: 'white', zIndex: 1000}}>
+  {/* Tooltip contents will be inserted here */}
+</div>
+  </div>
+  )
+
 };
 
 export default TreeComponent;

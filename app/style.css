@@ -1,7 +1,6 @@
 html, body {  
     margin: 0;
     padding: 0;
-    background-color: rgb(162, 168, 215);
   }
   .node {
     cursor: pointer;
@@ -11,7 +10,7 @@ html, body {
   }
   
   .node text {
-    font: 10px sans-serif;
+
   }
   
   .link {

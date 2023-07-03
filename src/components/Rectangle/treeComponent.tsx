@@ -10,7 +10,7 @@ export  interface TreeNode {
     link_doc?: string;
     description?: string | null;
     parentLength?: number | null;
-    fontSize? : number | null
+    width? : number | null
   }
   
 export interface TreeProps {
