@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Run this App locally:
 
-Makesure you have npm installed, afteryou clone this project:
+Makesure you have npm installed, after you clone this project, run:
 
 ```bash
 npm install
