@@ -119,13 +119,22 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
   }
 
   function gen_button(d : TreeProps, color : string, textColor : string, width : number) {
+    function getLinkDoc(d : TreeProps) {
+      return   d.data?.link_doc? `<a href=" ${d.data?.link_doc} " target="_blank" style="text-decoration: none;">` : " "
+    }
+    function getLinkGit(d : TreeProps) {
+      console.log(d.data?.link_git)
+      return   d.data?.link_git? `<a href=" ${d.data?.link_git} " target="_blank" style="text-decoration: none;">` : " "
+    }
     return (`
-    <a href=" ${d.data?.link_git} " target="_blank" style="text-decoration: none;"><button style="background-color: ${d.data?.link_git? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Git</button>
-    <a href=" ${d.data?.link_doc} " target="_blank" style="text-decoration: none;"><button style="background-color: ${d.data?.link_doc? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Documentation</button>
+    ${getLinkGit(d)}<button style="background-color: ${d.data?.link_git? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Git</button></a>
+    ${getLinkDoc(d)}<button style="background-color: ${d.data?.link_doc? color : "#b8b8b8"}; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Documentation</button></a>
     <a href="${d.data}" target="_blank" style="text-decoration: none;"><button style="background-color: #008CBA; width: ${width}px;border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Select Example</button>
     <a href="${d.data}" target="_blank" style="text-decoration: none;"><button style="background-color: #008CBA; width: ${width}px;color: black; border: none; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">and..?</button>`
     )
     }
+
+  
 
 
 
@@ -165,7 +174,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
       // select the svg and call the zoom behavior
 
         svg.call(zoom)
-        svg.call(zoom.transform, d3.zoomIdentity.translate(200, 100).scale(1.05));
+        svg.call(zoom.transform, d3.zoomIdentity.translate(windowSize.width/2, windowSize.height/2).scale(1.05));
 
 
         const update = (source : any) => {

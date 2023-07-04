@@ -8,6 +8,7 @@ export  interface TreeNode {
     children?: TreeNode[];
     link_git?: string;
     link_doc?: string;
+    examples?: string[];
     description?: string | null;
     parentLength?: number | null;
     width? : number | null
