@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Change colors!
 
-There are two different area, first is the color set for selection bar. Please modify this file:
+There are two different parts, first is the color set for selection bar. Please modify this file:
 
 https://github.com/Denghu-JI/AWS-app-hosting/blob/main/src/components/topPanel/style.tsx
 
