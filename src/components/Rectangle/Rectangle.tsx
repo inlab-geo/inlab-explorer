@@ -5,8 +5,6 @@ import { HierarchyNode, HierarchyPointNode } from 'd3';
 import '../../../app/style.css'
 import { TreeNode, TreeProps, onClick } from './treeComponent';
 import {style} from './style'
-import { Style } from 'util';
-import { ThemeContext } from '@emotion/react';
 
 
 // const canvas = document.createElement('canvas');
@@ -93,6 +91,10 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme}) => {
     }
 
     if (selectedTree === "CoFI Examples") {
+      fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/app_relation.json')
+      .then((response) => response.json())
+      .then((data) => setTreeData(data))
+      .catch((error) => console.error(error));
     }
   }, [selectedTree]);
 
