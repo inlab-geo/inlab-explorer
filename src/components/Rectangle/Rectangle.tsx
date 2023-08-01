@@ -11,11 +11,6 @@ import appRelationData from '../../../public/app_relation.json';
 import exampleRelationData from '../../../public/example_relation.json';
 
 
-// const canvas = document.createElement('canvas');
-// const ctx = canvas.getContext('2d');
-
-
-
 function collapse(d: any) {
   if (d.children) {
       d._children = d.children;

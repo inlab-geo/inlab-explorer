@@ -2,6 +2,7 @@ import { inLabStyle } from "./style";
 import React, { useEffect, useRef, useState, useContext, useLayoutEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { TreeNode } from "../Rectangle/treeComponent";
+import methodRelationData from '../../../public/method_relation.json';
 
 
 interface Example {
@@ -63,18 +64,12 @@ interface PopupEvent {
 const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
 
     useEffect(() => {
-        fetch('method_relation.json')
-        .then((response) => response.json())
-        .then((data) => load_examples(data))
-        .catch((error) => console.error(error));
+        load_examples(methodRelationData)
     }, []);
-  
-    //here will be some construction...
-    console.log(exampleExample)
     
-    function singleContent(title: string, description: string, link: string) {
+    function singleContent(title: string, description: string, link: string, key: string) {
         return (
-            <div style={{width : '90%', 
+            <div key = {key} style={{width : '90%', 
                         maxHeight: '200px', 
                         backgroundColor: '#ddf3fd',
                         marginLeft: '5%',
@@ -109,14 +104,15 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
         if (popupContent.selectedMethod) {
             if (exampleExample[popupContent.selectedMethod]) {
                 return exampleExample[popupContent.selectedMethod].map((example, index) => {
-                    return singleContent(example.name, example.description, example.linkToGit);
-                });
+                    return singleContent(example.name, example.description, example.linkToGit, index.toString());
+            });
 
             }
         }
         return null; // Return null if no examples found
     }
 
+    
     function title() {
         return (
             <div style = {{
