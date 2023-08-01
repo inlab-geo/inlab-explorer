@@ -3,4 +3,7 @@ const nextConfig = {
     output: 'export',
 }
 
-module.exports = nextConfig
+module.exports = {
+    nextConfig,
+    basePath: '/AWS-app-hosting',
+  }
