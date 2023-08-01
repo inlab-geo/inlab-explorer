@@ -6,6 +6,10 @@ import '../../../app/style.css'
 import { TreeNode, TreeProps, onClick } from './treeComponent';
 import {style} from './style'
 
+import methodRelationData from '../../../public/method_relation.json';
+import appRelationData from '../../../public/app_relation.json';
+import exampleRelationData from '../../../public/example_relation.json';
+
 
 // const canvas = document.createElement('canvas');
 // const ctx = canvas.getContext('2d');
@@ -83,27 +87,38 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
 
 
 
+  // useEffect(() => {
+  //   if (selectedTree === 'CoFI Methods') {
+  //     fetch('/method_relation.json')
+  //     .then((response) => response.json())
+  //     .then((data) => setTreeData(data))
+  //     .catch((error) => console.error(error));
+  //   }
+  //   if (selectedTree === "Espresso Problems") {
+  //     fetch('/app_relation.json')
+  //     .then((response) => response.json())
+  //     .then((data) => setTreeData(data))
+  //     .catch((error) => console.error(error));
+  //   }
+
+  //   if (selectedTree === "CoFI Examples") {
+  //     fetch('/example_relation.json')
+  //     .then((response) => response.json())
+  //     .then((data) => setTreeData(data))
+  //     .catch((error) => console.error(error));
+  //   }
+  // }, [selectedTree]);
   useEffect(() => {
     if (selectedTree === 'CoFI Methods') {
-      fetch('/method_relation.json')
-      .then((response) => response.json())
-      .then((data) => setTreeData(data))
-      .catch((error) => console.error(error));
+        setTreeData(methodRelationData);
     }
     if (selectedTree === "Espresso Problems") {
-      fetch('/app_relation.json')
-      .then((response) => response.json())
-      .then((data) => setTreeData(data))
-      .catch((error) => console.error(error));
+        setTreeData(appRelationData);
     }
-
     if (selectedTree === "CoFI Examples") {
-      fetch('/example_relation.json')
-      .then((response) => response.json())
-      .then((data) => setTreeData(data))
-      .catch((error) => console.error(error));
+        setTreeData(exampleRelationData);
     }
-  }, [selectedTree]);
+}, [selectedTree]);
 
 
   useEffect(() => {

@@ -3,16 +3,16 @@
 //     data: treeData
 //   }
   
-export  interface TreeNode {
+export interface TreeNode {
     name: string;
     children?: TreeNode[];
-    link_git?: string;
-    link_doc?: string;
-    examples?: string[];
+    link_git?: string | null;
+    link_doc?: string | null;
+    examples?: { name: string; description: string; linkToGit: string }[]; 
     description?: string | null;
     parentLength?: number | null;
-    width? : number | null
-  }
+    width? : number | null;
+}
   
 export interface TreeProps {
     data: TreeNode | null

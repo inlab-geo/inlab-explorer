@@ -63,7 +63,7 @@ interface PopupEvent {
 const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
 
     useEffect(() => {
-        fetch('https://jsonofthetree.s3.ap-southeast-2.amazonaws.com/method_relation.json')
+        fetch('method_relation.json')
         .then((response) => response.json())
         .then((data) => load_examples(data))
         .catch((error) => console.error(error));
