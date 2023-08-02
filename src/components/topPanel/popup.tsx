@@ -79,7 +79,7 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
                         padding: '10px', // To give some space for the text
                         boxSizing: 'border-box', // So that padding and border are included in element's total width and height
                         }}>
-                <h1 style={{marginBottom: '10px'}}>{title}</h1>
+                <h1 style={{marginBottom: '10px'}}><b>{title}</b></h1>
                 <p style={{marginBottom: '10px'}}>{description}</p>
                 <a href={link} 
                    style={{
