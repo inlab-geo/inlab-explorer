@@ -126,7 +126,7 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
             }}>
                 Examples under {popupContent.selectedMethod}
                 <button onClick={() => setPopup({visible: false, selectedMethod: "CoFI",})}>
-                <img src="/icon2.png" alt="logo" style={{height: '100%'}} />
+                <img src="./icon2.png" alt="logo" style={{height: '100%'}} />
                 </button>
             </div>
         )

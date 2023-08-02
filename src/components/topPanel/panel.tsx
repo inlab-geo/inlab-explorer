@@ -71,7 +71,7 @@ const Panel : React.FC<onClick> = ({onClickTree, onClickTheme}) => {
 
     function logo() {
         return (
-            <img src="/icon2.png" alt="logo" style={inLabStyle.logoCSS} />
+            <img src="./icon2.png" alt="logo" style={inLabStyle.logoCSS} />
         )
     }
 
@@ -98,7 +98,7 @@ const Panel : React.FC<onClick> = ({onClickTree, onClickTheme}) => {
         return (
             <div style={inLabStyle.logoCSS}>
             <IconButton onClick={handleClick} style={{ padding: 0 }}>
-               <img src="/icon.webp" alt="logo" style={{height : `${barDim.height}px`}} />
+               <img src="./icon.webp" alt="logo" style={{height : `${barDim.height}px`}} />
             </IconButton>
             <Menu
                 id="long-menu"
