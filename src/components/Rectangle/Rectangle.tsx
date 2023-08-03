@@ -81,28 +81,6 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
   }, [treeTheme]);
 
 
-
-  // useEffect(() => {
-  //   if (selectedTree === 'CoFI Methods') {
-  //     fetch('/method_relation.json')
-  //     .then((response) => response.json())
-  //     .then((data) => setTreeData(data))
-  //     .catch((error) => console.error(error));
-  //   }
-  //   if (selectedTree === "Espresso Problems") {
-  //     fetch('/app_relation.json')
-  //     .then((response) => response.json())
-  //     .then((data) => setTreeData(data))
-  //     .catch((error) => console.error(error));
-  //   }
-
-  //   if (selectedTree === "CoFI Examples") {
-  //     fetch('/example_relation.json')
-  //     .then((response) => response.json())
-  //     .then((data) => setTreeData(data))
-  //     .catch((error) => console.error(error));
-  //   }
-  // }, [selectedTree]);
   useEffect(() => {
     if (selectedTree === 'CoFI Methods') {
         setTreeData(methodRelationData);
@@ -226,7 +204,17 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                 .attr("r", 1e-6)
                 .style("fill", function(d : any) {
                   if (d.parent) {
-                    return d.children || d._children ? treeTheme.nodeFill : treeTheme.terminalFill;
+                    if (d.children || d._children) {
+                      if ((d.children && d.children.length > 0 && (d.children[0]._children || d.children[0].children)) || 
+                          (d._children && d._children.length > 0 && (d._children[0].children || d._children[0]._children))) {
+                        return treeTheme.nodeFill;
+                      } else {
+                        console.log(treeTheme.secondLastFill)
+                        return treeTheme.secondLastFill;
+                      }
+                    } else {
+                      return treeTheme.terminalFill;
+                    }
                   }
                   return treeTheme.headnodeFill;
                 });
@@ -275,9 +263,17 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                 .style("font-family", "Arial")
                 .style("fill", function(d : any) {
                   if (d.parent) {
-                    return d.children || d._children ? treeTheme.text : treeTheme.terminalText;
-                  }
-                  console.log(treeTheme.headText)
+                    if (d.children || d._children) {
+                      if ((d.children && d.children.length > 0 && (d.children[0]._children || d.children[0].children)) || 
+                          (d._children && d._children.length > 0 && (d._children[0].children || d._children[0]._children))) {
+                        return treeTheme.text;
+                      } else {
+                        return treeTheme.SecondLastText;
+                      }
+                    } else {
+                      return treeTheme.terminalText;
+                    }
+                  }    
                   return treeTheme.headText;
                 })
                 .attr("dy", ".35em")
