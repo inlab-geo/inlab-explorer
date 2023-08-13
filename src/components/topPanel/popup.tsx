@@ -61,6 +61,32 @@ interface PopupEvent {
 
   }
 
+const fadeIn = keyframes`
+  from { opacity: 0; }
+  to { opacity: 1; }
+`;
+
+const Popupdiv = styled.div`
+      position: absolute;
+      width: 80vw;
+      height: 80vh;
+      left: 10vw;
+      top: 10vh;
+      z-index: 1001;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.25);
+      animation: ${fadeIn} 0.5s linear;
+      overflow: auto;
+  `;
+const ContentContainer = styled.div`
+  height: 95%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: '1 0 auto',
+`;
+
 const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
 
     useEffect(() => {
@@ -68,6 +94,7 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
     }, []);
     
     function singleContent(title: string, description: string, link: string, key: string) {
+        console.log("singleContent here!")
         return (
             <div key = {key} style={{width : '90%', 
                         maxHeight: '200px', 
@@ -132,31 +159,6 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
         )
     }
 
-    const fadeIn = keyframes`
-    from { opacity: 0; }
-    to { opacity: 1; }
-`;
-
-    const Popupdiv = styled.div`
-        position: absolute;
-        width: 80vw;
-        height: 80vh;
-        left: 10vw;
-        top: 10vh;
-        z-index: 1001;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.25);
-        animation: ${fadeIn} 0.5s linear;
-        overflow: auto;
-    `;
-    const ContentContainer = styled.div`
-    height: 95%;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    flex: '1 0 auto',
-`;
 
     return (
         <div>

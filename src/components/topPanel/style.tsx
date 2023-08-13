@@ -17,7 +17,13 @@ const color_sheet = {
 
 const logoCSS = { 
     height: '100%', 
+    // flex: "0 1 auto",
 
+}
+
+const iconCSS = {
+    flex: "0 1 auto",
+    height: "5vh"
 }
 
 const selectCSS = {
@@ -51,6 +57,7 @@ const barCSS = {
 export const inLabStyle = {
     color_sheet: color_sheet,
     logoCSS: logoCSS,
+    iconCSS: iconCSS,
     barCSS: barCSS,
     selectCSS: selectCSS,
     selectTextCSS: selectTextCSS
