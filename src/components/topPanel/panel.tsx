@@ -133,11 +133,13 @@ const Panel : React.FC<onClick> = ({onClickTree, onClickTheme}) => {
                 onMouseEnter={() => setShowDropdown(true)}
                 onMouseLeave={() => setShowDropdown(false)}
             >
-            <IconButton style={{height: "5vh"}} onMouseEnter={() => setShowDropdown(true)}>
+            <IconButton style={{height: "5vh"}} onMouseEnter={() => setShowDropdown(false)}>
+                <a href="https://inlab.edu.au/">
                 <img src="./icon2_R.png" alt="logo left" style={{ height: '8vh' }}/>
+                </a>
             </IconButton>
             {/* Right side of the logo without hover */}
-            <IconButton style={{height: "5vh"}} onMouseEnter={() => setShowDropdown(false)}>
+            <IconButton style={{height: "5vh"}} onMouseEnter={() => setShowDropdown(true)}>
                 <img src="./icon2_L.png" alt="logo right" style={{ height: '8vh' }}/>
             </IconButton>
             {/* Dropdown Menu */}
