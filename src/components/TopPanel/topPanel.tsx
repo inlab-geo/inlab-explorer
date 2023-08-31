@@ -1,7 +1,6 @@
 "use client"
 import React, { useState }  from 'react';
-import TreeComponent from '../Rectangle/Rectangle';
-import TreeContext from './context';
+import TreeComponent from '../Tree/Tree';
 import Panel from './panel';
 import Popup from './popup'
 
@@ -13,7 +12,7 @@ function TopPanel() {
   return (
     <div>
         <Panel onClickTree ={setCurrentTree} onClickTheme={setCurrentTheme}  />
-        <TreeComponent selectedTree = {current_tree} selectedTheme = {current_theme} setPopup={setPopup}/>
+        <TreeComponent selectedTree = {current_tree} selectedTheme = {current_theme} popupcont = {popup} setPopup={setPopup}/>
         <Popup popupContent={popup} setPopup={setPopup}/>
     </div>
   );

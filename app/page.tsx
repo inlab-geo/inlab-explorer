@@ -1,11 +1,12 @@
-import TreeComponent from "../src/components/Rectangle/Rectangle";
-import TopPanel from "@/src/components/topPanel/topPanel";
+import Comment from "@/src/components/Comment/comment";
+import TopPanel from "@/src/components/TopPanel/topPanel";
 import React from "react";
 
 export default function Home() {
   return (
     <main>
       <TopPanel />
+      <Comment  />
     </main>
   )
 }

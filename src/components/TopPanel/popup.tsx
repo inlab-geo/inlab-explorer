@@ -1,7 +1,5 @@
-import { inLabStyle } from "./style";
-import React, { useEffect, useRef, useState, useContext, useLayoutEffect } from 'react';
+import React, { useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { TreeNode } from "../Rectangle/treeComponent";
 import methodRelationData from '../../../public/method_relation.json';
 
 
@@ -18,7 +16,6 @@ let exampleExample: Record<string, Example[]> = {
 
 function load_examples(data : any) {
     if (data.examples) {
-        console.log(data.name)
         data.examples.forEach((example: any) => {
             // Check if the key exists
             if (exampleExample[data.name]) {
@@ -88,13 +85,11 @@ const ContentContainer = styled.div`
 `;
 
 const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
-
     useEffect(() => {
         load_examples(methodRelationData)
     }, []);
     
     function singleContent(title: string, description: string, link: string, key: string) {
-        console.log("singleContent here!")
         return (
             <div key = {key} style={{width : '90%', 
                         maxHeight: '200px', 
@@ -102,9 +97,9 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
                         marginLeft: '5%',
                         marginTop: '10px',
                         flex: '1 0 auto',
-                        position: 'relative', // To position the button absolutely within this container
-                        padding: '10px', // To give some space for the text
-                        boxSizing: 'border-box', // So that padding and border are included in element's total width and height
+                        position: 'relative', 
+                        padding: '10px', 
+                        boxSizing: 'border-box', 
                         }}>
                 <h1 style={{marginBottom: '10px'}}><b>{title}</b></h1>
                 <p style={{marginBottom: '10px'}}>{description}</p>
@@ -159,7 +154,6 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
         )
     }
 
-
     return (
         <div>
         {popupContent.visible &&
@@ -174,5 +168,4 @@ const Popup : React.FC<PopupEvent> = ({popupContent, setPopup}) => {
         )
     }
 
-
-export default Popup
+export default React.memo(Popup);

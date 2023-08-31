@@ -47,12 +47,13 @@ interface Popupcont {
 interface selected {
   selectedTree: any; 
   selectedTheme: any;
+  popupcont: Popupcont;
   setPopup: (Popup: Popupcont) => void;
 }
 
 
 
-const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopup}) => {
+const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, popupcont, setPopup}) => {
 
   const tree: TreeProps = {
     data: null
@@ -152,6 +153,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
         let selectedMethod = "CoFI";
         let longpress = false;
         var nodeSize = { width: 200, height: 200}
+        var selectedNode = " ";
         var treemap = d3.tree()
           .nodeSize([nodeSize.width, nodeSize.height])
           .separation(function(a : any, b : any) {
@@ -214,7 +216,6 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                           (d._children && d._children.length > 0 && (d._children[0].children || d._children[0]._children))) {
                         return treeTheme.nodeFill;
                       } else {
-                        console.log(treeTheme.secondLastFill)
                         return treeTheme.secondLastFill;
                       }
                     } else {
@@ -302,7 +303,6 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                         // If the mousedown event's duration is longer than 500 ms, it is a long press
                         longpress = true;
                         selectedMethod = d.data.name
-                        console.log(selectedMethod)
                         tooltip.style("left", event.pageX + "px")
                             .style("top", event.pageY + "px")
                             .style("opacity", 1)
@@ -322,7 +322,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                               </div>
                             </div>
                             `);
-                    }, 800); // This delay of 500 ms could be adjusted
+                    }, 800); // This delay could be adjusted
                   event.stopPropagation();
                 });
               
@@ -331,15 +331,18 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                 if(pressTimer !== null) {
                     clearTimeout(pressTimer);
                     pressTimer = null;
-                    console.log("clear!");
                 }
 
             document.addEventListener('click', function(event : any) {
+
                   var isButton = event.target.id === 'tooltip-button';
                   if (!isButton) {
                       return;
                   }
-                  setPopup({selectedMethod: selectedMethod, visible: true})
+                  if (selectedNode != selectedMethod) {
+                    setPopup({selectedMethod: selectedMethod, visible: true})
+                    selectedNode = selectedMethod
+                  }                 
               });
             });
                 
@@ -420,10 +423,8 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
                 }
                 update(d);
                 let center = {w: windowSize.width/2, h: windowSize.height/3}
-                console.log(center)
                 let svgNode = svg.node();
                 let currentScale = svgNode? d3.zoomTransform(svgNode).k : 2;
-                console.log(currentScale)
                 svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate((center.w - d.x)*currentScale + (1.05 - currentScale)*center.w, (center.h - d.y)*currentScale + (1.05 - currentScale)*center.h).scale(currentScale));
               }
         }
@@ -472,7 +473,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, setPopu
   height={'92vh'}
   style={{backgroundColor: treeTheme.background}}
   ref={d3Container}
-/>;
+/>
 <div id="tooltip" style={{position: 'absolute', opacity: 1, backgroundColor: 'white', zIndex: 1000}}>
   {/* Tooltip contents will be inserted here */}
 </div>
