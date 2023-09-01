@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const HelperBox: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const helperBoxRef = useRef(null);
+  const helperBoxRef = useRef<HTMLDivElement>(null);
 
   const handleMouseOver = () => {
     setIsHovered(true);
