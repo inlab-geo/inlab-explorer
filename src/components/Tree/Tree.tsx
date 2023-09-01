@@ -113,7 +113,7 @@ const TreeComponent: React.FC<selected> = ({selectedTree, selectedTheme, popupco
   }
 
   function generate_des(d : TreeProps) {
-    return d.data?.description? d.data?.description : d.data?.name + "contains many sub node, please expand"
+    return d.data?.description? d.data?.description : d.data?.name + ". Click to expand."
   }
 
   function gen_button(d : TreeProps, color : string, textColor : string, width : number) {
