@@ -1,40 +1,75 @@
 html, body {  
-    margin: 0;
-    padding: 0;
-  }
-  .node {
-    cursor: pointer;
-  }
-  
-  .node circle {
-  }
-  
-  .node text {
+  margin: 0;
+  padding: 0;
+}
+.node {
+  cursor: pointer;
+}
 
-  }
-  
-  .link {
-    fill: none;
-    stroke: rgb(55, 68, 105);
-    stroke-width: 2px;
-  }
+.node circle {
+}
 
-  .nodeCard {
+.node text {
 
-  }
+}
 
-  /* .nodeCard button {
-    pointer-events: none;
-  } */
-  
-  
-  .nodeName {
-    margin: 5px;
-  }
-  
-  .nodeButton {
-    margin: 5px;
-  }
+.link {
+  fill: none;
+  stroke: rgb(55, 68, 105);
+  stroke-width: 2px;
+}
+
+.nodeCard {
+
+}
+
+/* .nodeCard button {
+  pointer-events: none;
+} */
 
 
-  
+.nodeName {
+  margin: 5px;
+}
+
+.nodeButton {
+  margin: 5px;
+}
+
+.top-panel {
+  position: relative;
+}
+
+.helper-box {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  z-index: 999;
+}
+.tooltip {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  min-width: 300px;
+  text-align: left;
+}
+.tooltip-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.tooltip-text {
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
