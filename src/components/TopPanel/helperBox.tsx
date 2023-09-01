@@ -43,7 +43,7 @@ const HelperBox: React.FC = () => {
       {isHovered && (
         <div className="tooltip">
           <h4 className="tooltip-title">Navigate Around the Explorer</h4>
-          <p className="tooltip-text">1. Click the top menu bar to toggle between "CoFI Methods", "CoFI Examples", and "Espresso Problems".</p>
+          <p className="tooltip-text">1. Click the top menu bar to toggle between &quot;CoFI Methods&quot;, &quot;CoFI Examples&quot;, and &quot;Espresso Problems&quot;.</p>
           <p className="tooltip-text">2. Click the central tree boxes to expand or collapse their branches.</p>
           <p className="tooltip-text">3. Long-press the boxes to display a pop-up window with additional details.</p>
         </div>
