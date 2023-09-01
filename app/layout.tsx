@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'InLab Geo',
-  description: ' ',
+  title: 'InLab Explorer',
+  description: 'Catalog of methods and examples within CoFI and Espresso ecosystem',
 }
 
 export default function RootLayout({
