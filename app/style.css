@@ -44,17 +44,23 @@ html, body {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  width: 30px;
-  height: 30px;
-  background-color: #f1f1f1;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
   text-align: center;
-  line-height: 30px;
   cursor: pointer;
   z-index: 999;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.question-mark {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
 }
 .tooltip {
   position: absolute;
-  bottom: 40px;
+  bottom: 50px;
   left: 10px;
   background-color: #333;
   color: #fff;
