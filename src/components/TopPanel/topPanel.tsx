@@ -3,7 +3,7 @@ import React, { useState }  from 'react';
 import TreeComponent from '../Tree/Tree';
 import Panel from './panel';
 import Popup from './popup';
-import HelperBox from './HelperBox';
+import HelperBox from './helperBox';
 
 
 function TopPanel() {
