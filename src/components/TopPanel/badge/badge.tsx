@@ -5,23 +5,23 @@ import espressoBadges from "./badgeEspresso";
 import exampleBadges from "./badgeExample";
 
 interface Badge {
-    link: string;
-    io: string;
+  link: string;
+  io: string;
 }
 type BadgeGroup = Badge[];
 
 // This is where you store all badge groups
 interface BadgeCollections {
-    cofi: BadgeGroup;
-    espresso: BadgeGroup;
-    example: BadgeGroup
+  cofi: BadgeGroup;
+  espresso: BadgeGroup;
+  example: BadgeGroup;
 }
 
 const badgeCollections: BadgeCollections = {
-    cofi: cofiBadges,
-    espresso: cofiBadges,
-    example: exampleBadges
+  cofi: cofiBadges,
+  espresso: cofiBadges,
+  example: exampleBadges,
 };
 
-export type {Badge, BadgeGroup, BadgeCollections}
-export {badgeCollections}
+export type { Badge, BadgeGroup, BadgeCollections };
+export { badgeCollections };

@@ -1,6 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
 ## Run this App locally:
 
 Makesure you have npm installed, after you clone this project, run:
@@ -35,7 +34,8 @@ If you want to change any content, please clone this repo, and run:
 git submodule init
 git submodule update
 ```
-Then, you will have all files set! please find the forked version in /pysearch_tool. 
+
+Then, you will have all files set! please find the forked version in /pysearch_tool.
 
 Finally, open the root folder of this git repository, run:
 
@@ -43,8 +43,8 @@ Finally, open the root folder of this git repository, run:
 #I created those special key for you to access s3 service!
 python interface.py <PUBLIC_KEY> <PRIVATE_KEY>
 ```
-refresh the visualisation, those changes you made should be there.
 
+refresh the visualisation, those changes you made should be there.
 
 ## Learn More
 
@@ -60,4 +60,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 every git push will update this website!~
 
 https://aws-app-hosting.vercel.app/
-
