@@ -268,11 +268,6 @@ const TreeComponent: React.FC<selected> = ({
           .attr("stroke-width", function (d) {
             return d.parent ? 1 : 0;
           })
-          // .attr("stroke", function(d : any) {
-          //   return d.children || d._children
-          //     ? treeTheme.nodeStroke
-          //     : "rgb(38, 222, 176)";
-          // })
           .attr("stroke-dasharray", function (d: any) {
             return d.children || d._children ? "0" : "2.2";
           })
@@ -326,50 +321,68 @@ const TreeComponent: React.FC<selected> = ({
             return d.data.name;
           });
 
-        nodeEnter.on("mousedown", function (event, d: any) {
-          // Clear any existing timer before setting a new one
-          if (pressTimer !== null) {
-            clearTimeout(pressTimer);
-          }
-          pressTimer = setTimeout(function () {
-            // If the mousedown event's duration is longer than 500 ms, it is a long press
-            longpress = true;
-            selectedMethod = d.data.name;
-            tooltip
-              .style("left", event.pageX + "px")
-              .style("top", event.pageY + "px")
-              .style("opacity", 1).html(`
-                            <div style="border: 1px solid black; width: ${
-                              d.data.width + 50
-                            }px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
-                              <div style="background-color: lightgray; padding: 10px;">
-                                ${d.data.name}
-                              </div>
-                              <div style="background-color: white; padding: 10px; margin-top: 10px; word-wrap: break-word; width: ${
-                                d.data.width + 30
-                              }px;min-height: 150px;">
-                                  ${generate_des(d)}
-                              </div>
-                              <div style="display: flex; justify-content: space-around; margin-top: 10px; width: ${
-                                d.data.width + 30
-                              }px; min-width: 160px;">
-                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
-                                ${gen_button(
-                                  d,
-                                  "#008CBA",
-                                  "#fff",
-                                  d.data.width + 30,
-                                )}
+          // handle long press -> pop up description window
+          const isTouchEvent = (event: MouseEvent | TouchEvent): event is TouchEvent => {
+            return 'touches' in event;
+          };
 
+          function handleLongPressStart(event: MouseEvent | TouchEvent, d: any) {
+            // Clear any existing timer before setting a new one
+            if (pressTimer !== null) {
+              clearTimeout(pressTimer);
+            }
+            pressTimer = setTimeout(function () {
+              // If the mousedown event's duration is longer than 500 ms, it is a long press
+              longpress = true;
+              selectedMethod = d.data.name;
+
+              let pageX: number, pageY: number;
+              if (isTouchEvent(event)) {
+                  pageX = event.touches[0].pageX;
+                  pageY = event.touches[0].pageY;
+              } else {
+                  pageX = event.pageX;
+                  pageY = event.pageY;
+              }
+              
+              tooltip
+                .style("left", pageX + "px")
+                .style("top", pageY + "px")
+                .style("opacity", 1).html(`
+                              <div style="border: 1px solid black; width: ${
+                                d.data.width + 50
+                              }px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
+                                <div style="background-color: lightgray; padding: 10px;">
+                                  ${d.data.name}
+                                </div>
+                                <div style="background-color: white; padding: 10px; margin-top: 10px; word-wrap: break-word; width: ${
+                                  d.data.width + 30
+                                }px;min-height: 150px;">
+                                    ${generate_des(d)}
+                                </div>
+                                <div style="display: flex; justify-content: space-around; margin-top: 10px; width: ${
+                                  d.data.width + 30
+                                }px; min-width: 160px;">
+                                  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
+                                  ${gen_button(
+                                    d,
+                                    "#008CBA",
+                                    "#fff",
+                                    d.data.width + 30,
+                                  )}
+          
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                            `);
-          }, 800); // This delay could be adjusted
-          event.stopPropagation();
-        });
+                              `);
+            }, 800); // This delay could be adjusted
+            event.stopPropagation();
+          }
 
-        document.addEventListener("mouseup", function (event) {
+        nodeEnter.on("mousedown", handleLongPressStart);
+        nodeEnter.on("touchstart", handleLongPressStart);
+
+        function handleLongPressEnd(event: MouseEvent | TouchEvent) {
           // Clear the timer when the mouse button is released
           if (pressTimer !== null) {
             clearTimeout(pressTimer);
@@ -386,7 +399,10 @@ const TreeComponent: React.FC<selected> = ({
               selectedNode = selectedMethod;
             }
           });
-        });
+        }
+
+        document.addEventListener("mouseup", handleLongPressEnd);
+        document.addEventListener("touchend", handleLongPressEnd);
 
         var nodeUpdate = nodeEnter.merge(node);
 
