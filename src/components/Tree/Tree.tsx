@@ -1,9 +1,5 @@
 "use client";
-import React, {
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import { HierarchyPointNode } from "d3";
 import "../../../app/style.css";
@@ -321,34 +317,36 @@ const TreeComponent: React.FC<selected> = ({
             return d.data.name;
           });
 
-          // handle long press -> pop up description window
-          const isTouchEvent = (event: MouseEvent | TouchEvent): event is TouchEvent => {
-            return 'touches' in event;
-          };
+        // handle long press -> pop up description window
+        const isTouchEvent = (
+          event: MouseEvent | TouchEvent,
+        ): event is TouchEvent => {
+          return "touches" in event;
+        };
 
-          function handleLongPressStart(event: MouseEvent | TouchEvent, d: any) {
-            // Clear any existing timer before setting a new one
-            if (pressTimer !== null) {
-              clearTimeout(pressTimer);
+        function handleLongPressStart(event: MouseEvent | TouchEvent, d: any) {
+          // Clear any existing timer before setting a new one
+          if (pressTimer !== null) {
+            clearTimeout(pressTimer);
+          }
+          pressTimer = setTimeout(function () {
+            // If the mousedown event's duration is longer than 500 ms, it is a long press
+            longpress = true;
+            selectedMethod = d.data.name;
+
+            let pageX: number, pageY: number;
+            if (isTouchEvent(event)) {
+              pageX = event.touches[0].pageX;
+              pageY = event.touches[0].pageY;
+            } else {
+              pageX = event.pageX;
+              pageY = event.pageY;
             }
-            pressTimer = setTimeout(function () {
-              // If the mousedown event's duration is longer than 500 ms, it is a long press
-              longpress = true;
-              selectedMethod = d.data.name;
 
-              let pageX: number, pageY: number;
-              if (isTouchEvent(event)) {
-                  pageX = event.touches[0].pageX;
-                  pageY = event.touches[0].pageY;
-              } else {
-                  pageX = event.pageX;
-                  pageY = event.pageY;
-              }
-              
-              tooltip
-                .style("left", pageX + "px")
-                .style("top", pageY + "px")
-                .style("opacity", 1).html(`
+            tooltip
+              .style("left", pageX + "px")
+              .style("top", pageY + "px")
+              .style("opacity", 1).html(`
                               <div style="border: 1px solid black; width: ${
                                 d.data.width + 50
                               }px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
@@ -375,9 +373,9 @@ const TreeComponent: React.FC<selected> = ({
                                 </div>
                               </div>
                               `);
-            }, 800); // This delay could be adjusted
-            event.stopPropagation();
-          }
+          }, 800); // This delay could be adjusted
+          event.stopPropagation();
+        }
 
         nodeEnter.on("mousedown", handleLongPressStart);
         nodeEnter.on("touchstart", handleLongPressStart);
