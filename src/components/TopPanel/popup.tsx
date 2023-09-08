@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import styled, { keyframes } from "styled-components";
 import methodRelationData from "../../../public/method_relation.json";
 import examplesRelationData from "../../../public/example_relation.json"; 
@@ -81,6 +81,8 @@ const ContentContainer = styled.div`
 `;
 
 const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
+  const popupRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
     load_examples(methodRelationData);
     load_examples(examplesRelationData); 
@@ -173,10 +175,29 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
     );
   }
 
+  useEffect(() => {
+    // Function to handle the outside click
+    function handleOutsideClick(event: MouseEvent) {
+      if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
+        setPopup({ visible: false, selectedMethod: "CoFI" });
+      }
+    }
+  
+    // Only add the listener if the popup is visible
+    if (popupContent.visible) {
+      document.addEventListener("click", handleOutsideClick);
+    }
+  
+    // Cleanup listener when component is unmounted or popup is closed
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, [popupContent.visible, setPopup]);
+
   return (
     <div>
       {popupContent.visible && (
-        <Popupdiv>
+        <Popupdiv ref={popupRef}>
           {title()}
           <ContentContainer>{listExamples()}</ContentContainer>
         </Popupdiv>
