@@ -4,7 +4,7 @@ import TreeComponent from "../Tree/Tree";
 import Panel from "./panel";
 import Popup from "./popup";
 import HelperBox from "./helperBox";
-import FloatingText from './floatingText';
+import FloatingText from "./floatingText";
 
 function TopPanel() {
   const [current_tree, setCurrentTree] = useState("CoFI Methods");

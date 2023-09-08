@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import methodRelationData from "../../../public/method_relation.json";
+import examplesRelationData from "../../../public/example_relation.json"; 
 
 interface Example {
   name: string;
@@ -82,7 +83,8 @@ const ContentContainer = styled.div`
 const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
   useEffect(() => {
     load_examples(methodRelationData);
-  }, []);
+    load_examples(examplesRelationData); 
+  }, []);  
 
   function singleContent(
     title: string,
@@ -160,11 +162,12 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
           display: "flex",
         }}
       >
-        Examples under {popupContent.selectedMethod}
+        <div style={{ padding: "5px" }}>Examples under {popupContent.selectedMethod}</div>
         <button
           onClick={() => setPopup({ visible: false, selectedMethod: "CoFI" })}
+          style={{ height: "100%" }}
         >
-          <img src="./icon2.png" alt="logo" style={{ height: "100%" }} />
+          <img src="./icon2.png" alt="logo" style={{ width: "100%", height: "100%" }} />
         </button>
       </div>
     );

@@ -121,7 +121,7 @@ const TreeComponent: React.FC<selected> = ({
   function generate_des(d: TreeProps) {
     return d.data?.description
       ? d.data?.description
-      : d.data?.name + ". Click to expand.";
+      : d.data?.name + '. Click the node to expand or buttons below for related links.';
   }
 
   function gen_button(
