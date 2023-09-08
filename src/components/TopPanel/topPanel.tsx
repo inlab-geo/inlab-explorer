@@ -4,6 +4,7 @@ import TreeComponent from "../Tree/Tree";
 import Panel from "./panel";
 import Popup from "./popup";
 import HelperBox from "./helperBox";
+import FloatingText from './floatingText';
 
 function TopPanel() {
   const [current_tree, setCurrentTree] = useState("CoFI Methods");
@@ -23,7 +24,10 @@ function TopPanel() {
       />
       <Popup popupContent={popup} setPopup={setPopup} />
       <div className="top-panel">
-        <HelperBox />
+        <div className="helper-container">
+          <HelperBox />
+          <FloatingText interval={3000} />
+        </div>
       </div>
     </div>
   );
