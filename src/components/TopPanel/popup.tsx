@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import styled, { keyframes } from "styled-components";
 import methodRelationData from "../../../public/method_relation.json";
+import examplesRelationData from "../../../public/example_relation.json"; 
 
 interface Example {
   name: string;
@@ -80,9 +81,12 @@ const ContentContainer = styled.div`
 `;
 
 const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
+  const popupRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
     load_examples(methodRelationData);
-  }, []);
+    load_examples(examplesRelationData); 
+  }, []);  
 
   function singleContent(
     title: string,
@@ -160,20 +164,40 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
           display: "flex",
         }}
       >
-        Examples under {popupContent.selectedMethod}
+        <div style={{ padding: "5px" }}>Examples under {popupContent.selectedMethod}</div>
         <button
           onClick={() => setPopup({ visible: false, selectedMethod: "CoFI" })}
+          style={{ height: "100%" }}
         >
-          <img src="./icon2.png" alt="logo" style={{ height: "100%" }} />
+          <img src="./icon2.png" alt="logo" style={{ width: "100%", height: "100%" }} />
         </button>
       </div>
     );
   }
 
+  useEffect(() => {
+    // Function to handle the outside click
+    function handleOutsideClick(event: MouseEvent) {
+      if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
+        setPopup({ visible: false, selectedMethod: "CoFI" });
+      }
+    }
+  
+    // Only add the listener if the popup is visible
+    if (popupContent.visible) {
+      document.addEventListener("click", handleOutsideClick);
+    }
+  
+    // Cleanup listener when component is unmounted or popup is closed
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, [popupContent.visible, setPopup]);
+
   return (
     <div>
       {popupContent.visible && (
-        <Popupdiv>
+        <Popupdiv ref={popupRef}>
           {title()}
           <ContentContainer>{listExamples()}</ContentContainer>
         </Popupdiv>

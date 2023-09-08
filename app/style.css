@@ -37,11 +37,14 @@ body {
 .top-panel {
   position: relative;
 }
-
-.helper-box {
+.helper-container {
+  display: flex;
+  align-items: center;
   position: absolute;
   bottom: 10px;
   left: 10px;
+}
+.helper-box {
   width: 40px;
   height: 40px;
   background-color: #333;
@@ -76,4 +79,16 @@ body {
   font-size: 12px;
   margin-top: 2px;
   margin-bottom: 2px;
+}
+.floating-text-container {
+  margin-left: 10px;
+}
+.floating-text {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.floating-text.active {
+  display: block;
+  opacity: 1;
 }
