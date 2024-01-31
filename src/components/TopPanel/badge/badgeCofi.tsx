@@ -7,22 +7,22 @@ const github: Badge = {
 
 const pypi: Badge = {
   link: "https://pypi.org/project/cofi/",
-  io: "https://camo.githubusercontent.com/716357bd1cd720f8ca58b056c75672a8df96451dfbf66c5e41b2b2a8cff613fe/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f636f66693f6c6f676f3d70797069267374796c653d666c61742d73717561726526636f6c6f723d636165396666266c6162656c436f6c6f723d663866396661",
+  io: "https://img.shields.io/pypi/v/cofi?logo=pypi&style=flat-square&color=cae9ff&labelColor=f8f9fa",
 };
 
 const condaForge: Badge = {
   link: "https://anaconda.org/conda-forge/cofi",
-  io: "https://camo.githubusercontent.com/0292eedb71f978c40b8e86f7628f17545737efbbfc441b31977386f8934fff9f/68747470733a2f2f696d672e736869656c64732e696f2f636f6e64612f766e2f636f6e64612d666f7267652f636f66692e7376673f6c6f676f3d636f6e6461666f726765267374796c653d666c61742d73717561726526636f6c6f723d636365336465266c6162656c436f6c6f723d663866396661266c6f676f436f6c6f723d333434653431",
+  io: "https://img.shields.io/conda/vn/conda-forge/cofi.svg?logo=condaforge&style=flat-square&color=cce3de&labelColor=f8f9fa&logoColor=344e41",
 };
 
 const readthedocs: Badge = {
   link: "https://cofi.readthedocs.io/en/latest/?badge=latest",
-  io: "https://camo.githubusercontent.com/b335e59394f3a2273c040ee466be2bcf6f5082f4faf2620896b6862eb490ba2c/68747470733a2f2f696d672e736869656c64732e696f2f72656164746865646f63732f636f66693f6c6f676f3d72656164746865646f6373267374796c653d666c61742d73717561726526636f6c6f723d666564396237266c6162656c436f6c6f723d663866396661266c6f676f436f6c6f723d656161633862",
+  io: "https://img.shields.io/readthedocs/cofi?logo=readthedocs&style=flat-square&color=fed9b7&labelColor=f8f9fa&logoColor=eaac8b",
 };
 
 const app: Badge = {
   link: "https://app.codecov.io/gh/inlab-geo/cofi",
-  io: "https://camo.githubusercontent.com/964927c68fe8d8529472bef058a8ad18f8a0d1de9c65e768de9fd409a8d61673/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636f762f632f6769746875622f696e6c61622d67656f2f636f66693f6c6f676f3d707974657374267374796c653d666c61742d73717561726526746f6b656e3d54385239564b4d34443726636f6c6f723d666663616434266c6162656c436f6c6f723d663866396661266c6f676f436f6c6f723d666639396338",
+  io: "https://img.shields.io/codecov/c/github/inlab-geo/cofi?logo=pytest&style=flat-square&token=T8R9VKM4D7&color=ffcad4&labelColor=f8f9fa&logoColor=ff99c8",
 };
 
 const cofiBadges: BadgeGroup = [github, pypi, condaForge, readthedocs, app];
