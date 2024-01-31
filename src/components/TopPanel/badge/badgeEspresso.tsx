@@ -7,22 +7,22 @@ const github: Badge = {
 
 const pypi: Badge = {
   link: "https://pypi.org/project/cofi/",
-  io: "https://camo.githubusercontent.com/837de8c831056f17dbb589ca5c103b623d8636e13ebb05f81252c260b41afec5/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f67656f2d657370726573736f3f6c6f676f3d70797069267374796c653d666c61742d73717561726526636f6c6f723d626465306665266c6162656c436f6c6f723d663866396661",
+  io: "https://img.shields.io/pypi/v/geo-espresso?logo=pypi&style=flat-square&color=bde0fe&labelColor=f8f9fa",
 };
 
 const workflows: Badge = {
   link: "https://github.com/inlab-geo/espresso/actions/workflows/build_wheels.yml",
-  io: "https://camo.githubusercontent.com/5f53a7f78dc22da1cd0dc662f1d07cef3fc4a0e5fa249d46173632cd701f4083/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f696e6c61622d67656f2f657370726573736f2f6275696c645f776865656c732e796d6c3f6272616e63683d6d61696e266c6f676f3d676974687562616374696f6e73267374796c653d666c61742d73717561726526636f6c6f723d636364356165266c6162656c436f6c6f723d663866396661",
+  io: "https://img.shields.io/github/actions/workflow/status/inlab-geo/espresso/build_wheels.yml?branch=main&logo=githubactions&style=flat-square&color=ccd5ae&labelColor=f8f9fa",
 };
 
 const readthedocs: Badge = {
   link: "https://geo-espresso.readthedocs.io/en/latest/?badge=latest",
-  io: "https://camo.githubusercontent.com/236430cacab4f1e7b9a27e184cd8d0e5e872c76fd9b3c1175bd60708417e01d9/68747470733a2f2f696d672e736869656c64732e696f2f72656164746865646f63732f67656f2d657370726573736f3f6c6f676f3d72656164746865646f6373267374796c653d666c61742d73717561726526636f6c6f723d666564396237266c6162656c436f6c6f723d663866396661266c6f676f436f6c6f723d656161633862",
+  io: "https://img.shields.io/readthedocs/geo-espresso?logo=readthedocs&style=flat-square&color=fed9b7&labelColor=f8f9fa&logoColor=eaac8b",
 };
 
 const slack: Badge = {
   link: "https://join.slack.com/t/inlab-community/shared_invite/zt-1ejny069z-v5ZyvP2tDjBR42OAu~TkHg",
-  io: "https://camo.githubusercontent.com/b0a5aab276840d5b1faf36db94332a283e85428daf24e7259f9f0bef5b7978d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536c61636b2d496e4c61625f636f6d6d756e6974792d3441313534423f6c6f676f3d736c61636b267374796c653d666c61742d73717561726526636f6c6f723d636462346462266c6162656c436f6c6f723d663866396661266c6f676f436f6c6f723d396338396238",
+  io: "https://img.shields.io/badge/Slack-InLab_community-4A154B?logo=slack&style=flat-square&color=cdb4db&labelColor=f8f9fa&logoColor=9c89b8",
 };
 
 const espressoBadges: BadgeGroup = [
