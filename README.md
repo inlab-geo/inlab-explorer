@@ -1,62 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InLab Explorer
 
-## Run this App locally:
+Welcome to the [InLab Explorer](https://inlab.au/inlab-explorer) - explore the InLab software ecosystem interactively!
 
-Makesure you have npm installed, after you clone this project, run:
+[![InLab Explorer screenshot](public/screenshot.png)](https://inlab.au/inlab-explorer)
 
-```bash
-npm install
-# then
-npm run dev
-```
+## Developer reference
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This repository includes the frontend of InLab Explorer. This is a server-side rendered 
+Next.js project and data are stored as three JSON files directly in the public folder:
 
-## Change colors!
+- [public/method_relation.json](public/method_relation.json)
+- [public/example_relation.json](public/example_relation.json)
+- [public/app_relation.json](public/app_relation.json)
 
-There are two different parts, first is the color set for selection bar. Please modify this file:
+These files are created by 
+[a workflow from the backend](https://github.com/inlab-geo/inlab-explorer-backend/actions/workflows/jobs.yaml), 
+which is triggered whenever there's a change to the cofi, espresso and cofi-examples repositories.
 
-https://github.com/Denghu-JI/AWS-app-hosting/blob/main/src/components/topPanel/style.tsx
+### Serve locally
 
-For changing the tree and background color, please modify this file:
+If you'd like to run this app locally:
 
-https://github.com/Denghu-JI/AWS-app-hosting/blob/main/src/components/Rectangle/style.tsx
+1. Clone this repository: `git clone https://github.com/inlab-geo/inlab-explorer.git; cd inlab-explorer`
+2. Install JavaScript dependencies: `npm install`
+3. Run the app in development mode: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the website
 
-## Change content!
+### Change colour schemes
 
-The backend is in this git repository:
+Two file are related to changing colour themes:
 
-https://github.com/Denghu-JI/cofi_visualisation_backend
+- Colour set for selection bar: [src/components/topPanel/style.tsx](src/components/TopPanel/style.tsx)
+- Colour set for the tree and background canva: [src/components/Rectangle/style.tsx](src/components/Tree/style.tsx)
 
-If you want to change any content, please clone this repo, and run:
+### Update the data
 
-```bash
-git submodule init
-git submodule update
-```
+The three data files sitting under `public` folder are updated automatically by the 
+[backend workflow](https://github.com/inlab-geo/inlab-explorer-backend/actions/workflows/jobs.yaml).
 
-Then, you will have all files set! please find the forked version in /pysearch_tool.
-
-Finally, open the root folder of this git repository, run:
-
-```bash
-#I created those special key for you to access s3 service!
-python interface.py <PUBLIC_KEY> <PRIVATE_KEY>
-```
-
-refresh the visualisation, those changes you made should be there.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-every git push will update this website!~
-
-https://aws-app-hosting.vercel.app/
+Follow the instructions in the backend repository for how to generate the files manually.
