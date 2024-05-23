@@ -98,7 +98,7 @@ const Panel: React.FC<onClick> = ({ onClickTree, onClickTheme }) => {
           style={{ height: "5vh" }}
           onMouseEnter={() => setShowDropdown(false)}
         >
-          <a href="https://inlab.edu.au/">
+          <a href="https://inlab.au/">
             <img
               src="./icon2_R.png"
               alt="logo left"
