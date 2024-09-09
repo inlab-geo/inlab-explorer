@@ -9,49 +9,63 @@ interface Example {
   linkToGit: string;
 }
 
-let exampleExample: Record<string, Example[]> = {
-  CoFI: [],
+interface ExampleList {
+  nameToExamples: Record<string, Example[]>;
+  nameToTutorials: Record<string, Example[]>;
+}
+
+let exampleExample: ExampleList = {
+  nameToExamples: {CoFI: []},
+  nameToTutorials: {CoFI: []},
 };
 
-function load_examples(data: any) {
-  if (data.examples) {
-    data.examples.forEach((example: any) => {
-      // Check if the key exists
-      if (exampleExample[data.name]) {
-        // Key exists, append the new example
-        exampleExample[data.name].push({
+function load_examples(data_examples: any, name: string, to_update: Record<string, Example[]>) {
+  data_examples.forEach((example: any) => {
+    // Check if the key exists
+    if (to_update[name]) {
+      // Key exists, append the new example
+      to_update[name].push({
+        name: example.name,
+        description: example.description,
+        linkToGit: example.linkToGit,
+      });
+    } else {
+      // Key does not exist, create new array with the new example
+      to_update[name] = [
+        {
           name: example.name,
           description: example.description,
           linkToGit: example.linkToGit,
-        });
-      } else {
-        // Key does not exist, create new array with the new example
-        exampleExample[data.name] = [
-          {
-            name: example.name,
-            description: example.description,
-            linkToGit: example.linkToGit,
-          },
-        ];
-      }
-    });
+        },
+      ];
+    }
+  });
+}
+
+function load_tree_node(data: any) {
+  if (data.examples) {
+    load_examples(data.examples, data.name, exampleExample.nameToExamples);
+  }
+  if (data.tutorials) {
+    load_examples(data.tutorials, data.name, exampleExample.nameToTutorials);
   }
 
   if (data.children) {
     data.children.forEach((child: any) => {
-      load_examples(child);
+      load_tree_node(child);
     });
   }
 }
 
-interface Popupcont {
+interface Popupcontent {
   visible: boolean;
   selectedMethod: string | null;
+  isTutorial: boolean;
 }
 
 interface PopupEvent {
-  popupContent: Popupcont;
-  setPopup: (Popup: Popupcont) => void;
+  popupContent: Popupcontent;
+  setPopup: (Popup: Popupcontent) => void;
 }
 
 const fadeIn = keyframes`
@@ -84,8 +98,8 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
   const popupRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    load_examples(methodRelationData);
-    load_examples(examplesRelationData); 
+    load_tree_node(methodRelationData);
+    load_tree_node(examplesRelationData); 
   }, []);  
 
   function singleContent(
@@ -135,8 +149,20 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
 
   function listExamples() {
     if (popupContent.selectedMethod) {
-      if (exampleExample[popupContent.selectedMethod]) {
-        return exampleExample[popupContent.selectedMethod].map(
+      if (!popupContent.isTutorial && exampleExample.nameToExamples[popupContent.selectedMethod]) {
+        return exampleExample.nameToExamples[popupContent.selectedMethod].map(
+          (example, index) => {
+            return singleContent(
+              example.name,
+              example.description,
+              example.linkToGit,
+              index.toString(),
+            );
+          },
+        );
+      }
+      if (popupContent.isTutorial && exampleExample.nameToTutorials[popupContent.selectedMethod]) {
+        return exampleExample.nameToTutorials[popupContent.selectedMethod].map(
           (example, index) => {
             return singleContent(
               example.name,
@@ -166,7 +192,7 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
       >
         <div style={{ padding: "5px" }}>Examples under {popupContent.selectedMethod}</div>
         <button
-          onClick={() => setPopup({ visible: false, selectedMethod: "CoFI" })}
+          onClick={() => setPopup({ visible: false, selectedMethod: "CoFI", isTutorial: false })}
           style={{ height: "100%" }}
         >
           <img src="./icon2.png" alt="logo" style={{ width: "100%", height: "100%" }} />
@@ -179,7 +205,7 @@ const Popup: React.FC<PopupEvent> = ({ popupContent, setPopup }) => {
     // Function to handle the outside click
     function handleOutsideClick(event: MouseEvent) {
       if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
-        setPopup({ visible: false, selectedMethod: "CoFI" });
+        setPopup({ visible: false, selectedMethod: "CoFI", isTutorial: false });
       }
     }
   

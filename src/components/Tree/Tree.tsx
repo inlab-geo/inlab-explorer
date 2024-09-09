@@ -39,6 +39,7 @@ function measureTextWidth(text: string, font: string) {
 interface Popupcont {
   visible: boolean;
   selectedMethod: string | null;
+  isTutorial: boolean;
 }
 
 interface selected {
@@ -148,11 +149,16 @@ const TreeComponent: React.FC<selected> = ({
     }
     function getLinkExamples(d: TreeProps) {
       return d.data?.examples
-        ? `<button id="tooltip-button" style="background-color: #008CBA; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Show Examples</button>`
+        ? `<button id="examples-button" style="background-color: #008CBA; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Show Examples</button>`
+        : " ";
+    }
+    function getLinkTutorials(d: TreeProps) {
+      return d.data?.tutorials
+        ? `<button id="tutorials-button" style="background-color: #008CBA; width: ${width}px; border: none; color: white; padding: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; box-sizing: border-box;">Show Tutorials</button>`
         : " ";
     }
 
-    return `${getLinkGit(d)} ${getLinkDoc(d)} ${getLinkExamples(d)}`;
+    return `${getLinkGit(d)} ${getLinkDoc(d)} ${getLinkTutorials(d)} ${getLinkExamples(d)}`;
   }
 
   useEffect(() => {
@@ -388,14 +394,22 @@ const TreeComponent: React.FC<selected> = ({
           }
 
           document.addEventListener("click", function (event: any) {
-            var isButton = event.target.id === "tooltip-button";
-            if (!isButton) {
+            let isExample = event.target.id === "examples-button";
+            let isTutorial = event.target.id === "tutorials-button";
+            if (!isExample && !isTutorial) {
               return;
             }
-            if (selectedNode != selectedMethod) {
-              setPopup({ selectedMethod: selectedMethod, visible: true });
-              selectedNode = selectedMethod;
-            }
+            setPopup({
+              selectedMethod: selectedMethod,
+              visible: true,
+              isTutorial: isTutorial,
+            });
+            selectedNode = selectedMethod;
+
+            // if (selectedNode != selectedMethod) {
+            //   setPopup({ selectedMethod: selectedMethod, visible: true });
+            //   selectedNode = selectedMethod;
+            // }
           });
         }
 

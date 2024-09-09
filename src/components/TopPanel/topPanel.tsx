@@ -12,7 +12,8 @@ function TopPanel() {
   const [popup, setPopup] = useState<{
     visible: boolean;
     selectedMethod: string | null;
-  }>({ visible: false, selectedMethod: "CoFI" });
+    isTutorial: boolean;
+  }>({ visible: false, selectedMethod: "CoFI", isTutorial: false });
   return (
     <div>
       <Panel onClickTree={setCurrentTree} onClickTheme={setCurrentTheme} />
