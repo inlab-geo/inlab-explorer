@@ -5,54 +5,14 @@
   "description": null,
   "examples": [
     {
-      "name": "thin_plate_inversion.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
+      "name": "pygimli_dcip.ipynb",
+      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
     },
     {
-      "name": "single_survey_line.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-    },
-    {
-      "name": "single_survey_line_vertical_only.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-    },
-    {
-      "name": "three_survey_lines_parameter_estimation.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_baysbay.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_emcee.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_neighpy.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
-    },
-    {
-      "name": "nonlinear_curve_fitting.ipynb",
-      "description": "Non-linear curve fitting",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-    },
-    {
-      "name": "xray_tomography.ipynb",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-    },
-    {
-      "name": "xray_tomography_linear_solver.py",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+      "name": "pygimli_dcip_century_tri_mesh.ipynb",
+      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
       "name": "linear_regression.ipynb",
@@ -95,29 +55,9 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
     },
     {
-      "name": "fmm_tomography.ipynb",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
-    },
-    {
-      "name": "fmm_tomography_regularization_discussion.ipynb",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
-    },
-    {
-      "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
-    },
-    {
-      "name": "fmm_tomography_simple_newton.py",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
-    },
-    {
-      "name": "fmm_tomography_reg_scipy_optimiser.py",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
+      "name": "modified_himmelblau.ipynb",
+      "description": "Finding the global minimum of a modified Himmelblau function",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
     },
     {
       "name": "pygimli_ert.ipynb",
@@ -160,24 +100,34 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
     },
     {
-      "name": "pygimli_dcip.ipynb",
-      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+      "name": "nonlinear_curve_fitting.ipynb",
+      "description": "Non-linear curve fitting",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
     },
     {
-      "name": "pygimli_dcip_century_tri_mesh.ipynb",
-      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+      "name": "fmm_tomography.ipynb",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
     },
     {
-      "name": "modified_himmelblau.ipynb",
-      "description": "Finding the global minimum of a modified Himmelblau function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+      "name": "fmm_tomography_regularization_discussion.ipynb",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
     },
     {
-      "name": "sw_tomography.ipynb",
-      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+      "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
+    },
+    {
+      "name": "fmm_tomography_simple_newton.py",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
+    },
+    {
+      "name": "fmm_tomography_reg_scipy_optimiser.py",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
     },
     {
       "name": "surface_wave_receiver_function_joint.ipynb",
@@ -190,21 +140,71 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
     },
     {
+      "name": "thin_plate_inversion.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
+    },
+    {
+      "name": "single_survey_line.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
+    },
+    {
+      "name": "single_survey_line_vertical_only.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
+    },
+    {
+      "name": "three_survey_lines_parameter_estimation.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
+    },
+    {
+      "name": "three_survey_lines_smt_baysbay.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
+    },
+    {
+      "name": "three_survey_lines_smt_emcee.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
+    },
+    {
+      "name": "three_survey_lines_smt_neighpy.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
+    },
+    {
+      "name": "xray_tomography.ipynb",
+      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
+    },
+    {
+      "name": "xray_tomography_linear_solver.py",
+      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+    },
+    {
       "name": "receiver_function_inversion.ipynb",
       "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+    },
+    {
+      "name": "sw_tomography.ipynb",
+      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
     }
   ],
   "tutorials": [
     {
-      "name": "travel_time_tomography.ipynb",
-      "description": "Seismic wave tomography via fast marching method",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
-    },
-    {
       "name": "linear_regression.ipynb",
       "description": "Linear regression problem solved by linear solver, optimizer and sampler",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+    },
+    {
+      "name": "thin_plate_inversion.ipynb",
+      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
     },
     {
       "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
@@ -217,9 +217,9 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
     },
     {
-      "name": "thin_plate_inversion.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
+      "name": "travel_time_tomography.ipynb",
+      "description": "Seismic wave tomography via fast marching method",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
     }
   ],
   "children": [
@@ -229,6 +229,91 @@
       "link_doc": null,
       "description": null,
       "examples": [
+        {
+          "name": "pygimli_dcip.ipynb",
+          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+        },
+        {
+          "name": "pygimli_dcip_century_tri_mesh.ipynb",
+          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+        },
+        {
+          "name": "pygimli_ert.ipynb",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+        },
+        {
+          "name": "pygimli_ert_rect_gauss_newton.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
+        },
+        {
+          "name": "pygimli_ert_rect_scipy_min.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
+        },
+        {
+          "name": "pygimli_ert_toy_emcee_parallel.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
+        },
+        {
+          "name": "pygimli_ert_toy_emcee.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
+        },
+        {
+          "name": "pygimli_ert_tri_gauss_newton.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
+        },
+        {
+          "name": "pygimli_ert_tri_scipy_min.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
+        },
+        {
+          "name": "pygimli_ert_tri_torch_optim.py",
+          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
+        },
+        {
+          "name": "fmm_tomography.ipynb",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
+        },
+        {
+          "name": "fmm_tomography_regularization_discussion.ipynb",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
+        },
+        {
+          "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
+        },
+        {
+          "name": "fmm_tomography_simple_newton.py",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
+        },
+        {
+          "name": "fmm_tomography_reg_scipy_optimiser.py",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
+        },
+        {
+          "name": "surface_wave_receiver_function_joint.ipynb",
+          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+        },
+        {
+          "name": "sw_rf_joint_synthetic.ipynb",
+          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+        },
         {
           "name": "thin_plate_inversion.ipynb",
           "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
@@ -275,106 +360,21 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
         },
         {
-          "name": "fmm_tomography.ipynb",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
-        },
-        {
-          "name": "fmm_tomography_regularization_discussion.ipynb",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
-        },
-        {
-          "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
-        },
-        {
-          "name": "fmm_tomography_simple_newton.py",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
-        },
-        {
-          "name": "fmm_tomography_reg_scipy_optimiser.py",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
-        },
-        {
-          "name": "pygimli_ert.ipynb",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
-        },
-        {
-          "name": "pygimli_ert_rect_gauss_newton.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
-        },
-        {
-          "name": "pygimli_ert_rect_scipy_min.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
-        },
-        {
-          "name": "pygimli_ert_toy_emcee_parallel.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
-        },
-        {
-          "name": "pygimli_ert_toy_emcee.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
-        },
-        {
-          "name": "pygimli_ert_tri_gauss_newton.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
-        },
-        {
-          "name": "pygimli_ert_tri_scipy_min.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
-        },
-        {
-          "name": "pygimli_ert_tri_torch_optim.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
-        },
-        {
-          "name": "pygimli_dcip.ipynb",
-          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
-        },
-        {
-          "name": "pygimli_dcip_century_tri_mesh.ipynb",
-          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+          "name": "receiver_function_inversion.ipynb",
+          "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
         },
         {
           "name": "sw_tomography.ipynb",
           "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-        },
-        {
-          "name": "surface_wave_receiver_function_joint.ipynb",
-          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
-        },
-        {
-          "name": "sw_rf_joint_synthetic.ipynb",
-          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
-        },
-        {
-          "name": "receiver_function_inversion.ipynb",
-          "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
         }
       ],
       "tutorials": [
         {
-          "name": "travel_time_tomography.ipynb",
-          "description": "Seismic wave tomography via fast marching method",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
+          "name": "thin_plate_inversion.ipynb",
+          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
         },
         {
           "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
@@ -387,9 +387,9 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
         },
         {
-          "name": "thin_plate_inversion.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
+          "name": "travel_time_tomography.ipynb",
+          "description": "Seismic wave tomography via fast marching method",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
         }
       ],
       "children": [
@@ -399,6 +399,91 @@
           "link_doc": null,
           "description": null,
           "examples": [
+            {
+              "name": "pygimli_dcip.ipynb",
+              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+            },
+            {
+              "name": "pygimli_dcip_century_tri_mesh.ipynb",
+              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+            },
+            {
+              "name": "pygimli_ert.ipynb",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+            },
+            {
+              "name": "pygimli_ert_rect_gauss_newton.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
+            },
+            {
+              "name": "pygimli_ert_rect_scipy_min.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
+            },
+            {
+              "name": "pygimli_ert_toy_emcee_parallel.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
+            },
+            {
+              "name": "pygimli_ert_toy_emcee.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
+            },
+            {
+              "name": "pygimli_ert_tri_gauss_newton.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
+            },
+            {
+              "name": "pygimli_ert_tri_scipy_min.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
+            },
+            {
+              "name": "pygimli_ert_tri_torch_optim.py",
+              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
+            },
+            {
+              "name": "fmm_tomography.ipynb",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
+            },
+            {
+              "name": "fmm_tomography_regularization_discussion.ipynb",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
+            },
+            {
+              "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
+            },
+            {
+              "name": "fmm_tomography_simple_newton.py",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
+            },
+            {
+              "name": "fmm_tomography_reg_scipy_optimiser.py",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
+            },
+            {
+              "name": "surface_wave_receiver_function_joint.ipynb",
+              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+            },
+            {
+              "name": "sw_rf_joint_synthetic.ipynb",
+              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+            },
             {
               "name": "thin_plate_inversion.ipynb",
               "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
@@ -445,106 +530,21 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
             },
             {
-              "name": "fmm_tomography.ipynb",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
-            },
-            {
-              "name": "fmm_tomography_regularization_discussion.ipynb",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
-            },
-            {
-              "name": "fmm_tomography_gaussian_prior_scipy_opt.py",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
-            },
-            {
-              "name": "fmm_tomography_simple_newton.py",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
-            },
-            {
-              "name": "fmm_tomography_reg_scipy_optimiser.py",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
-            },
-            {
-              "name": "pygimli_ert.ipynb",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
-            },
-            {
-              "name": "pygimli_ert_rect_gauss_newton.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
-            },
-            {
-              "name": "pygimli_ert_rect_scipy_min.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
-            },
-            {
-              "name": "pygimli_ert_toy_emcee_parallel.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
-            },
-            {
-              "name": "pygimli_ert_toy_emcee.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
-            },
-            {
-              "name": "pygimli_ert_tri_gauss_newton.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
-            },
-            {
-              "name": "pygimli_ert_tri_scipy_min.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
-            },
-            {
-              "name": "pygimli_ert_tri_torch_optim.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
-            },
-            {
-              "name": "pygimli_dcip.ipynb",
-              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
-            },
-            {
-              "name": "pygimli_dcip_century_tri_mesh.ipynb",
-              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+              "name": "receiver_function_inversion.ipynb",
+              "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
             },
             {
               "name": "sw_tomography.ipynb",
               "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-            },
-            {
-              "name": "surface_wave_receiver_function_joint.ipynb",
-              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
-            },
-            {
-              "name": "sw_rf_joint_synthetic.ipynb",
-              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
-            },
-            {
-              "name": "receiver_function_inversion.ipynb",
-              "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
             }
           ],
           "tutorials": [
             {
-              "name": "travel_time_tomography.ipynb",
-              "description": "Seismic wave tomography via fast marching method",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
+              "name": "thin_plate_inversion.ipynb",
+              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
             },
             {
               "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
@@ -557,9 +557,9 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
             },
             {
-              "name": "thin_plate_inversion.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
+              "name": "travel_time_tomography.ipynb",
+              "description": "Seismic wave tomography via fast marching method",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
             }
           ],
           "children": [
@@ -570,39 +570,14 @@
               "description": null,
               "examples": [
                 {
-                  "name": "thin_plate_inversion.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
+                  "name": "pygimli_dcip.ipynb",
+                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
                 },
                 {
-                  "name": "single_survey_line.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-                },
-                {
-                  "name": "single_survey_line_vertical_only.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_parameter_estimation.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_baysbay.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_emcee.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_neighpy.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
+                  "name": "pygimli_dcip_century_tri_mesh.ipynb",
+                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
                 },
                 {
                   "name": "pygimli_ert.ipynb",
@@ -645,29 +620,196 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
                 },
                 {
-                  "name": "pygimli_dcip.ipynb",
-                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+                  "name": "thin_plate_inversion.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
                 },
                 {
-                  "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+                  "name": "single_survey_line.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
+                },
+                {
+                  "name": "single_survey_line_vertical_only.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
+                },
+                {
+                  "name": "three_survey_lines_parameter_estimation.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
+                },
+                {
+                  "name": "three_survey_lines_smt_baysbay.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
+                },
+                {
+                  "name": "three_survey_lines_smt_emcee.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
+                },
+                {
+                  "name": "three_survey_lines_smt_neighpy.ipynb",
+                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
                 }
               ],
               "tutorials": [
                 {
-                  "name": "electrical_resistivity_tomography.ipynb",
-                  "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
-                },
-                {
                   "name": "thin_plate_inversion.ipynb",
                   "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
+                },
+                {
+                  "name": "electrical_resistivity_tomography.ipynb",
+                  "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
                 }
               ],
               "children": [
+                {
+                  "name": "Electrical",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "examples": [
+                    {
+                      "name": "pygimli_dcip.ipynb",
+                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+                    },
+                    {
+                      "name": "pygimli_dcip_century_tri_mesh.ipynb",
+                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+                    },
+                    {
+                      "name": "pygimli_ert.ipynb",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+                    },
+                    {
+                      "name": "pygimli_ert_rect_gauss_newton.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
+                    },
+                    {
+                      "name": "pygimli_ert_rect_scipy_min.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
+                    },
+                    {
+                      "name": "pygimli_ert_toy_emcee_parallel.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
+                    },
+                    {
+                      "name": "pygimli_ert_toy_emcee.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
+                    },
+                    {
+                      "name": "pygimli_ert_tri_gauss_newton.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
+                    },
+                    {
+                      "name": "pygimli_ert_tri_scipy_min.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
+                    },
+                    {
+                      "name": "pygimli_ert_tri_torch_optim.py",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
+                    }
+                  ],
+                  "tutorials": [
+                    {
+                      "name": "electrical_resistivity_tomography.ipynb",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Direct current, induced polarization",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "pygimli_dcip.ipynb",
+                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
+                        },
+                        {
+                          "name": "pygimli_dcip_century_tri_mesh.ipynb",
+                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+                        }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Electrical resistivity tomography",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "pygimli_ert.ipynb",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+                        },
+                        {
+                          "name": "pygimli_ert_rect_gauss_newton.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
+                        },
+                        {
+                          "name": "pygimli_ert_rect_scipy_min.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
+                        },
+                        {
+                          "name": "pygimli_ert_toy_emcee_parallel.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
+                        },
+                        {
+                          "name": "pygimli_ert_toy_emcee.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
+                        },
+                        {
+                          "name": "pygimli_ert_tri_gauss_newton.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
+                        },
+                        {
+                          "name": "pygimli_ert_tri_scipy_min.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
+                        },
+                        {
+                          "name": "pygimli_ert_tri_torch_optim.py",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
+                        }
+                      ],
+                      "tutorials": [
+                        {
+                          "name": "electrical_resistivity_tomography.ipynb",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
                 {
                   "name": "Electromagnetic",
                   "link_git": null,
@@ -770,148 +912,6 @@
                       "children": []
                     }
                   ]
-                },
-                {
-                  "name": "Electrical",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "pygimli_ert.ipynb",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
-                    },
-                    {
-                      "name": "pygimli_ert_rect_gauss_newton.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
-                    },
-                    {
-                      "name": "pygimli_ert_rect_scipy_min.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
-                    },
-                    {
-                      "name": "pygimli_ert_toy_emcee_parallel.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
-                    },
-                    {
-                      "name": "pygimli_ert_toy_emcee.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
-                    },
-                    {
-                      "name": "pygimli_ert_tri_gauss_newton.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
-                    },
-                    {
-                      "name": "pygimli_ert_tri_scipy_min.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
-                    },
-                    {
-                      "name": "pygimli_ert_tri_torch_optim.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
-                    },
-                    {
-                      "name": "pygimli_dcip.ipynb",
-                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
-                    },
-                    {
-                      "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
-                    }
-                  ],
-                  "tutorials": [
-                    {
-                      "name": "electrical_resistivity_tomography.ipynb",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "name": "Electrical resistivity tomography",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "pygimli_ert.ipynb",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
-                        },
-                        {
-                          "name": "pygimli_ert_rect_gauss_newton.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
-                        },
-                        {
-                          "name": "pygimli_ert_rect_scipy_min.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
-                        },
-                        {
-                          "name": "pygimli_ert_toy_emcee_parallel.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
-                        },
-                        {
-                          "name": "pygimli_ert_toy_emcee.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee.py"
-                        },
-                        {
-                          "name": "pygimli_ert_tri_gauss_newton.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_gauss_newton.py"
-                        },
-                        {
-                          "name": "pygimli_ert_tri_scipy_min.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
-                        },
-                        {
-                          "name": "pygimli_ert_tri_torch_optim.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
-                        }
-                      ],
-                      "tutorials": [
-                        {
-                          "name": "electrical_resistivity_tomography.ipynb",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/electrical_resistivity_tomography/electrical_resistivity_tomography.ipynb"
-                        }
-                      ],
-                      "children": []
-                    },
-                    {
-                      "name": "Direct current, induced polarization",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "pygimli_dcip.ipynb",
-                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
-                        },
-                        {
-                          "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
-                        }
-                      ],
-                      "children": []
-                    }
-                  ]
                 }
               ]
             },
@@ -921,16 +921,6 @@
               "link_doc": null,
               "description": null,
               "examples": [
-                {
-                  "name": "xray_tomography.ipynb",
-                  "description": "We look at a linear inverse problem based on Xray Tomography",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-                },
-                {
-                  "name": "xray_tomography_linear_solver.py",
-                  "description": "We look at a linear inverse problem based on Xray Tomography",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-                },
                 {
                   "name": "fmm_tomography.ipynb",
                   "description": "Seismic wave tomography via fast marching method",
@@ -957,11 +947,6 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
                 },
                 {
-                  "name": "sw_tomography.ipynb",
-                  "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-                },
-                {
                   "name": "surface_wave_receiver_function_joint.ipynb",
                   "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
@@ -972,21 +957,36 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                 },
                 {
+                  "name": "xray_tomography.ipynb",
+                  "description": "We look at a linear inverse problem based on Xray Tomography",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
+                },
+                {
+                  "name": "xray_tomography_linear_solver.py",
+                  "description": "We look at a linear inverse problem based on Xray Tomography",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+                },
+                {
                   "name": "receiver_function_inversion.ipynb",
                   "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+                },
+                {
+                  "name": "sw_tomography.ipynb",
+                  "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                 }
               ],
               "tutorials": [
                 {
-                  "name": "travel_time_tomography.ipynb",
-                  "description": "Seismic wave tomography via fast marching method",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
-                },
-                {
                   "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
                   "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
+                },
+                {
+                  "name": "travel_time_tomography.ipynb",
+                  "description": "Seismic wave tomography via fast marching method",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
                 }
               ],
               "children": [
@@ -996,16 +996,6 @@
                   "link_doc": null,
                   "description": null,
                   "examples": [
-                    {
-                      "name": "xray_tomography.ipynb",
-                      "description": "We look at a linear inverse problem based on Xray Tomography",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-                    },
-                    {
-                      "name": "xray_tomography_linear_solver.py",
-                      "description": "We look at a linear inverse problem based on Xray Tomography",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-                    },
                     {
                       "name": "fmm_tomography.ipynb",
                       "description": "Seismic wave tomography via fast marching method",
@@ -1030,6 +1020,16 @@
                       "name": "fmm_tomography_reg_scipy_optimiser.py",
                       "description": "Seismic wave tomography via fast marching method",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
+                    },
+                    {
+                      "name": "xray_tomography.ipynb",
+                      "description": "We look at a linear inverse problem based on Xray Tomography",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
+                    },
+                    {
+                      "name": "xray_tomography_linear_solver.py",
+                      "description": "We look at a linear inverse problem based on Xray Tomography",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
                     }
                   ],
                   "tutorials": [
@@ -1040,25 +1040,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "name": "Straight-ray tomography",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "xray_tomography.ipynb",
-                          "description": "We look at a linear inverse problem based on Xray Tomography",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-                        },
-                        {
-                          "name": "xray_tomography_linear_solver.py",
-                          "description": "We look at a linear inverse problem based on Xray Tomography",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-                        }
-                      ],
-                      "children": []
-                    },
                     {
                       "name": "Non-linear tomography",
                       "link_git": null,
@@ -1099,32 +1080,22 @@
                         }
                       ],
                       "children": []
-                    }
-                  ]
-                },
-                {
-                  "name": "Surface wave / ambient noise",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
+                    },
                     {
-                      "name": "sw_tomography.ipynb",
-                      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "name": "Surface Wave Tomography",
+                      "name": "Straight-ray tomography",
                       "link_git": null,
                       "link_doc": null,
                       "description": null,
                       "examples": [
                         {
-                          "name": "sw_tomography.ipynb",
-                          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                          "name": "xray_tomography.ipynb",
+                          "description": "We look at a linear inverse problem based on Xray Tomography",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
+                        },
+                        {
+                          "name": "xray_tomography_linear_solver.py",
+                          "description": "We look at a linear inverse problem based on Xray Tomography",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
                         }
                       ],
                       "children": []
@@ -1212,6 +1183,35 @@
                       "children": []
                     }
                   ]
+                },
+                {
+                  "name": "Surface wave / ambient noise",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "examples": [
+                    {
+                      "name": "sw_tomography.ipynb",
+                      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Surface Wave Tomography",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "sw_tomography.ipynb",
+                          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
                 }
               ]
             }
@@ -1225,11 +1225,6 @@
       "link_doc": null,
       "description": null,
       "examples": [
-        {
-          "name": "nonlinear_curve_fitting.ipynb",
-          "description": "Non-linear curve fitting",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-        },
         {
           "name": "linear_regression.ipynb",
           "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -1274,6 +1269,11 @@
           "name": "modified_himmelblau.ipynb",
           "description": "Finding the global minimum of a modified Himmelblau function",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+        },
+        {
+          "name": "nonlinear_curve_fitting.ipynb",
+          "description": "Non-linear curve fitting",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
         }
       ],
       "tutorials": [
@@ -1290,11 +1290,6 @@
           "link_doc": null,
           "description": null,
           "examples": [
-            {
-              "name": "nonlinear_curve_fitting.ipynb",
-              "description": "Non-linear curve fitting",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-            },
             {
               "name": "linear_regression.ipynb",
               "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -1334,6 +1329,11 @@
               "name": "linear_regression_pytorch_optim.py",
               "description": "Linear regression problem solved by linear solver, optimizer and sampler",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+            },
+            {
+              "name": "nonlinear_curve_fitting.ipynb",
+              "description": "Non-linear curve fitting",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
             }
           ],
           "tutorials": [
@@ -1350,11 +1350,6 @@
               "link_doc": null,
               "description": null,
               "examples": [
-                {
-                  "name": "nonlinear_curve_fitting.ipynb",
-                  "description": "Non-linear curve fitting",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                },
                 {
                   "name": "linear_regression.ipynb",
                   "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -1394,6 +1389,11 @@
                   "name": "linear_regression_pytorch_optim.py",
                   "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+                },
+                {
+                  "name": "nonlinear_curve_fitting.ipynb",
+                  "description": "Non-linear curve fitting",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                 }
               ],
               "tutorials": [
@@ -1410,11 +1410,6 @@
                   "link_doc": null,
                   "description": null,
                   "examples": [
-                    {
-                      "name": "nonlinear_curve_fitting.ipynb",
-                      "description": "Non-linear curve fitting",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                    },
                     {
                       "name": "linear_regression.ipynb",
                       "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -1454,6 +1449,11 @@
                       "name": "linear_regression_pytorch_optim.py",
                       "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+                    },
+                    {
+                      "name": "nonlinear_curve_fitting.ipynb",
+                      "description": "Non-linear curve fitting",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                     }
                   ],
                   "tutorials": [
@@ -1464,20 +1464,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "name": "Non linear regression",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "nonlinear_curve_fitting.ipynb",
-                          "description": "Non-linear curve fitting",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                        }
-                      ],
-                      "children": []
-                    },
                     {
                       "name": "Linear regression",
                       "link_git": null,
@@ -1530,6 +1516,20 @@
                           "name": "linear_regression.ipynb",
                           "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+                        }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Non linear regression",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "nonlinear_curve_fitting.ipynb",
+                          "description": "Non-linear curve fitting",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                         }
                       ],
                       "children": []

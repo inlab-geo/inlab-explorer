@@ -17,56 +17,11 @@
           "description": null,
           "children": [
             {
-              "name": "Electromagnetic",
-              "link_git": null,
-              "link_doc": null,
-              "description": null,
-              "children": [
-                {
-                  "name": "Magnetotelluric",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "children": [
-                    {
-                      "name": "Magnetotelluric1D",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/magnetotelluric_1D/magnetotelluric_1D.py",
-                      "link_doc": null,
-                      "description": "Compute the MT response of a 1D resistivty model.",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Seismology and seismic exploration",
               "link_git": null,
               "link_doc": null,
               "description": null,
               "children": [
-                {
-                  "name": "Travel times",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "children": [
-                    {
-                      "name": "XrayTomography",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/xray_tomography/xray_tomography.py",
-                      "link_doc": null,
-                      "description": "We assume that the x-rays travel at the same speed regardless of the medium through which they are passing, and so their paths are straight lines between source and receiver.",
-                      "children": []
-                    },
-                    {
-                      "name": "FmmTomography",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/fmm_tomography/fmm_tomography.py",
-                      "link_doc": null,
-                      "description": "The wave front tracker routines solves boundary value ray tracing problems into 2D heterogeneous wavespeed media, defined by continuously varying velocity model calculated by 2D cubic B-splines.",
-                      "children": []
-                    }
-                  ]
-                },
                 {
                   "name": "Receiver function",
                   "link_git": null,
@@ -103,6 +58,28 @@
                       "children": []
                     }
                   ]
+                },
+                {
+                  "name": "Travel times",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "children": [
+                    {
+                      "name": "FmmTomography",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/fmm_tomography/fmm_tomography.py",
+                      "link_doc": null,
+                      "description": "The wave front tracker routines solves boundary value ray tracing problems into 2D heterogeneous wavespeed media, defined by continuously varying velocity model calculated by 2D cubic B-splines.",
+                      "children": []
+                    },
+                    {
+                      "name": "XrayTomography",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/xray_tomography/xray_tomography.py",
+                      "link_doc": null,
+                      "description": "We assume that the x-rays travel at the same speed regardless of the medium through which they are passing, and so their paths are straight lines between source and receiver.",
+                      "children": []
+                    }
+                  ]
                 }
               ]
             },
@@ -128,6 +105,29 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Electromagnetic",
+              "link_git": null,
+              "link_doc": null,
+              "description": null,
+              "children": [
+                {
+                  "name": "Magnetotelluric",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "children": [
+                    {
+                      "name": "Magnetotelluric1D",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/magnetotelluric_1D/magnetotelluric_1D.py",
+                      "link_doc": null,
+                      "description": "Compute the MT response of a 1D resistivty model.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -144,21 +144,6 @@
               "description": null,
               "children": [
                 {
-                  "name": "Pumping Test",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "children": [
-                    {
-                      "name": "PumpingTest",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/pumping_test/pumping_test.py",
-                      "link_doc": null,
-                      "description": "This example involves the matching of an appropriate forward model to time-drawdown data obtained from a two-well constant rate discharge test.",
-                      "children": []
-                    }
-                  ]
-                },
-                {
                   "name": "Slug test",
                   "link_git": null,
                   "link_doc": null,
@@ -169,6 +154,21 @@
                       "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/slug_test/slug_test.py",
                       "link_doc": null,
                       "description": "This example involves the matching of an appropriate forward model to time-displacement data obtained from a traditional single well slug test.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pumping Test",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "children": [
+                    {
+                      "name": "PumpingTest",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/contrib/pumping_test/pumping_test.py",
+                      "link_doc": null,
+                      "description": "This example involves the matching of an appropriate forward model to time-drawdown data obtained from a two-well constant rate discharge test.",
                       "children": []
                     }
                   ]
