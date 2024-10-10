@@ -5,6 +5,11 @@
   "description": null,
   "examples": [
     {
+      "name": "nonlinear_curve_fitting.ipynb",
+      "description": "Non-linear curve fitting",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+    },
+    {
       "name": "pygimli_dcip.ipynb",
       "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
@@ -15,49 +20,14 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
-      "name": "linear_regression.ipynb",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+      "name": "surface_wave_receiver_function_joint.ipynb",
+      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
     },
     {
-      "name": "linear_regression_sealevel.ipynb",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-    },
-    {
-      "name": "linear_regression_emcee_sampler.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-    },
-    {
-      "name": "linear_regression_linear_system_solver.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-    },
-    {
-      "name": "linear_regression_linear_system_general.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-    },
-    {
-      "name": "linear_regression_optimizer_lstsq.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-    },
-    {
-      "name": "linear_regression_optimizer_minimize.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-    },
-    {
-      "name": "linear_regression_pytorch_optim.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-    },
-    {
-      "name": "modified_himmelblau.ipynb",
-      "description": "Finding the global minimum of a modified Himmelblau function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+      "name": "sw_rf_joint_synthetic.ipynb",
+      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
     },
     {
       "name": "pygimli_ert.ipynb",
@@ -100,11 +70,6 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
     },
     {
-      "name": "nonlinear_curve_fitting.ipynb",
-      "description": "Non-linear curve fitting",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-    },
-    {
       "name": "fmm_tomography.ipynb",
       "description": "Seismic wave tomography via fast marching method",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
@@ -130,14 +95,29 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
     },
     {
-      "name": "surface_wave_receiver_function_joint.ipynb",
-      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+      "name": "xray_tomography.ipynb",
+      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
     },
     {
-      "name": "sw_rf_joint_synthetic.ipynb",
-      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+      "name": "xray_tomography_linear_solver.py",
+      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+    },
+    {
+      "name": "receiver_function_inversion.ipynb",
+      "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+    },
+    {
+      "name": "sw_tomography.ipynb",
+      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+    },
+    {
+      "name": "modified_himmelblau.ipynb",
+      "description": "Finding the global minimum of a modified Himmelblau function",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
     },
     {
       "name": "thin_plate_inversion.ipynb",
@@ -175,41 +155,56 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
     },
     {
-      "name": "xray_tomography.ipynb",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
+      "name": "linear_regression.ipynb",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
     },
     {
-      "name": "xray_tomography_linear_solver.py",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+      "name": "linear_regression_sealevel.ipynb",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
     },
     {
-      "name": "receiver_function_inversion.ipynb",
-      "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+      "name": "linear_regression_emcee_sampler.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
     },
     {
-      "name": "sw_tomography.ipynb",
-      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+      "name": "linear_regression_linear_system_solver.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+    },
+    {
+      "name": "linear_regression_linear_system_general.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+    },
+    {
+      "name": "linear_regression_optimizer_lstsq.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+    },
+    {
+      "name": "linear_regression_optimizer_minimize.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+    },
+    {
+      "name": "linear_regression_pytorch_optim.py",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
     }
   ],
   "tutorials": [
     {
-      "name": "linear_regression.ipynb",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+      "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
+      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
     },
     {
       "name": "thin_plate_inversion.ipynb",
       "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
-    },
-    {
-      "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
-      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
     },
     {
       "name": "electrical_resistivity_tomography.ipynb",
@@ -220,9 +215,381 @@
       "name": "travel_time_tomography.ipynb",
       "description": "Seismic wave tomography via fast marching method",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/travel_time_tomography/travel_time_tomography.ipynb"
+    },
+    {
+      "name": "linear_regression.ipynb",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
     }
   ],
   "children": [
+    {
+      "name": "MATHEMATICAL SCIENCES",
+      "link_git": null,
+      "link_doc": null,
+      "description": null,
+      "examples": [
+        {
+          "name": "nonlinear_curve_fitting.ipynb",
+          "description": "Non-linear curve fitting",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+        },
+        {
+          "name": "modified_himmelblau.ipynb",
+          "description": "Finding the global minimum of a modified Himmelblau function",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+        },
+        {
+          "name": "linear_regression.ipynb",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+        },
+        {
+          "name": "linear_regression_sealevel.ipynb",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
+        },
+        {
+          "name": "linear_regression_emcee_sampler.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+        },
+        {
+          "name": "linear_regression_linear_system_solver.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+        },
+        {
+          "name": "linear_regression_linear_system_general.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+        },
+        {
+          "name": "linear_regression_optimizer_lstsq.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+        },
+        {
+          "name": "linear_regression_optimizer_minimize.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+        },
+        {
+          "name": "linear_regression_pytorch_optim.py",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+        }
+      ],
+      "tutorials": [
+        {
+          "name": "linear_regression.ipynb",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+        }
+      ],
+      "children": [
+        {
+          "name": "Statistics",
+          "link_git": null,
+          "link_doc": null,
+          "description": null,
+          "examples": [
+            {
+              "name": "nonlinear_curve_fitting.ipynb",
+              "description": "Non-linear curve fitting",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+            },
+            {
+              "name": "linear_regression.ipynb",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+            },
+            {
+              "name": "linear_regression_sealevel.ipynb",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
+            },
+            {
+              "name": "linear_regression_emcee_sampler.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+            },
+            {
+              "name": "linear_regression_linear_system_solver.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+            },
+            {
+              "name": "linear_regression_linear_system_general.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+            },
+            {
+              "name": "linear_regression_optimizer_lstsq.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+            },
+            {
+              "name": "linear_regression_optimizer_minimize.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+            },
+            {
+              "name": "linear_regression_pytorch_optim.py",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+            }
+          ],
+          "tutorials": [
+            {
+              "name": "linear_regression.ipynb",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+            }
+          ],
+          "children": [
+            {
+              "name": "Applied statistics",
+              "link_git": null,
+              "link_doc": null,
+              "description": null,
+              "examples": [
+                {
+                  "name": "nonlinear_curve_fitting.ipynb",
+                  "description": "Non-linear curve fitting",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+                },
+                {
+                  "name": "linear_regression.ipynb",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+                },
+                {
+                  "name": "linear_regression_sealevel.ipynb",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
+                },
+                {
+                  "name": "linear_regression_emcee_sampler.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+                },
+                {
+                  "name": "linear_regression_linear_system_solver.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+                },
+                {
+                  "name": "linear_regression_linear_system_general.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+                },
+                {
+                  "name": "linear_regression_optimizer_lstsq.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+                },
+                {
+                  "name": "linear_regression_optimizer_minimize.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+                },
+                {
+                  "name": "linear_regression_pytorch_optim.py",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+                }
+              ],
+              "tutorials": [
+                {
+                  "name": "linear_regression.ipynb",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+                }
+              ],
+              "children": [
+                {
+                  "name": "Curve fitting",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "examples": [
+                    {
+                      "name": "nonlinear_curve_fitting.ipynb",
+                      "description": "Non-linear curve fitting",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+                    },
+                    {
+                      "name": "linear_regression.ipynb",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+                    },
+                    {
+                      "name": "linear_regression_sealevel.ipynb",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
+                    },
+                    {
+                      "name": "linear_regression_emcee_sampler.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+                    },
+                    {
+                      "name": "linear_regression_linear_system_solver.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+                    },
+                    {
+                      "name": "linear_regression_linear_system_general.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+                    },
+                    {
+                      "name": "linear_regression_optimizer_lstsq.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+                    },
+                    {
+                      "name": "linear_regression_optimizer_minimize.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+                    },
+                    {
+                      "name": "linear_regression_pytorch_optim.py",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+                    }
+                  ],
+                  "tutorials": [
+                    {
+                      "name": "linear_regression.ipynb",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Non linear regression",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "nonlinear_curve_fitting.ipynb",
+                          "description": "Non-linear curve fitting",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
+                        }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Linear regression",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "linear_regression.ipynb",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
+                        },
+                        {
+                          "name": "linear_regression_sealevel.ipynb",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
+                        },
+                        {
+                          "name": "linear_regression_emcee_sampler.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+                        },
+                        {
+                          "name": "linear_regression_linear_system_solver.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
+                        },
+                        {
+                          "name": "linear_regression_linear_system_general.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
+                        },
+                        {
+                          "name": "linear_regression_optimizer_lstsq.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
+                        },
+                        {
+                          "name": "linear_regression_optimizer_minimize.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
+                        },
+                        {
+                          "name": "linear_regression_pytorch_optim.py",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
+                        }
+                      ],
+                      "tutorials": [
+                        {
+                          "name": "linear_regression.ipynb",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Applied mathematics",
+          "link_git": null,
+          "link_doc": null,
+          "description": null,
+          "examples": [
+            {
+              "name": "modified_himmelblau.ipynb",
+              "description": "Finding the global minimum of a modified Himmelblau function",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+            }
+          ],
+          "children": [
+            {
+              "name": "Optimisation",
+              "link_git": null,
+              "link_doc": null,
+              "description": null,
+              "examples": [
+                {
+                  "name": "modified_himmelblau.ipynb",
+                  "description": "Finding the global minimum of a modified Himmelblau function",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+                }
+              ],
+              "children": [
+                {
+                  "name": "Metaheuristic optimisation",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "examples": [
+                    {
+                      "name": "modified_himmelblau.ipynb",
+                      "description": "Finding the global minimum of a modified Himmelblau function",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "EARTH SCIENCES",
       "link_git": null,
@@ -238,6 +605,16 @@
           "name": "pygimli_dcip_century_tri_mesh.ipynb",
           "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+        },
+        {
+          "name": "surface_wave_receiver_function_joint.ipynb",
+          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+        },
+        {
+          "name": "sw_rf_joint_synthetic.ipynb",
+          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
         },
         {
           "name": "pygimli_ert.ipynb",
@@ -305,14 +682,24 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
         },
         {
-          "name": "surface_wave_receiver_function_joint.ipynb",
-          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+          "name": "xray_tomography.ipynb",
+          "description": "We look at a linear inverse problem based on Xray Tomography",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
         },
         {
-          "name": "sw_rf_joint_synthetic.ipynb",
-          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+          "name": "xray_tomography_linear_solver.py",
+          "description": "We look at a linear inverse problem based on Xray Tomography",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+        },
+        {
+          "name": "receiver_function_inversion.ipynb",
+          "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+        },
+        {
+          "name": "sw_tomography.ipynb",
+          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         },
         {
           "name": "thin_plate_inversion.ipynb",
@@ -348,38 +735,18 @@
           "name": "three_survey_lines_smt_neighpy.ipynb",
           "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
-        },
-        {
-          "name": "xray_tomography.ipynb",
-          "description": "We look at a linear inverse problem based on Xray Tomography",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-        },
-        {
-          "name": "xray_tomography_linear_solver.py",
-          "description": "We look at a linear inverse problem based on Xray Tomography",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-        },
-        {
-          "name": "receiver_function_inversion.ipynb",
-          "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
-        },
-        {
-          "name": "sw_tomography.ipynb",
-          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         }
       ],
       "tutorials": [
         {
-          "name": "thin_plate_inversion.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
-        },
-        {
           "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
           "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
+        },
+        {
+          "name": "thin_plate_inversion.ipynb",
+          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
         },
         {
           "name": "electrical_resistivity_tomography.ipynb",
@@ -408,6 +775,16 @@
               "name": "pygimli_dcip_century_tri_mesh.ipynb",
               "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+            },
+            {
+              "name": "surface_wave_receiver_function_joint.ipynb",
+              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+            },
+            {
+              "name": "sw_rf_joint_synthetic.ipynb",
+              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
             },
             {
               "name": "pygimli_ert.ipynb",
@@ -475,14 +852,24 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
             },
             {
-              "name": "surface_wave_receiver_function_joint.ipynb",
-              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+              "name": "xray_tomography.ipynb",
+              "description": "We look at a linear inverse problem based on Xray Tomography",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
             },
             {
-              "name": "sw_rf_joint_synthetic.ipynb",
-              "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+              "name": "xray_tomography_linear_solver.py",
+              "description": "We look at a linear inverse problem based on Xray Tomography",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+            },
+            {
+              "name": "receiver_function_inversion.ipynb",
+              "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+            },
+            {
+              "name": "sw_tomography.ipynb",
+              "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
               "name": "thin_plate_inversion.ipynb",
@@ -518,38 +905,18 @@
               "name": "three_survey_lines_smt_neighpy.ipynb",
               "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
-            },
-            {
-              "name": "xray_tomography.ipynb",
-              "description": "We look at a linear inverse problem based on Xray Tomography",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
-            },
-            {
-              "name": "xray_tomography_linear_solver.py",
-              "description": "We look at a linear inverse problem based on Xray Tomography",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-            },
-            {
-              "name": "receiver_function_inversion.ipynb",
-              "description": "We run inversion on a toy receiver function model with optimization and sampling in this example",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
-            },
-            {
-              "name": "sw_tomography.ipynb",
-              "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             }
           ],
           "tutorials": [
             {
-              "name": "thin_plate_inversion.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
-            },
-            {
               "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
               "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
+            },
+            {
+              "name": "thin_plate_inversion.ipynb",
+              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/thin_plate_inversion/thin_plate_inversion.ipynb"
             },
             {
               "name": "electrical_resistivity_tomography.ipynb",
@@ -922,6 +1289,16 @@
               "description": null,
               "examples": [
                 {
+                  "name": "surface_wave_receiver_function_joint.ipynb",
+                  "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                },
+                {
+                  "name": "sw_rf_joint_synthetic.ipynb",
+                  "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                },
+                {
                   "name": "fmm_tomography.ipynb",
                   "description": "Seismic wave tomography via fast marching method",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
@@ -945,16 +1322,6 @@
                   "name": "fmm_tomography_reg_scipy_optimiser.py",
                   "description": "Seismic wave tomography via fast marching method",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
-                },
-                {
-                  "name": "surface_wave_receiver_function_joint.ipynb",
-                  "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
-                },
-                {
-                  "name": "sw_rf_joint_synthetic.ipynb",
-                  "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                 },
                 {
                   "name": "xray_tomography.ipynb",
@@ -990,6 +1357,59 @@
                 }
               ],
               "children": [
+                {
+                  "name": "Joint inversion",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "examples": [
+                    {
+                      "name": "surface_wave_receiver_function_joint.ipynb",
+                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                    },
+                    {
+                      "name": "sw_rf_joint_synthetic.ipynb",
+                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                    }
+                  ],
+                  "tutorials": [
+                    {
+                      "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
+                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Surface wave dispersion and receiver function",
+                      "link_git": null,
+                      "link_doc": null,
+                      "description": null,
+                      "examples": [
+                        {
+                          "name": "surface_wave_receiver_function_joint.ipynb",
+                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                        },
+                        {
+                          "name": "sw_rf_joint_synthetic.ipynb",
+                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                        }
+                      ],
+                      "tutorials": [
+                        {
+                          "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
+                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
                 {
                   "name": "Travel times",
                   "link_git": null,
@@ -1103,59 +1523,6 @@
                   ]
                 },
                 {
-                  "name": "Joint inversion",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "surface_wave_receiver_function_joint.ipynb",
-                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
-                    },
-                    {
-                      "name": "sw_rf_joint_synthetic.ipynb",
-                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
-                    }
-                  ],
-                  "tutorials": [
-                    {
-                      "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
-                      "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "name": "Surface wave dispersion and receiver function",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "surface_wave_receiver_function_joint.ipynb",
-                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
-                        },
-                        {
-                          "name": "sw_rf_joint_synthetic.ipynb",
-                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
-                        }
-                      ],
-                      "tutorials": [
-                        {
-                          "name": "1D_rayleigh_wave_phase_velocity_inversion.ipynb",
-                          "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a surface wave dispersion curve inversion problem",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/rayleigh_wave_phase_velocity/1D_rayleigh_wave_phase_velocity_inversion.ipynb"
-                        }
-                      ],
-                      "children": []
-                    }
-                  ]
-                },
-                {
                   "name": "Receiver function",
                   "link_git": null,
                   "link_doc": null,
@@ -1212,373 +1579,6 @@
                       "children": []
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "MATHEMATICAL SCIENCES",
-      "link_git": null,
-      "link_doc": null,
-      "description": null,
-      "examples": [
-        {
-          "name": "linear_regression.ipynb",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
-        },
-        {
-          "name": "linear_regression_sealevel.ipynb",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-        },
-        {
-          "name": "linear_regression_emcee_sampler.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-        },
-        {
-          "name": "linear_regression_linear_system_solver.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-        },
-        {
-          "name": "linear_regression_linear_system_general.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-        },
-        {
-          "name": "linear_regression_optimizer_lstsq.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-        },
-        {
-          "name": "linear_regression_optimizer_minimize.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-        },
-        {
-          "name": "linear_regression_pytorch_optim.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-        },
-        {
-          "name": "modified_himmelblau.ipynb",
-          "description": "Finding the global minimum of a modified Himmelblau function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-        },
-        {
-          "name": "nonlinear_curve_fitting.ipynb",
-          "description": "Non-linear curve fitting",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-        }
-      ],
-      "tutorials": [
-        {
-          "name": "linear_regression.ipynb",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
-        }
-      ],
-      "children": [
-        {
-          "name": "Statistics",
-          "link_git": null,
-          "link_doc": null,
-          "description": null,
-          "examples": [
-            {
-              "name": "linear_regression.ipynb",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
-            },
-            {
-              "name": "linear_regression_sealevel.ipynb",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-            },
-            {
-              "name": "linear_regression_emcee_sampler.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-            },
-            {
-              "name": "linear_regression_linear_system_solver.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-            },
-            {
-              "name": "linear_regression_linear_system_general.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-            },
-            {
-              "name": "linear_regression_optimizer_lstsq.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-            },
-            {
-              "name": "linear_regression_optimizer_minimize.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-            },
-            {
-              "name": "linear_regression_pytorch_optim.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-            },
-            {
-              "name": "nonlinear_curve_fitting.ipynb",
-              "description": "Non-linear curve fitting",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-            }
-          ],
-          "tutorials": [
-            {
-              "name": "linear_regression.ipynb",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
-            }
-          ],
-          "children": [
-            {
-              "name": "Applied statistics",
-              "link_git": null,
-              "link_doc": null,
-              "description": null,
-              "examples": [
-                {
-                  "name": "linear_regression.ipynb",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
-                },
-                {
-                  "name": "linear_regression_sealevel.ipynb",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-                },
-                {
-                  "name": "linear_regression_emcee_sampler.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-                },
-                {
-                  "name": "linear_regression_linear_system_solver.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-                },
-                {
-                  "name": "linear_regression_linear_system_general.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-                },
-                {
-                  "name": "linear_regression_optimizer_lstsq.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-                },
-                {
-                  "name": "linear_regression_optimizer_minimize.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-                },
-                {
-                  "name": "linear_regression_pytorch_optim.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-                },
-                {
-                  "name": "nonlinear_curve_fitting.ipynb",
-                  "description": "Non-linear curve fitting",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                }
-              ],
-              "tutorials": [
-                {
-                  "name": "linear_regression.ipynb",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
-                }
-              ],
-              "children": [
-                {
-                  "name": "Curve fitting",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "linear_regression.ipynb",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
-                    },
-                    {
-                      "name": "linear_regression_sealevel.ipynb",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-                    },
-                    {
-                      "name": "linear_regression_emcee_sampler.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-                    },
-                    {
-                      "name": "linear_regression_linear_system_solver.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-                    },
-                    {
-                      "name": "linear_regression_linear_system_general.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-                    },
-                    {
-                      "name": "linear_regression_optimizer_lstsq.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-                    },
-                    {
-                      "name": "linear_regression_optimizer_minimize.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-                    },
-                    {
-                      "name": "linear_regression_pytorch_optim.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-                    },
-                    {
-                      "name": "nonlinear_curve_fitting.ipynb",
-                      "description": "Non-linear curve fitting",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                    }
-                  ],
-                  "tutorials": [
-                    {
-                      "name": "linear_regression.ipynb",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "name": "Linear regression",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "linear_regression.ipynb",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
-                        },
-                        {
-                          "name": "linear_regression_sealevel.ipynb",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
-                        },
-                        {
-                          "name": "linear_regression_emcee_sampler.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
-                        },
-                        {
-                          "name": "linear_regression_linear_system_solver.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_solver.py"
-                        },
-                        {
-                          "name": "linear_regression_linear_system_general.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
-                        },
-                        {
-                          "name": "linear_regression_optimizer_lstsq.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
-                        },
-                        {
-                          "name": "linear_regression_optimizer_minimize.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
-                        },
-                        {
-                          "name": "linear_regression_pytorch_optim.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
-                        }
-                      ],
-                      "tutorials": [
-                        {
-                          "name": "linear_regression.ipynb",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/tutorials/linear_regression/linear_regression.ipynb"
-                        }
-                      ],
-                      "children": []
-                    },
-                    {
-                      "name": "Non linear regression",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "nonlinear_curve_fitting.ipynb",
-                          "description": "Non-linear curve fitting",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
-                        }
-                      ],
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Applied mathematics",
-          "link_git": null,
-          "link_doc": null,
-          "description": null,
-          "examples": [
-            {
-              "name": "modified_himmelblau.ipynb",
-              "description": "Finding the global minimum of a modified Himmelblau function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-            }
-          ],
-          "children": [
-            {
-              "name": "Optimisation",
-              "link_git": null,
-              "link_doc": null,
-              "description": null,
-              "examples": [
-                {
-                  "name": "modified_himmelblau.ipynb",
-                  "description": "Finding the global minimum of a modified Himmelblau function",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                }
-              ],
-              "children": [
-                {
-                  "name": "Metaheuristic optimisation",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "modified_himmelblau.ipynb",
-                      "description": "Finding the global minimum of a modified Himmelblau function",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                    }
-                  ],
-                  "children": []
                 }
               ]
             }
