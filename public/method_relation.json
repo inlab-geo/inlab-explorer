@@ -105,6 +105,11 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
+      "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+      "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+    },
+    {
       "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
       "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
@@ -260,6 +265,11 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
         },
         {
+          "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+          "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+        },
+        {
           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
           "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
@@ -353,6 +363,11 @@
               "name": "Linear Regression - linear_regression_emcee_sampler.py",
               "description": "Linear regression problem solved by linear solver, optimizer and sampler",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+            },
+            {
+              "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+              "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
             },
             {
               "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
@@ -709,6 +724,11 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                 },
                 {
+                  "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+                  "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+                },
+                {
                   "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
                   "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
@@ -739,6 +759,11 @@
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                     },
                     {
+                      "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+                      "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+                    },
+                    {
                       "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
                       "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
@@ -767,6 +792,11 @@
                           "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
                           "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                        },
+                        {
+                          "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
+                          "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
                         },
                         {
                           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
