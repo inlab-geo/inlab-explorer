@@ -352,33 +352,33 @@ const TreeComponent: React.FC<selected> = ({
             tooltip
               .style("left", pageX + "px")
               .style("top", pageY + "px")
-              .style("opacity", 1).html(`
-                              <div style="border: 1px solid black; width: ${
-                                d.data.width + 50
-                              }px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
-                                <div style="background-color: lightgray; padding: 10px;">
-                                  ${d.data.name}
-                                </div>
-                                <div style="background-color: white; padding: 10px; margin-top: 10px; word-wrap: break-word; width: ${
-                                  d.data.width + 30
-                                }px;min-height: 150px;">
-                                    ${generate_des(d)}
-                                </div>
-                                <div style="display: flex; justify-content: space-around; margin-top: 10px; width: ${
-                                  d.data.width + 30
-                                }px; min-width: 160px;">
-                                  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
-                                  ${gen_button(
-                                    d,
-                                    "#008CBA",
-                                    "#fff",
-                                    d.data.width + 30,
-                                  )}
-          
-                                  </div>
-                                </div>
-                              </div>
-                              `);
+              .style("display", "block")
+              .html(`<div style="border: 1px solid black; width: ${
+                      d.data.width + 50
+                    }px; min-width: 200px ;  max-height: 500px; overflow: auto; padding: 10px;">
+                      <div style="background-color: lightgray; padding: 10px;">
+                        ${d.data.name}
+                      </div>
+                      <div style="background-color: white; padding: 10px; margin-top: 10px; word-wrap: break-word; width: ${
+                        d.data.width + 30
+                      }px;min-height: 150px;">
+                          ${generate_des(d)}
+                      </div>
+                      <div style="display: flex; justify-content: space-around; margin-top: 10px; width: ${
+                        d.data.width + 30
+                      }px; min-width: 160px;">
+                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
+                        ${gen_button(
+                          d,
+                          "#008CBA",
+                          "#fff",
+                          d.data.width + 30,
+                        )}
+
+                        </div>
+                      </div>
+                    </div>
+                    `);
           }, 800); // This delay could be adjusted
           event.stopPropagation();
         }
@@ -516,7 +516,7 @@ const TreeComponent: React.FC<selected> = ({
           longpress = false; // Reset the flag
           return;
         }
-        tooltip.style("opacity", 0);
+        tooltip.style("display", "none");
       });
 
       update(treeRoot);
