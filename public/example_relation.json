@@ -111,7 +111,7 @@
     },
     {
       "name": "pygimli_ert.ipynb",
-      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
     },
     {
@@ -296,7 +296,7 @@
         },
         {
           "name": "pygimli_ert.ipynb",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
         },
         {
@@ -471,7 +471,7 @@
             },
             {
               "name": "pygimli_ert.ipynb",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
             },
             {
@@ -596,7 +596,7 @@
                 },
                 {
                   "name": "pygimli_ert.ipynb",
-                  "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
                 },
                 {
@@ -701,7 +701,7 @@
                     },
                     {
                       "name": "pygimli_ert.ipynb",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
                     },
                     {
@@ -775,7 +775,7 @@
                       "examples": [
                         {
                           "name": "pygimli_ert.ipynb",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
                         },
                         {

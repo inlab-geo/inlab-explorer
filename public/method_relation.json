@@ -155,6 +155,11 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
+      "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+      "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+    },
+    {
       "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
       "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
@@ -328,6 +333,11 @@
           "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
           "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+        },
+        {
+          "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+          "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
         },
         {
           "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
@@ -862,6 +872,11 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
             },
             {
+              "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+              "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+            },
+            {
               "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
               "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
@@ -1015,6 +1030,11 @@
                   "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
                   "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                },
+                {
+                  "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+                  "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
                 },
                 {
                   "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
@@ -1426,6 +1446,11 @@
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                     },
                     {
+                      "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
+                    },
+                    {
                       "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
                       "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_scipy_min.py"
@@ -1640,6 +1665,11 @@
                           "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
                           "description": "We utlise CoFI to run optimsiation, fixed-dimensional sampling and trans-dimensional sampling on a joint inversion problem of surface wave dispersion and receiver function",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                        },
+                        {
+                          "name": "PyGIMLi ERT - pygimli_ert.ipynb",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
                         },
                         {
                           "name": "PyGIMLi ERT - pygimli_ert_rect_scipy_min.py",
