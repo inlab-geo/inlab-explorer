@@ -116,7 +116,7 @@
     },
     {
       "name": "pygimli_ert_rect_gauss_newton.py",
-      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
     },
     {
@@ -301,7 +301,7 @@
         },
         {
           "name": "pygimli_ert_rect_gauss_newton.py",
-          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
         },
         {
@@ -476,7 +476,7 @@
             },
             {
               "name": "pygimli_ert_rect_gauss_newton.py",
-              "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
             },
             {
@@ -601,7 +601,7 @@
                 },
                 {
                   "name": "pygimli_ert_rect_gauss_newton.py",
-                  "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
                 },
                 {
@@ -706,7 +706,7 @@
                     },
                     {
                       "name": "pygimli_ert_rect_gauss_newton.py",
-                      "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
                     },
                     {
@@ -780,7 +780,7 @@
                         },
                         {
                           "name": "pygimli_ert_rect_gauss_newton.py",
-                          "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "description": "Using the ERT solver provided by PyGIMLi, we use a Gauss Newton method to solve the inverse problem",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_rect_gauss_newton.py"
                         },
                         {
