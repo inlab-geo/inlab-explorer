@@ -100,6 +100,11 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
     },
     {
+      "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+    },
+    {
       "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -325,6 +330,11 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_scipy_min.py"
         },
         {
+          "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+        },
+        {
           "name": "Linear Regression - linear_regression_sealevel.ipynb",
           "description": "Linear regression problem solved by linear solver, optimizer and sampler",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_sealevel.ipynb"
@@ -385,6 +395,11 @@
           "description": "Matrix-based solvers are computational algorithms that solve systems of equations, which often arise in linear or iteratively linear parameter estimation problems.",
           "examples": [
             {
+              "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+              "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+            },
+            {
               "name": "Linear Regression - linear_regression.ipynb",
               "description": "Linear regression problem solved by linear solver, optimizer and sampler",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
@@ -434,6 +449,11 @@
               "link_doc": null,
               "description": "Linear system solvers are algorithms designed to find the values of unknowns in a set of linear equations.",
               "examples": [
+                {
+                  "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                  "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                },
                 {
                   "name": "Linear Regression - linear_regression.ipynb",
                   "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -591,6 +611,11 @@
                   "description": null,
                   "examples": [
                     {
+                      "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                    },
+                    {
                       "name": "Linear Regression - linear_regression.ipynb",
                       "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
@@ -640,6 +665,11 @@
                       "link_doc": null,
                       "description": "Solve linear least squares using divide-and-conquer SVD.",
                       "examples": [
+                        {
+                          "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                        },
                         {
                           "name": "Linear Regression - linear_regression.ipynb",
                           "description": "Linear regression problem solved by linear solver, optimizer and sampler",
@@ -1673,6 +1703,11 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
         },
         {
+          "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+        },
+        {
           "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
           "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -1825,6 +1860,11 @@
               "name": "VTEM max Thin plate inversion - three_survey_lines_smt_emcee.ipynb",
               "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
+            },
+            {
+              "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+              "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
               "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
@@ -2141,6 +2181,11 @@
               "description": "Trans-Dimensional Markov chain Monte Carlo (Trans-D McMC) is a specialized form of McMC that allows for model selection by transitioning between different dimensional spaces.",
               "examples": [
                 {
+                  "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                  "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                },
+                {
                   "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                   "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -2161,6 +2206,11 @@
                   "description": null,
                   "examples": [
                     {
+                      "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                    },
+                    {
                       "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -2180,6 +2230,11 @@
                       "link_doc": "https://bayes-bay.readthedocs.io/en/latest/api/generated/bayesbay.samplers.VanillaSampler.html\n",
                       "description": "Sampling the posterior by means of reversible-jump Markov chain Monte Carlo.",
                       "examples": [
+                        {
+                          "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
+                          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using two approaches regularised least-squares and trans-dimensional sampling",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                        },
                         {
                           "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                           "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
