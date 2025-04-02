@@ -111,7 +111,7 @@
     },
     {
       "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+      "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
     },
     {
@@ -351,7 +351,7 @@
         },
         {
           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         },
         {
@@ -416,7 +416,7 @@
           "examples": [
             {
               "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-              "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+              "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
@@ -471,7 +471,7 @@
               "examples": [
                 {
                   "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                  "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                  "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                 },
                 {
@@ -632,7 +632,7 @@
                   "examples": [
                     {
                       "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                      "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                     },
                     {
@@ -687,7 +687,7 @@
                       "examples": [
                         {
                           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                         },
                         {
@@ -1774,7 +1774,7 @@
         },
         {
           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         },
         {
@@ -1943,7 +1943,7 @@
             },
             {
               "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-              "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+              "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
@@ -2292,7 +2292,7 @@
               "examples": [
                 {
                   "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                  "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                  "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                 },
                 {
@@ -2327,7 +2327,7 @@
                   "examples": [
                     {
                       "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                      "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                      "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                     },
                     {
@@ -2362,7 +2362,7 @@
                       "examples": [
                         {
                           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
-                          "description": "We apply CoFI to measurements of surface-wave velocity collected across the USArray",
+                          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                         },
                         {
