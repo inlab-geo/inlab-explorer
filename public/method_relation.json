@@ -61,7 +61,7 @@
     },
     {
       "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-      "description": "We invert a receiver function using both optimization and sampling",
+      "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
     },
     {
@@ -266,7 +266,7 @@
         },
         {
           "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-          "description": "We invert a receiver function using both optimization and sampling",
+          "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
         },
         {
@@ -793,7 +793,7 @@
             },
             {
               "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-              "description": "We invert a receiver function using both optimization and sampling",
+              "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
             },
             {
@@ -943,7 +943,7 @@
                 },
                 {
                   "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                  "description": "We invert a receiver function using both optimization and sampling",
+                  "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                 },
                 {
@@ -1342,7 +1342,7 @@
                   "examples": [
                     {
                       "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                      "description": "We invert a receiver function using both optimization and sampling",
+                      "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                     },
                     {
@@ -1442,7 +1442,7 @@
                       "examples": [
                         {
                           "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                          "description": "We invert a receiver function using both optimization and sampling",
+                          "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                         }
                       ],
@@ -1664,7 +1664,7 @@
         },
         {
           "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-          "description": "We invert a receiver function using both optimization and sampling",
+          "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
         },
         {
@@ -1823,7 +1823,7 @@
             },
             {
               "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-              "description": "We invert a receiver function using both optimization and sampling",
+              "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
             },
             {
@@ -1908,7 +1908,7 @@
                 },
                 {
                   "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                  "description": "We invert a receiver function using both optimization and sampling",
+                  "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                 },
                 {
@@ -1983,7 +1983,7 @@
                     },
                     {
                       "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                      "description": "We invert a receiver function using both optimization and sampling",
+                      "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                     },
                     {
@@ -2079,7 +2079,7 @@
                         },
                         {
                           "name": "Receiver Function Inversion - receiver_function_inversion.ipynb",
-                          "description": "We invert a receiver function using both optimization and sampling",
+                          "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                         },
                         {
