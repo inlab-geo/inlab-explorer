@@ -16,7 +16,7 @@
     },
     {
       "name": "sw_tomography.ipynb",
-      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
     },
     {
@@ -236,7 +236,7 @@
         },
         {
           "name": "sw_tomography.ipynb",
-          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         },
         {
@@ -401,7 +401,7 @@
             },
             {
               "name": "sw_tomography.ipynb",
-              "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+              "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
@@ -908,7 +908,7 @@
               "examples": [
                 {
                   "name": "sw_tomography.ipynb",
-                  "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+                  "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                 },
                 {
@@ -973,7 +973,7 @@
                   "examples": [
                     {
                       "name": "sw_tomography.ipynb",
-                      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+                      "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                     }
                   ],
@@ -986,7 +986,7 @@
                       "examples": [
                         {
                           "name": "sw_tomography.ipynb",
-                          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem using different approaches (regularised least-squares and trans-dimensional sampling)",
+                          "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                         }
                       ],
