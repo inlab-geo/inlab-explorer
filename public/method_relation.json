@@ -80,6 +80,16 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
     },
     {
+      "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+      "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+    },
+    {
+      "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+      "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+    },
+    {
       "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
       "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
@@ -313,6 +323,16 @@
           "name": "PyGIMLi DCIP - pygimli_dcip_century_tri_mesh.ipynb",
           "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+        },
+        {
+          "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+          "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+        },
+        {
+          "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+          "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
         },
         {
           "name": "PyGIMLi ERT - pygimli_ert.ipynb",
@@ -842,6 +862,16 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
             },
             {
+              "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+              "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+            },
+            {
+              "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+              "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+            },
+            {
               "name": "PyGIMLi ERT - pygimli_ert.ipynb",
               "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
@@ -990,6 +1020,16 @@
                   "name": "PyGIMLi DCIP - pygimli_dcip_century_tri_mesh.ipynb",
                   "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
+                },
+                {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                  "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                },
+                {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                  "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                 },
                 {
                   "name": "PyGIMLi ERT - pygimli_ert.ipynb",
@@ -1396,6 +1436,16 @@
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
                     },
                     {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                      "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                    },
+                    {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                      "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                    },
+                    {
                       "name": "PyGIMLi ERT - pygimli_ert.ipynb",
                       "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
@@ -1607,6 +1657,16 @@
                       "description": "A trust-region method for unconstrained minimization in which quadratic subproblems are solved almost exactly.",
                       "examples": [
                         {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                          "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                        },
+                        {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                          "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                        },
+                        {
                           "name": "PyGIMLi ERT - pygimli_ert.ipynb",
                           "description": "Using the ERT solver provided by PyGIMLi, we use a trust-exact method to solve the corresponding inverse problem",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
@@ -1681,6 +1741,16 @@
           "name": "Linear Regression - linear_regression_emcee_sampler.py",
           "description": "Linear regression problem solved by linear solver, optimizer and sampler",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+        },
+        {
+          "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+          "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+        },
+        {
+          "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+          "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
         },
         {
           "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
@@ -1842,6 +1912,16 @@
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
             },
             {
+              "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+              "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+            },
+            {
+              "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+              "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+            },
+            {
               "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
               "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
@@ -1927,6 +2007,16 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
                 },
                 {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                  "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                },
+                {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                  "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                },
+                {
                   "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
                   "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
@@ -2000,6 +2090,16 @@
                       "name": "Linear Regression - linear_regression_emcee_sampler.py",
                       "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
+                    },
+                    {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                      "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                    },
+                    {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                      "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                     },
                     {
                       "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
@@ -2098,6 +2198,16 @@
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
                         },
                         {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                          "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                        },
+                        {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                          "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
+                        },
+                        {
                           "name": "PyGIMLi ERT - pygimli_ert_toy_emcee_parallel.py",
                           "description": "Using the ERT solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_toy_emcee_parallel.py"
@@ -2189,6 +2299,16 @@
                   "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                   "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+                },
+                {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                  "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                },
+                {
+                  "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                  "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                 }
               ],
               "tutorials": [
@@ -2214,6 +2334,16 @@
                       "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+                    },
+                    {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                      "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                    },
+                    {
+                      "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                      "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                     }
                   ],
                   "tutorials": [
@@ -2239,6 +2369,16 @@
                           "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                           "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
+                        },
+                        {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - surface_wave_receiver_function_joint.ipynb",
+                          "description": "We jointly invert receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/surface_wave_receiver_function_joint.ipynb"
+                        },
+                        {
+                          "name": "Surface wave dispersion and receiver function (joint inversion) - sw_rf_joint_synthetic.ipynb",
+                          "description": "We jointly invert synthetic receiver-function and surface-wave velocity measurements for the 1-D Vs structure using different approaches (optimisation, fixed-dimensional sampling, and trans-dimensional sampling)",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_rf_joint/sw_rf_joint_synthetic.ipynb"
                         }
                       ],
                       "tutorials": [
