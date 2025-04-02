@@ -15,11 +15,6 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
-      "name": "sw_tomography.ipynb",
-      "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-    },
-    {
       "name": "nonlinear_curve_fitting.ipynb",
       "description": "Non-linear curve fitting",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
@@ -235,11 +230,6 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
         },
         {
-          "name": "sw_tomography.ipynb",
-          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-        },
-        {
           "name": "receiver_function_inversion.ipynb",
           "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
@@ -398,11 +388,6 @@
               "name": "pygimli_dcip_century_tri_mesh.ipynb",
               "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
-            },
-            {
-              "name": "sw_tomography.ipynb",
-              "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
             },
             {
               "name": "receiver_function_inversion.ipynb",
@@ -907,11 +892,6 @@
               "description": null,
               "examples": [
                 {
-                  "name": "sw_tomography.ipynb",
-                  "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-                },
-                {
                   "name": "receiver_function_inversion.ipynb",
                   "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
@@ -965,35 +945,6 @@
                 }
               ],
               "children": [
-                {
-                  "name": "Surface wave / ambient noise",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "sw_tomography.ipynb",
-                      "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "name": "Surface Wave Tomography",
-                      "link_git": null,
-                      "link_doc": null,
-                      "description": null,
-                      "examples": [
-                        {
-                          "name": "sw_tomography.ipynb",
-                          "description": "We solve a surface-wave tomography problem using both a regularised least-squares and a trans-dimensional sampling approach",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
-                        }
-                      ],
-                      "children": []
-                    }
-                  ]
-                },
                 {
                   "name": "Receiver function",
                   "link_git": null,
