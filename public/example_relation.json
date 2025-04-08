@@ -163,41 +163,6 @@
       "name": "xray_tomography_linear_solver.py",
       "description": "We look at a linear inverse problem based on Xray Tomography",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-    },
-    {
-      "name": "thin_plate_inversion.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-    },
-    {
-      "name": "single_survey_line.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-    },
-    {
-      "name": "single_survey_line_vertical_only.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-    },
-    {
-      "name": "three_survey_lines_parameter_estimation.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_baysbay.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_emcee.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-    },
-    {
-      "name": "three_survey_lines_smt_neighpy.ipynb",
-      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
     }
   ],
   "tutorials": [
@@ -343,41 +308,6 @@
           "name": "xray_tomography_linear_solver.py",
           "description": "We look at a linear inverse problem based on Xray Tomography",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-        },
-        {
-          "name": "thin_plate_inversion.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-        },
-        {
-          "name": "single_survey_line.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-        },
-        {
-          "name": "single_survey_line_vertical_only.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-        },
-        {
-          "name": "three_survey_lines_parameter_estimation.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-        },
-        {
-          "name": "three_survey_lines_smt_baysbay.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-        },
-        {
-          "name": "three_survey_lines_smt_emcee.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-        },
-        {
-          "name": "three_survey_lines_smt_neighpy.ipynb",
-          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
         }
       ],
       "tutorials": [
@@ -518,41 +448,6 @@
               "name": "xray_tomography_linear_solver.py",
               "description": "We look at a linear inverse problem based on Xray Tomography",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
-            },
-            {
-              "name": "thin_plate_inversion.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-            },
-            {
-              "name": "single_survey_line.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-            },
-            {
-              "name": "single_survey_line_vertical_only.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-            },
-            {
-              "name": "three_survey_lines_parameter_estimation.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-            },
-            {
-              "name": "three_survey_lines_smt_baysbay.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-            },
-            {
-              "name": "three_survey_lines_smt_emcee.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-            },
-            {
-              "name": "three_survey_lines_smt_neighpy.ipynb",
-              "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
             }
           ],
           "tutorials": [
@@ -633,41 +528,6 @@
                   "name": "pygimli_ert_tri_torch_optim.py",
                   "description": "Using the ERT solver provided by PyGIMLi, we use a LBFGS to solve the inverse problem on a triangular mesh",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert_tri_torch_optim.py"
-                },
-                {
-                  "name": "thin_plate_inversion.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-                },
-                {
-                  "name": "single_survey_line.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-                },
-                {
-                  "name": "single_survey_line_vertical_only.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_parameter_estimation.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_baysbay.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_emcee.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-                },
-                {
-                  "name": "three_survey_lines_smt_neighpy.ipynb",
-                  "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
                 }
               ],
               "tutorials": [
@@ -830,43 +690,6 @@
                   "link_git": null,
                   "link_doc": null,
                   "description": null,
-                  "examples": [
-                    {
-                      "name": "thin_plate_inversion.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-                    },
-                    {
-                      "name": "single_survey_line.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-                    },
-                    {
-                      "name": "single_survey_line_vertical_only.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-                    },
-                    {
-                      "name": "three_survey_lines_parameter_estimation.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-                    },
-                    {
-                      "name": "three_survey_lines_smt_baysbay.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-                    },
-                    {
-                      "name": "three_survey_lines_smt_emcee.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-                    },
-                    {
-                      "name": "three_survey_lines_smt_neighpy.ipynb",
-                      "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
-                    }
-                  ],
                   "tutorials": [
                     {
                       "name": "thin_plate_inversion.ipynb",
@@ -880,43 +703,6 @@
                       "link_git": null,
                       "link_doc": null,
                       "description": null,
-                      "examples": [
-                        {
-                          "name": "thin_plate_inversion.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/thin_plate_inversion.ipynb"
-                        },
-                        {
-                          "name": "single_survey_line.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line.ipynb"
-                        },
-                        {
-                          "name": "single_survey_line_vertical_only.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/single_survey_line_vertical_only.ipynb"
-                        },
-                        {
-                          "name": "three_survey_lines_parameter_estimation.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_parameter_estimation.ipynb"
-                        },
-                        {
-                          "name": "three_survey_lines_smt_baysbay.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_baysbay.ipynb"
-                        },
-                        {
-                          "name": "three_survey_lines_smt_emcee.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_emcee.ipynb"
-                        },
-                        {
-                          "name": "three_survey_lines_smt_neighpy.ipynb",
-                          "description": "Using the forward solver provided by P223 and CoFI to invert for a thin plate target",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/vtem_max/three_survey_lines_smt_neighpy.ipynb"
-                        }
-                      ],
                       "tutorials": [
                         {
                           "name": "thin_plate_inversion.ipynb",
