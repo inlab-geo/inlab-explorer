@@ -11,7 +11,7 @@
     },
     {
       "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-      "description": "Non-linear curve fitting",
+      "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
     },
     {
@@ -231,7 +231,7 @@
         },
         {
           "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-          "description": "Non-linear curve fitting",
+          "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
         },
         {
@@ -768,7 +768,7 @@
             },
             {
               "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-              "description": "Non-linear curve fitting",
+              "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
             },
             {
@@ -928,7 +928,7 @@
                 },
                 {
                   "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                  "description": "Non-linear curve fitting",
+                  "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                 },
                 {
@@ -1088,7 +1088,7 @@
                     },
                     {
                       "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                      "description": "Non-linear curve fitting",
+                      "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                     }
                   ],
@@ -1122,7 +1122,7 @@
                       "examples": [
                         {
                           "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                          "description": "Non-linear curve fitting",
+                          "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                         }
                       ],
@@ -1719,7 +1719,7 @@
         },
         {
           "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-          "description": "Non-linear curve fitting",
+          "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
         },
         {
@@ -1888,7 +1888,7 @@
           "examples": [
             {
               "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-              "description": "Non-linear curve fitting",
+              "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
             },
             {
@@ -1983,7 +1983,7 @@
               "examples": [
                 {
                   "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                  "description": "Non-linear curve fitting",
+                  "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                 },
                 {
@@ -2068,7 +2068,7 @@
                   "examples": [
                     {
                       "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                      "description": "Non-linear curve fitting",
+                      "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                     },
                     {
@@ -2174,7 +2174,7 @@
                       "examples": [
                         {
                           "name": "Non-linear Curve Fitting - nonlinear_curve_fitting.ipynb",
-                          "description": "Non-linear curve fitting",
+                          "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
                         },
                         {
