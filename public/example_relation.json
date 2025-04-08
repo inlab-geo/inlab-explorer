@@ -6,12 +6,12 @@
   "examples": [
     {
       "name": "pygimli_dcip.ipynb",
-      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "description": "DCIP inversion for a synthetic test problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
     },
     {
       "name": "pygimli_dcip_century_tri_mesh.ipynb",
-      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+      "description": "DCIP inversion for the Century Deposit",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
     },
     {
@@ -201,12 +201,12 @@
       "examples": [
         {
           "name": "pygimli_dcip.ipynb",
-          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "description": "DCIP inversion for a synthetic test problem",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
         },
         {
           "name": "pygimli_dcip_century_tri_mesh.ipynb",
-          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+          "description": "DCIP inversion for the Century Deposit",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
         },
         {
@@ -341,12 +341,12 @@
           "examples": [
             {
               "name": "pygimli_dcip.ipynb",
-              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "description": "DCIP inversion for a synthetic test problem",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
             },
             {
               "name": "pygimli_dcip_century_tri_mesh.ipynb",
-              "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+              "description": "DCIP inversion for the Century Deposit",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
             },
             {
@@ -481,12 +481,12 @@
               "examples": [
                 {
                   "name": "pygimli_dcip.ipynb",
-                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "description": "DCIP inversion for a synthetic test problem",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
                 },
                 {
                   "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                  "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                  "description": "DCIP inversion for the Century Deposit",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
                 },
                 {
@@ -551,12 +551,12 @@
                   "examples": [
                     {
                       "name": "pygimli_dcip.ipynb",
-                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "description": "DCIP inversion for a synthetic test problem",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
                     },
                     {
                       "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                      "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                      "description": "DCIP inversion for the Century Deposit",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
                     },
                     {
@@ -616,12 +616,12 @@
                       "examples": [
                         {
                           "name": "pygimli_dcip.ipynb",
-                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "description": "DCIP inversion for a synthetic test problem",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip.ipynb"
                         },
                         {
                           "name": "pygimli_dcip_century_tri_mesh.ipynb",
-                          "description": "Using the DCIP solver provided by PyGIMLi, we use different CoFI solvers to solve the corresponding inverse problem",
+                          "description": "DCIP inversion for the Century Deposit",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_dcip/pygimli_dcip_century_tri_mesh.ipynb"
                         }
                       ],
