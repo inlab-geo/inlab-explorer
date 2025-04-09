@@ -31,7 +31,7 @@
     },
     {
       "name": "linear_regression.ipynb",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
     },
     {
@@ -1062,7 +1062,7 @@
         },
         {
           "name": "linear_regression.ipynb",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
         },
         {
@@ -1127,7 +1127,7 @@
             },
             {
               "name": "linear_regression.ipynb",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
             },
             {
@@ -1187,7 +1187,7 @@
                 },
                 {
                   "name": "linear_regression.ipynb",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
                 },
                 {
@@ -1247,7 +1247,7 @@
                     },
                     {
                       "name": "linear_regression.ipynb",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
                     },
                     {
@@ -1316,7 +1316,7 @@
                       "examples": [
                         {
                           "name": "linear_regression.ipynb",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
                         },
                         {
