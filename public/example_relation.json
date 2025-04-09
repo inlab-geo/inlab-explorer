@@ -41,7 +41,7 @@
     },
     {
       "name": "linear_regression_emcee_sampler.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
     },
     {
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "linear_regression_emcee_sampler.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
         },
         {
@@ -1137,7 +1137,7 @@
             },
             {
               "name": "linear_regression_emcee_sampler.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
             },
             {
@@ -1197,7 +1197,7 @@
                 },
                 {
                   "name": "linear_regression_emcee_sampler.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
                 },
                 {
@@ -1257,7 +1257,7 @@
                     },
                     {
                       "name": "linear_regression_emcee_sampler.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
                     },
                     {
@@ -1326,7 +1326,7 @@
                         },
                         {
                           "name": "linear_regression_emcee_sampler.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "description": "Script demonstrating Bayesian sampling with emcee in a simple polynomial regression problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_emcee_sampler.py"
                         },
                         {
