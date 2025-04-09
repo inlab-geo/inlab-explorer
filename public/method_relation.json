@@ -31,17 +31,17 @@
     },
     {
       "name": "FMM Tomography - fmm_tomography.ipynb",
-      "description": "Seismic wave tomography via fast marching method",
+      "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
     },
     {
       "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-      "description": "Seismic wave tomography via fast marching method",
+      "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
     },
     {
       "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-      "description": "Seismic wave tomography via fast marching method",
+      "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-      "description": "Seismic wave tomography via fast marching method",
+      "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
     },
     {
       "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-      "description": "Seismic wave tomography via fast marching method",
+      "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
     },
     {
@@ -226,17 +226,17 @@
         },
         {
           "name": "FMM Tomography - fmm_tomography.ipynb",
-          "description": "Seismic wave tomography via fast marching method",
+          "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
         },
         {
           "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-          "description": "Seismic wave tomography via fast marching method",
+          "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
         },
         {
           "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-          "description": "Seismic wave tomography via fast marching method",
+          "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
         },
         {
@@ -266,12 +266,12 @@
         },
         {
           "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-          "description": "Seismic wave tomography via fast marching method",
+          "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
         },
         {
           "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-          "description": "Seismic wave tomography via fast marching method",
+          "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
         },
         {
@@ -743,17 +743,17 @@
             },
             {
               "name": "FMM Tomography - fmm_tomography.ipynb",
-              "description": "Seismic wave tomography via fast marching method",
+              "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
             },
             {
               "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-              "description": "Seismic wave tomography via fast marching method",
+              "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
             },
             {
               "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-              "description": "Seismic wave tomography via fast marching method",
+              "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
             },
             {
@@ -783,12 +783,12 @@
             },
             {
               "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-              "description": "Seismic wave tomography via fast marching method",
+              "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
             },
             {
               "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-              "description": "Seismic wave tomography via fast marching method",
+              "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
             },
             {
@@ -883,17 +883,17 @@
                 },
                 {
                   "name": "FMM Tomography - fmm_tomography.ipynb",
-                  "description": "Seismic wave tomography via fast marching method",
+                  "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
                 },
                 {
                   "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-                  "description": "Seismic wave tomography via fast marching method",
+                  "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
                 },
                 {
                   "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-                  "description": "Seismic wave tomography via fast marching method",
+                  "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
                 },
                 {
@@ -923,12 +923,12 @@
                 },
                 {
                   "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-                  "description": "Seismic wave tomography via fast marching method",
+                  "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
                 },
                 {
                   "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-                  "description": "Seismic wave tomography via fast marching method",
+                  "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
                 },
                 {
@@ -1204,17 +1204,17 @@
                   "examples": [
                     {
                       "name": "FMM Tomography - fmm_tomography.ipynb",
-                      "description": "Seismic wave tomography via fast marching method",
+                      "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
                     },
                     {
                       "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-                      "description": "Seismic wave tomography via fast marching method",
+                      "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
                     },
                     {
                       "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-                      "description": "Seismic wave tomography via fast marching method",
+                      "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
                     },
                     {
@@ -1249,17 +1249,17 @@
                       "examples": [
                         {
                           "name": "FMM Tomography - fmm_tomography.ipynb",
-                          "description": "Seismic wave tomography via fast marching method",
+                          "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
                         },
                         {
                           "name": "FMM Tomography - fmm_tomography_regularization_discussion.ipynb",
-                          "description": "Seismic wave tomography via fast marching method",
+                          "description": "Uses a simple matrix solver to perform smoothing, flattening and damping regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_regularization_discussion.ipynb"
                         },
                         {
                           "name": "FMM Tomography - fmm_tomography_simple_newton.py",
-                          "description": "Seismic wave tomography via fast marching method",
+                          "description": "Uses simple Newton matrix solver to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_simple_newton.py"
                         },
                         {
@@ -1312,12 +1312,12 @@
                     },
                     {
                       "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-                      "description": "Seismic wave tomography via fast marching method",
+                      "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
                     },
                     {
                       "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-                      "description": "Seismic wave tomography via fast marching method",
+                      "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
                     },
                     {
@@ -1441,12 +1441,12 @@
                       "examples": [
                         {
                           "name": "FMM Tomography - fmm_tomography_gaussian_prior_scipy_opt.py",
-                          "description": "Seismic wave tomography via fast marching method",
+                          "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a spatial Gaussian prior regularisation in a Cartesian 2D travel time tomography problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_gaussian_prior_scipy_opt.py"
                         },
                         {
                           "name": "FMM Tomography - fmm_tomography_reg_scipy_optimiser.py",
-                          "description": "Seismic wave tomography via fast marching method",
+                          "description": "Uses scipy conjugate gradients to iteratively minimise a least squares travel time objective function with a smoothing, flattening or damping regularisation in a Cartesian 2D travel time tomography problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography_reg_scipy_optimiser.py"
                         }
                       ],
