@@ -75,6 +75,11 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
     },
     {
+      "name": "linear_regression_bayesbay.py",
+      "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+    },
+    {
       "name": "Partition_modelling_sealevel_bayesbay.ipynb",
       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -1111,6 +1116,11 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
         },
         {
+          "name": "linear_regression_bayesbay.py",
+          "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+        },
+        {
           "name": "modified_himmelblau.ipynb",
           "description": "Finding the global minimum of a modified Himmelblau function",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
@@ -1179,6 +1189,11 @@
               "name": "linear_regression_neighpy.py",
               "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
+            },
+            {
+              "name": "linear_regression_bayesbay.py",
+              "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
             }
           ],
           "tutorials": [
@@ -1244,6 +1259,11 @@
                   "name": "linear_regression_neighpy.py",
                   "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
+                },
+                {
+                  "name": "linear_regression_bayesbay.py",
+                  "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
                 }
               ],
               "tutorials": [
@@ -1309,6 +1329,11 @@
                       "name": "linear_regression_neighpy.py",
                       "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
+                    },
+                    {
+                      "name": "linear_regression_bayesbay.py",
+                      "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
                     }
                   ],
                   "tutorials": [
@@ -1383,6 +1408,11 @@
                           "name": "linear_regression_neighpy.py",
                           "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.py"
+                        },
+                        {
+                          "name": "linear_regression_bayesbay.py",
+                          "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
                         }
                       ],
                       "tutorials": [

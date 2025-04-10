@@ -105,6 +105,11 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
     },
     {
+      "name": "Linear Regression - linear_regression_bayesbay.py",
+      "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+    },
+    {
       "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -1643,6 +1648,11 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
         },
         {
+          "name": "Linear Regression - linear_regression_bayesbay.py",
+          "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+        },
+        {
           "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
           "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -1800,6 +1810,11 @@
               "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
               "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+            },
+            {
+              "name": "Linear Regression - linear_regression_bayesbay.py",
+              "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
             },
             {
               "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
@@ -2121,6 +2136,11 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                 },
                 {
+                  "name": "Linear Regression - linear_regression_bayesbay.py",
+                  "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+                },
+                {
                   "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                   "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -2156,6 +2176,11 @@
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
                     },
                     {
+                      "name": "Linear Regression - linear_regression_bayesbay.py",
+                      "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+                    },
+                    {
                       "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
                       "description": "Fitting a partition model to Eustatic Sea-level heights using trans-D Bayesian partition modelling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/partition_modelling/Partition_modelling_sealevel_bayesbay.ipynb"
@@ -2189,6 +2214,11 @@
                           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
                           "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
+                        },
+                        {
+                          "name": "Linear Regression - linear_regression_bayesbay.py",
+                          "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
                         },
                         {
                           "name": "Analysis of Eustatic Sea-level heights using partition modelling - Partition_modelling_sealevel_bayesbay.ipynb",
