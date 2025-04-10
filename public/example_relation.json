@@ -61,7 +61,7 @@
     },
     {
       "name": "linear_regression_optimizer_minimize.py",
-      "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+      "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
     },
     {
@@ -1092,7 +1092,7 @@
         },
         {
           "name": "linear_regression_optimizer_minimize.py",
-          "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+          "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
         },
         {
@@ -1157,7 +1157,7 @@
             },
             {
               "name": "linear_regression_optimizer_minimize.py",
-              "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+              "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
             },
             {
@@ -1217,7 +1217,7 @@
                 },
                 {
                   "name": "linear_regression_optimizer_minimize.py",
-                  "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+                  "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
                 },
                 {
@@ -1277,7 +1277,7 @@
                     },
                     {
                       "name": "linear_regression_optimizer_minimize.py",
-                      "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+                      "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
                     },
                     {
@@ -1346,7 +1346,7 @@
                         },
                         {
                           "name": "linear_regression_optimizer_minimize.py",
-                          "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
+                          "description": "Script demonstrating scipy least squares based solver for a simple polynomial regression problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_minimize.py"
                         },
                         {
