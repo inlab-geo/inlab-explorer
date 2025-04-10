@@ -66,7 +66,7 @@
     },
     {
       "name": "linear_regression_pytorch_optim.py",
-      "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
     },
     {
@@ -1097,7 +1097,7 @@
         },
         {
           "name": "linear_regression_pytorch_optim.py",
-          "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
         },
         {
@@ -1162,7 +1162,7 @@
             },
             {
               "name": "linear_regression_pytorch_optim.py",
-              "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
             }
           ],
@@ -1222,7 +1222,7 @@
                 },
                 {
                   "name": "linear_regression_pytorch_optim.py",
-                  "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
                 }
               ],
@@ -1282,7 +1282,7 @@
                     },
                     {
                       "name": "linear_regression_pytorch_optim.py",
-                      "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
                     }
                   ],
@@ -1351,7 +1351,7 @@
                         },
                         {
                           "name": "linear_regression_pytorch_optim.py",
-                          "description": "Script demonstrating PyTorch minimisation of curve misfit for a simple polynomial regression problem.",
+                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_pytorch_optim.py"
                         }
                       ],
