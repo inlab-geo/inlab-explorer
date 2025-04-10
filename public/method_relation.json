@@ -151,7 +151,7 @@
     },
     {
       "name": "Linear Regression - linear_regression_linear_system_general.py",
-      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+      "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
     },
     {
@@ -321,7 +321,7 @@
         },
         {
           "name": "Linear Regression - linear_regression_linear_system_general.py",
-          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+          "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
         },
         {
@@ -391,7 +391,7 @@
             },
             {
               "name": "Linear Regression - linear_regression_linear_system_general.py",
-              "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+              "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
             },
             {
@@ -446,7 +446,7 @@
                 },
                 {
                   "name": "Linear Regression - linear_regression_linear_system_general.py",
-                  "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                  "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
                 },
                 {
@@ -607,7 +607,7 @@
                     },
                     {
                       "name": "Linear Regression - linear_regression_linear_system_general.py",
-                      "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                      "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
                     },
                     {
@@ -662,7 +662,7 @@
                         },
                         {
                           "name": "Linear Regression - linear_regression_linear_system_general.py",
-                          "description": "Linear regression problem solved by linear solver, optimizer and sampler",
+                          "description": "Script demonstrating scipy Least Squares matrix based solver for a simple polynomial regression problem.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_linear_system_general.py"
                         },
                         {
