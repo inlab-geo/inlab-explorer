@@ -166,12 +166,12 @@
     },
     {
       "name": "xray_tomography.ipynb",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
     },
     {
       "name": "xray_tomography_linear_solver.py",
-      "description": "We look at a linear inverse problem based on Xray Tomography",
+      "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
     }
   ],
@@ -311,12 +311,12 @@
         },
         {
           "name": "xray_tomography.ipynb",
-          "description": "We look at a linear inverse problem based on Xray Tomography",
+          "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
         },
         {
           "name": "xray_tomography_linear_solver.py",
-          "description": "We look at a linear inverse problem based on Xray Tomography",
+          "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
         }
       ],
@@ -451,12 +451,12 @@
             },
             {
               "name": "xray_tomography.ipynb",
-              "description": "We look at a linear inverse problem based on Xray Tomography",
+              "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
             },
             {
               "name": "xray_tomography_linear_solver.py",
-              "description": "We look at a linear inverse problem based on Xray Tomography",
+              "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
             }
           ],
@@ -779,12 +779,12 @@
                 },
                 {
                   "name": "xray_tomography.ipynb",
-                  "description": "We look at a linear inverse problem based on Xray Tomography",
+                  "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
                 },
                 {
                   "name": "xray_tomography_linear_solver.py",
-                  "description": "We look at a linear inverse problem based on Xray Tomography",
+                  "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
                 }
               ],
@@ -892,12 +892,12 @@
                     },
                     {
                       "name": "xray_tomography.ipynb",
-                      "description": "We look at a linear inverse problem based on Xray Tomography",
+                      "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
                     },
                     {
                       "name": "xray_tomography_linear_solver.py",
-                      "description": "We look at a linear inverse problem based on Xray Tomography",
+                      "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
                     }
                   ],
@@ -958,12 +958,12 @@
                       "examples": [
                         {
                           "name": "xray_tomography.ipynb",
-                          "description": "We look at a linear inverse problem based on Xray Tomography",
+                          "description": "Solves overdetermined linear system with Least Squares using scipy for 2D Xray tomography problem in Cartesian co-ordinates.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography.ipynb"
                         },
                         {
                           "name": "xray_tomography_linear_solver.py",
-                          "description": "We look at a linear inverse problem based on Xray Tomography",
+                          "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
                         }
                       ],
