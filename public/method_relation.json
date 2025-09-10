@@ -5,11 +5,6 @@
   "description": "Common Framework for Inference",
   "examples": [
     {
-      "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-      "description": "Finding the global minimum of a modified Himmelblau function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-    },
-    {
       "name": "Linear Regression - linear_regression_optimizer_lstsq.py",
       "description": "Script demonstrating scipy misfit optimisation based solver for a simple polynomial regression problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_optimizer_lstsq.py"
@@ -205,11 +200,6 @@
       "description": "Ensemble methods are a class of inference technique that result in multiple models, rather than a single model through parameter estimation, these might be driven by data fitting or Bayesian sampling.",
       "examples": [
         {
-          "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-          "description": "Finding the global minimum of a modified Himmelblau function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-        },
-        {
           "name": "Surface Wave Tomography via Seislib - sw_tomography.ipynb",
           "description": "We map surface-wave velocity across the continental USA by solving a 2-D tomography problem through different approaches (regularised least-squares and trans-dimensional sampling)",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/sw_tomography/sw_tomography.ipynb"
@@ -298,52 +288,24 @@
           "link_git": null,
           "link_doc": null,
           "description": "In the context of ensemble methods, direct search involves a search of the parameter space, e.g. to reduce a data misfit function, without requiring gradient information, These typically make use of exploration of the space and exploitation of previous sampling to guide search.",
-          "examples": [
-            {
-              "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-              "description": "Finding the global minimum of a modified Himmelblau function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-            }
-          ],
           "children": [
             {
               "name": "Monte Carlo",
               "link_git": null,
               "link_doc": null,
               "description": "Monte Carlo methods use random sampling to obtain numerical results for problems that might be deterministic in principle.",
-              "examples": [
-                {
-                  "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-                  "description": "Finding the global minimum of a modified Himmelblau function",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                }
-              ],
               "children": [
                 {
                   "name": "cofi.border_collie_optimization",
                   "link_git": null,
                   "link_doc": null,
                   "description": null,
-                  "examples": [
-                    {
-                      "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-                      "description": "Finding the global minimum of a modified Himmelblau function",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                    }
-                  ],
                   "children": [
                     {
                       "name": "Border Collie Optimization Algorithm",
                       "link_git": "https://github.com/inlab-geo/cofi/blob/main/src/cofi/tools/_cofi_border_collie_optimization.py",
                       "link_doc": "https://ieeexplore.ieee.org/document/9106341\n",
                       "description": "Implementation of a Border Collie Optimization Algorithm, based on the concepts and equations given in Dutta et al., IEEE Access, 2020.",
-                      "examples": [
-                        {
-                          "name": "Modified Himmelblau function - modified_himmelblau.ipynb",
-                          "description": "Finding the global minimum of a modified Himmelblau function",
-                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                        }
-                      ],
                       "children": []
                     }
                   ]

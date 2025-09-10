@@ -65,11 +65,6 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
     },
     {
-      "name": "modified_himmelblau.ipynb",
-      "description": "Finding the global minimum of a modified Himmelblau function",
-      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-    },
-    {
       "name": "pygimli_ert.ipynb",
       "description": "Using the ERT solver provided by PyGIMLi, we use trust-exact proviced by SciPY to solve the corresponding inverse problem",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/pygimli_ert/pygimli_ert.ipynb"
@@ -1116,11 +1111,6 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
         },
         {
-          "name": "modified_himmelblau.ipynb",
-          "description": "Finding the global minimum of a modified Himmelblau function",
-          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-        },
-        {
           "name": "nonlinear_curve_fitting.ipynb",
           "description": "We solve a synthetic non-linear curve fitting problem in a deterministic setting (using Levenberg-Marquardt) and a probabilistic setting (using the stretch move in an affine-invariant sampler)",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/nonlinear_curve_fitting/nonlinear_curve_fitting.ipynb"
@@ -1425,50 +1415,6 @@
                       "children": []
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Applied mathematics",
-          "link_git": null,
-          "link_doc": null,
-          "description": null,
-          "examples": [
-            {
-              "name": "modified_himmelblau.ipynb",
-              "description": "Finding the global minimum of a modified Himmelblau function",
-              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-            }
-          ],
-          "children": [
-            {
-              "name": "Optimisation",
-              "link_git": null,
-              "link_doc": null,
-              "description": null,
-              "examples": [
-                {
-                  "name": "modified_himmelblau.ipynb",
-                  "description": "Finding the global minimum of a modified Himmelblau function",
-                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                }
-              ],
-              "children": [
-                {
-                  "name": "Metaheuristic optimisation",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "examples": [
-                    {
-                      "name": "modified_himmelblau.ipynb",
-                      "description": "Finding the global minimum of a modified Himmelblau function",
-                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/test_functions_for_optimization/modified_himmelblau.ipynb"
-                    }
-                  ],
-                  "children": []
                 }
               ]
             }
