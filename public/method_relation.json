@@ -1942,6 +1942,29 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Gradient-free optimizers",
+              "link_git": null,
+              "link_doc": null,
+              "description": null,
+              "children": [
+                {
+                  "name": "mealpy",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "children": [
+                    {
+                      "name": "SMA",
+                      "link_git": "https://github.com/inlab-geo/cofi/blob/main/src/cofi/tools/_mealpy_sma.py",
+                      "link_doc": "https://mealpy.readthedocs.io/\n",
+                      "description": "Bio-inspired optimization mimicking slime mould foraging behavior",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
