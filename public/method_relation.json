@@ -173,6 +173,11 @@
       "name": "Xray Tomography - xray_tomography_linear_solver.py",
       "description": "Script for solving overdetermined linear system for 2D Xray tomography problem in Cartesian co-ordinates.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/xray_tomography/xray_tomography_linear_solver.py"
+    },
+    {
+      "name": "Linear Regression - linear_regression_neighpy.ipynb",
+      "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
     }
   ],
   "tutorials": [
@@ -273,6 +278,11 @@
           "name": "Linear Regression - linear_regression_bayesbay.py",
           "description": "Script demonstrating BayesBay for Trans-D Bayesian sampling of curve misfit for a simple polynomial regression problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
+        },
+        {
+          "name": "Linear Regression - linear_regression_neighpy.ipynb",
+          "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
         }
       ],
       "tutorials": [
@@ -833,12 +843,26 @@
           "link_git": null,
           "link_doc": null,
           "description": "In the context of ensemble methods, direct search involves a search of the parameter space, e.g. to reduce a data misfit function, without requiring gradient information, These typically make use of exploration of the space and exploitation of previous sampling to guide search.",
+          "examples": [
+            {
+              "name": "Linear Regression - linear_regression_neighpy.ipynb",
+              "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
+            }
+          ],
           "children": [
             {
               "name": "Monte Carlo",
               "link_git": null,
               "link_doc": null,
               "description": "Monte Carlo methods use random sampling to obtain numerical results for problems that might be deterministic in principle.",
+              "examples": [
+                {
+                  "name": "Linear Regression - linear_regression_neighpy.ipynb",
+                  "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
+                }
+              ],
               "children": [
                 {
                   "name": "cofi.border_collie_optimization",
@@ -860,12 +884,26 @@
                   "link_git": null,
                   "link_doc": null,
                   "description": null,
+                  "examples": [
+                    {
+                      "name": "Linear Regression - linear_regression_neighpy.ipynb",
+                      "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
+                    }
+                  ],
                   "children": [
                     {
                       "name": "Neighbourhood Algorithm",
                       "link_git": "https://github.com/inlab-geo/cofi/blob/main/src/cofi/tools/_neighpy.py",
                       "link_doc": "https://neighpy.readthedocs.io/en/latest/\n",
                       "description": "Wrapper for the tool Neighpy, implementing the Neighbourhood Algorithm",
+                      "examples": [
+                        {
+                          "name": "Linear Regression - linear_regression_neighpy.ipynb",
+                          "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
+                        }
+                      ],
                       "children": []
                     }
                   ]
