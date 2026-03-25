@@ -155,6 +155,16 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
     },
     {
+      "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+      "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+    },
+    {
+      "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+      "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+    },
+    {
       "name": "Linear Regression - linear_regression_neighpy.ipynb",
       "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
@@ -240,6 +250,16 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_bayesbay.py"
         },
         {
+          "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+          "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+        },
+        {
+          "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+          "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+        },
+        {
           "name": "Linear Regression - linear_regression_neighpy.ipynb",
           "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
@@ -315,6 +335,16 @@
           "description": "In the context of ensemble methods, direct search involves a search of the parameter space, e.g. to reduce a data misfit function, without requiring gradient information, These typically make use of exploration of the space and exploitation of previous sampling to guide search.",
           "examples": [
             {
+              "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+              "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+            },
+            {
+              "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+              "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+            },
+            {
               "name": "Linear Regression - linear_regression_neighpy.ipynb",
               "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
@@ -327,6 +357,16 @@
               "link_doc": null,
               "description": "Monte Carlo methods use random sampling to obtain numerical results for problems that might be deterministic in principle.",
               "examples": [
+                {
+                  "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+                  "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                },
+                {
+                  "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+                  "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+                },
                 {
                   "name": "Linear Regression - linear_regression_neighpy.ipynb",
                   "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
@@ -356,6 +396,16 @@
                   "description": null,
                   "examples": [
                     {
+                      "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+                      "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                    },
+                    {
+                      "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+                      "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+                    },
+                    {
                       "name": "Linear Regression - linear_regression_neighpy.ipynb",
                       "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression_neighpy.ipynb"
@@ -368,6 +418,16 @@
                       "link_doc": "https://neighpy.readthedocs.io/en/latest/\n",
                       "description": "Wrapper for the tool Neighpy, implementing the Neighbourhood Algorithm",
                       "examples": [
+                        {
+                          "name": "Receiver Function Inversion - receiver_function_neighpy.ipynb",
+                          "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                        },
+                        {
+                          "name": "Receiver Function Inversion - receiver_function_neighpy.py",
+                          "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+                        },
                         {
                           "name": "Linear Regression - linear_regression_neighpy.ipynb",
                           "description": "Script demonstrating Neighbourhood Algorithm for direct search applied to a simple polynomial regression problem.",

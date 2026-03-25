@@ -105,6 +105,16 @@
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
     },
     {
+      "name": "receiver_function_neighpy.ipynb",
+      "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+    },
+    {
+      "name": "receiver_function_neighpy.py",
+      "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+    },
+    {
       "name": "linear_regression.ipynb",
       "description": "Demonstrates polynomial curve fitting with matrix based linear solver, scipy optimisation of a misfit, and Bayesian sampling of a posterior PDF.",
       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/linear_regression/linear_regression.ipynb"
@@ -379,6 +389,16 @@
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
         },
         {
+          "name": "receiver_function_neighpy.ipynb",
+          "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+        },
+        {
+          "name": "receiver_function_neighpy.py",
+          "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+        },
+        {
           "name": "fmm_tomography.ipynb",
           "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
@@ -517,6 +537,16 @@
               "name": "receiver_function_inversion.ipynb",
               "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
               "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+            },
+            {
+              "name": "receiver_function_neighpy.ipynb",
+              "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+            },
+            {
+              "name": "receiver_function_neighpy.py",
+              "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+              "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
             },
             {
               "name": "fmm_tomography.ipynb",
@@ -876,6 +906,16 @@
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
                 },
                 {
+                  "name": "receiver_function_neighpy.ipynb",
+                  "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                },
+                {
+                  "name": "receiver_function_neighpy.py",
+                  "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                  "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
+                },
+                {
                   "name": "fmm_tomography.ipynb",
                   "description": "Uses a simple matrix solver to perform regularised iterative inversion of a 2D travel time tomography problem in Cartesian co-ordinates.",
                   "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/fmm_tomography/fmm_tomography.ipynb"
@@ -1118,6 +1158,16 @@
                       "name": "receiver_function_inversion.ipynb",
                       "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                       "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+                    },
+                    {
+                      "name": "receiver_function_neighpy.ipynb",
+                      "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                    },
+                    {
+                      "name": "receiver_function_neighpy.py",
+                      "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                      "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
                     }
                   ],
                   "children": [
@@ -1131,6 +1181,16 @@
                           "name": "receiver_function_inversion.ipynb",
                           "description": "We invert a synthetic receiver function for the 1-D Vs structure using both optimization and sampling",
                           "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_inversion.ipynb"
+                        },
+                        {
+                          "name": "receiver_function_neighpy.ipynb",
+                          "description": "Demonstrates Neighbourhood Algorithm applied to receiver function inversion via direct search and appraisal.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.ipynb"
+                        },
+                        {
+                          "name": "receiver_function_neighpy.py",
+                          "description": "Script demonstrating Neighbourhood Algorithm for receiver function inversion.",
+                          "linkToGit": "https://github.com/inlab-geo/cofi-examples/tree/main/examples/receiver_function/receiver_function_neighpy.py"
                         }
                       ],
                       "children": []
