@@ -13,6 +13,7 @@ import { Badge } from "./badge/badge";
 import cofiBadges from "./badge/badgeCofi";
 import espressoBadges from "./badge/badgeEspresso";
 import exampleBadges from "./badge/badgeExample";
+import { treeFromParam } from "./topPanel";
 
 const Panel: React.FC<onClick> = ({ onClickTree, onClickTheme }) => {
   const [viewportDim, setViewportDim] = useState({ height: 0, width: 0 });
@@ -57,6 +58,16 @@ const Panel: React.FC<onClick> = ({ onClickTree, onClickTheme }) => {
   };
   //tree selection
   const [selectedTree, setTree] = useState("CoFI Methods");
+
+  useEffect(() => {
+    const fromUrl = treeFromParam(
+      new URLSearchParams(window.location.search).get("tree"),
+    );
+    if (fromUrl) {
+      onClickTree(fromUrl);
+      setTree(fromUrl);
+    }
+  }, []);
 
   function styleText(content: string) {
     return <div style={inLabStyle.selectTextCSS}>{content}</div>;
