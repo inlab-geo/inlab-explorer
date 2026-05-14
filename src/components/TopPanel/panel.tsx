@@ -63,10 +63,7 @@ const Panel: React.FC<onClick> = ({ onClickTree, onClickTheme }) => {
     const fromUrl = treeFromParam(
       new URLSearchParams(window.location.search).get("tree"),
     );
-    if (fromUrl) {
-      onClickTree(fromUrl);
-      setTree(fromUrl);
-    }
+    if (fromUrl) setTree(fromUrl);
   }, []);
 
   function styleText(content: string) {

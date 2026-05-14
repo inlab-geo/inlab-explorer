@@ -5,6 +5,7 @@ import { HierarchyPointNode } from "d3";
 import "../../../app/style.css";
 import { TreeNode, TreeProps } from "./treeComponent";
 import { style } from "./style";
+import { toSlug, getPathParam, setPathParam } from "../../lib/urlTree";
 
 import methodRelationData from "../../../public/method_relation.json";
 import appRelationData from "../../../public/app_relation.json";
@@ -480,6 +481,16 @@ const TreeComponent: React.FC<selected> = ({
           return path;
         }
 
+        function getNodePath(d: any): string {
+          const segs: string[] = [];
+          let cur = d;
+          while (cur.parent) {
+            segs.unshift(toSlug(cur.data.name));
+            cur = cur.parent;
+          }
+          return segs.join('/');
+        }
+
         function click(event: any, d: any) {
           if (longpress) {
             return;
@@ -490,6 +501,12 @@ const TreeComponent: React.FC<selected> = ({
           } else {
             d.children = d._children;
             d._children = null;
+          }
+          if (d.children) {
+            setPathParam(getNodePath(d));
+          } else {
+            const parentPath = d.parent?.parent ? getNodePath(d.parent) : null;
+            setPathParam(parentPath);
           }
           update(d);
           let center = { w: windowSize.width / 2, h: windowSize.height / 3 };
@@ -519,9 +536,32 @@ const TreeComponent: React.FC<selected> = ({
         tooltip.style("display", "none");
       });
 
+      function expandPath(pathStr: string) {
+        const segments = pathStr.split('/').filter(Boolean);
+        let current = treeRoot;
+        for (const seg of segments) {
+          const candidates: any[] = [
+            ...(current.children || []),
+            ...(current._children || []),
+          ];
+          const match = candidates.find((c: any) => toSlug(c.data.name) === seg);
+          if (!match) break;
+          if (!current.children && current._children) {
+            current.children = current._children;
+            current._children = null;
+          }
+          if (!match.children && match._children) {
+            match.children = match._children;
+            match._children = null;
+          }
+          current = match;
+        }
+      }
+
+      const savedPath = getPathParam();
+      if (savedPath) expandPath(savedPath);
+
       update(treeRoot);
-      // Collapse after the second level
-      treeRoot.children.forEach(collapse);
 
       return function cleanup() {
         svg.selectAll("*").remove();

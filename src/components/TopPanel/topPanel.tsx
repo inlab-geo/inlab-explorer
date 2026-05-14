@@ -5,6 +5,7 @@ import Panel from "./panel";
 import Popup from "./popup";
 import HelperBox from "./helperBox";
 import FloatingText from "./floatingText";
+import { treeToSlug, setTreeParam } from "../../lib/urlTree";
 
 export const treeFromParam = (p: string | null): string | null => {
   if (p === "examples" || p === "CoFI Examples") return "CoFI Examples";
@@ -21,6 +22,11 @@ function TopPanel() {
     );
     if (fromUrl) setCurrentTree(fromUrl);
   }, []);
+  const handleTreeChange = (newTree: string) => {
+    setCurrentTree(newTree);
+    const slug = treeToSlug(newTree);
+    if (slug) setTreeParam(slug);
+  };
   const [current_theme, setCurrentTheme] = useState("light");
   const [popup, setPopup] = useState<{
     visible: boolean;
@@ -29,7 +35,7 @@ function TopPanel() {
   }>({ visible: false, selectedMethod: "CoFI", isTutorial: false });
   return (
     <div>
-      <Panel onClickTree={setCurrentTree} onClickTheme={setCurrentTheme} />
+      <Panel onClickTree={handleTreeChange} onClickTheme={setCurrentTheme} />
       <TreeComponent
         selectedTree={current_tree}
         selectedTheme={current_theme}
