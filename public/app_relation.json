@@ -23,28 +23,6 @@
               "description": null,
               "children": [
                 {
-                  "name": "Travel times",
-                  "link_git": null,
-                  "link_doc": null,
-                  "description": null,
-                  "children": [
-                    {
-                      "name": "FmmTomography",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/espresso/src/espresso/contrib/fmm_tomography/fmm_tomography.py",
-                      "link_doc": null,
-                      "description": "The wave front tracker routines solves boundary value ray tracing problems into 2D heterogeneous wavespeed media, defined by continuously varying velocity model calculated by 2D cubic B-splines.",
-                      "children": []
-                    },
-                    {
-                      "name": "XrayTomography",
-                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/espresso/src/espresso/contrib/xray_tomography/xray_tomography.py",
-                      "link_doc": null,
-                      "description": "We assume that the x-rays travel at the same speed regardless of the medium through which they are passing, and so their paths are straight lines between source and receiver.",
-                      "children": []
-                    }
-                  ]
-                },
-                {
                   "name": "Receiver function",
                   "link_git": null,
                   "link_doc": null,
@@ -62,6 +40,28 @@
                       "link_git": "https://github.com/inlab-geo/espresso/tree/main/espresso/src/espresso/contrib/receiver_function_inversion_knt/receiver_function_inversion_knt.py",
                       "link_doc": null,
                       "description": " Receiver function inference problem based on a forward code by Brian Kennet and adapted by Lupei Zhu and Sheng Wang",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Travel times",
+                  "link_git": null,
+                  "link_doc": null,
+                  "description": null,
+                  "children": [
+                    {
+                      "name": "XrayTomography",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/espresso/src/espresso/contrib/xray_tomography/xray_tomography.py",
+                      "link_doc": null,
+                      "description": "We assume that the x-rays travel at the same speed regardless of the medium through which they are passing, and so their paths are straight lines between source and receiver.",
+                      "children": []
+                    },
+                    {
+                      "name": "FmmTomography",
+                      "link_git": "https://github.com/inlab-geo/espresso/tree/main/espresso/src/espresso/contrib/fmm_tomography/fmm_tomography.py",
+                      "link_doc": null,
+                      "description": "The wave front tracker routines solves boundary value ray tracing problems into 2D heterogeneous wavespeed media, defined by continuously varying velocity model calculated by 2D cubic B-splines.",
                       "children": []
                     }
                   ]
